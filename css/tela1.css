@@ -1,0 +1,161 @@
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;               /*  borda da caixa*/
+   padding: 0 15.9em 1.4em 1.4em !important;          /*  posição do texto cabeçalho esquerda-direita */
+    margin: 0 0 2.5em 0 !important;					 /*  posição da caixa de texto*/
+    -webkit-box-shadow:  0px 0px y 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;    /*size login */
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto; 
+        padding:0 8px;			/*position Login right-left */
+        width: 57px;                   /* position do tamanho do espaço do login  */
+    }
+	
+fieldset
+{
+    background-color:#FFFFFF; 
+    width: 100px;                   /*comprimento e largura da caixa de login */
+    height:150px;                      /*comprimento e largura da caixa de login */
+	
+}
+
+legend.scheduler-border {
+border-bottom:none;
+}
+
+
+.caixa1{
+	margin-right: 900px!important;
+    margin-left: 360px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	
+}
+
+.caixa2{
+	margin-right:10px;
+   margin-top: -30px!important;
+   margin-left: 360px
+}
+
+.caixa3{
+	margin-right:10px;
+   margin-top: -30px!important;
+   margin-left: 360px
+}
+
+
+
+.canvas-container{
+	margin-right:10px;
+   margin-top: -490px!important;
+   margin-left: 570px
+	
+}
+
+.unit10{
+	margin-right:10px;
+   margin-top: 10px!important;
+   margin-left: 700px;
+
+}
+
+
+
+
+
+
+color:Black;{
+	background-color:#000;
+	}
+	
+	.navbar-navbar-default{ 
+		 margin-left:0px;
+    width:90%;						/*para que o corpo de seu site tenha uma altura de 800 pixels
+									 e 500 pixels de largura,height-whidht*/
+    height:30px!important;
+    margin-top:7px;
+    position:absolute;
+	background-color:#FFF; 
+
+	}
+	
+	
+}
+    .navbar-brand{
+		
+		position: fixed center;
+			margin-top: 5px;
+			margin-bottom:0px ;
+			margin-left:0px ;
+			margin-right: 5px;
+			
+		padding-top: 5px; /*O padding tem um funcionamento muito similar ao do margin, porém ao invés de dar uma espaçamento
+		                    externo, faz a mesma coisa que a aclasse em baixo (sheduler-border) que a margin */
+		padding-right: 20px; 
+		padding-bottom: 0px;
+		padding-left: 5px;
+		
+	}
+	
+	
+	.navbar-header {
+		color:black;
+	
+		
+	}
+	
+	.container{
+		border: 1px solid pink;
+		
+	}
+	
+
+.container-fluid{ 
+	font-size:1.0em;
+	background-color:#fff;
+    margin-right: auto;
+    margin-left: auto;
+	padding-right: 150px;
+    padding-left: 15px;
+	position: relative;
+    min-height: 60px;
+    padding-right: 20px;
+    padding-left: 60px;
+}
+
+
+
+.divider { 
+	
+	background-color:#000;
+	margin-bottom:10px;
+}	
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px!important;
+    border: 1px solid transparent;
+}
+
+.breadcrumb {
+	background-color:#FFFFFF!important;
+}
+.btn-btn-large-btn-primary {
+		position:absolute;
+		top: 50px;
+		left: 50px;	
+	} 
+/* Posicionamento dos icones Checbox e stop*/
+
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}

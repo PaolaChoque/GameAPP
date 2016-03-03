@@ -1,0 +1,101 @@
+/*Esses são os botões do final da página cancelar-salvar*/
+.sidebar{
+margin-right: -310px;
+    margin-left: 41px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+
+
+/* make sidebar nav vertical */ 
+
+
+.caixa1{
+	margin-right: 100px;
+    margin-left: 460px;
+	margin-top: 120px;
+	margin-bottom: 0px;
+	
+}
+
+.row-fluid{
+	margin-right: 100px;
+    margin-left: 60px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.btn.btn-link{
+	margin-right: 100px;
+    margin-left:47px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;               /*  borda da caixa*/
+   padding: 0 30.9em 1.4em 1.4em !important;          /*  posição do texto cabeçalho esquerda-direita */
+    margin: 0 0 2.5em 0 !important;					 /*  posição da caixa de texto*/
+    -webkit-box-shadow:  0px 0px y 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;    /*  size login */
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto; 
+        padding:0 8px;			/*  position Login right-left */
+        width: 57px;                   /*  position do tamanho do espaço do login  */
+    }
+	
+fieldset
+{
+    background-color:#FFFFFF; 
+    width:100px;                   /*   comprimento e largura da caixa de login */ 
+    height:200px;                      /*   comprimento e largura da caixa de login */
+}
+
+legend.scheduler-border {
+border-bottom:none;
+}
+
+
+ /* aqui começa as configurações da tela*/
+
+
+.text{
+	font-size:1.0em;
+    margin-right: 10px;
+    margin-left: 40px;
+	margin-top: -40px;
+	margin-bottom: 0px;
+	text-align:left;
+}
+
+.ico-search{
+	font-size:1.0em;
+    margin-right: -25px;
+    margin-left: 100px;
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+
+.col-md-4.pull-left{
+	font-size:1.0em;
+    margin-right: -25px;
+    margin-left: -330px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.col-md-1.pull-left{
+	font-size:1.0em;
+    margin-right: -25px;
+    margin-left: -105px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}

@@ -1,0 +1,245 @@
+<link rel="stylesheet" href="tablesorter/css/blue/style.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/jogadores-usuarios.css" rel="stylesheet">
+<link href="css/cadastrar-equipes.css" rel="stylesheet">
+  <script src="js/enviar-email-convite.js"</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<script src="js/jquery.min.js"></script> 
+ <script src="js/bootstrap.min.js"></script> 
+
+<head>
+
+
+<!-- COMEÇA AQUI  A TABELA NO HEAD-->
+	<meta charset="UTF-8">
+	<title>Tablesorter - Tutsup</title>
+	
+	<!-- Estilos necessários para o tema do tablesorter -->
+	<link rel="stylesheet" href="css/blue/style.css">
+	
+	<!-- jQuery e Tablesorter -->
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/jquery.tablesorter.min.js"></script>
+	
+	<!-- Meu script -->
+	<script src="js/scripts.js"></script>
+ <!-- TERMINA AQUI  A TABELA NO HEAD-->
+
+		<div style="border: 1px  solid red;" class="col-md-12">
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span> 
+				<span class="icon-bar"></span>   
+				<span class="icon-bar"></span>
+			  </button>
+			  
+			  <a class="navbar-brand" href="#"><strong>Game APP |</strong>Company Console</a>
+			</div>
+			  
+			<div class= 'col-md-2 pull-right'>
+			<a class= "navbar-brand" href ="#"><small>Nome da Empresa</small><br/><small>Nome do Administrador</small></a>
+			</div>
+			
+			<div class= 'col-md-5 pull-right'>
+			<a class= "navbar-brand" href ="#"><strong>Cadastrar Equipes</strong></a>
+			</div>
+			</div>
+			</div>
+		<!-- /.navbar-collapse -->
+			 <!-- /.container-fluid --> 
+		</nav>
+		</div>
+		</div>
+</head>
+<body>
+
+
+<div style="border: 1px solid red; height: 100%;" class="col-md-2 pull-left div-vermelha">
+
+   <ul class="nav nav-pills nav-stacked">
+     <button type= "button" class= "btn btn-default btn-lg btn-block" > Voltar </button>
+   </ul>
+ 
+</div>
+
+<div style="border: 1px  solid blue; height: 90%;" class="col-md-10"><!-- linha da tela três --> 
+
+
+<div class = "col-md-4">
+
+ </br>
+ <INPUT TYPE="radio" NAME="OPCAO" VALUE="op1"checked> Campo do Cadastro
+ </div></br></br></br>
+ <div class = "parte1">
+			<INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op2"checked> Cargo</br>
+			<INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op3"checked> Departamento</br>
+			<INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op3"> Unidade
+			</div>
+			 <div class = "parte2">
+			<form>
+			<INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1"> Cidade</br>
+			<INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op2"> Estado</br>
+			<INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op3"> Pais</br>
+			</form></div>
+			
+			<div class = "parte3">
+			<form>
+			<INPUT TYPE="radio" NAME="OPCAO" VALUE="op1">Aleatório</br>
+			</form></div>
+		
+<div class = "parte4">		
+  <form action="demo_form.asp">Qtd.Equipes
+  <input class="input-mini" type="text">
+  </form>
+  </div>
+<div class = "parte5">			
+   <form action="demo_form.asp">Nome das Equipes (prefixo)
+		<input type="text" name="usrname"> <form action="demo_form.asp">+Sequencial	
+   </form>
+</div>			
+			<div class = "parte6">
+			<form>
+			<INPUT TYPE="radio" NAME="OPCAO" VALUE="op1">Manual
+			</form>
+			</div>
+			
+
+
+
+<table class="tablesorter">
+	<thead>
+		<tr>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Nome</th>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Cargo</th>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Departamento</th>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Unidade</th>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Cidade</th>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Estado</th>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Pais</th>
+			<th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Marcos Pereira</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Analista Financeiro</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Finaceiro</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center> SP1</center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">São Paulo</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+		</tr>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">José Carlos</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Analista Financeiro</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Finaceiro</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center> SP1</center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">São Paulo</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+		</tr>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Maria José</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Analista Finaceiro</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Contas a Pagar</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center> SP1</center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">São Paulo</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+		</tr>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Márcia da Silva</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Analista Finaceiro</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Contas a Pagar</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center> BA1</center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Salvador</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+		</tr>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">João Augusto</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Gerentede Vendas</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Comercial</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center>SP3</center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Sorocaba</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+		</tr>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Pedro Siqueira</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Vendedor</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Comercial</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center>RJ1</center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Rio de janeiro</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+		</tr>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Andrea Gonçalves</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Gerente Marketing</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Marketing</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center>SP2</center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Ribeirão Preto</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+		</tr>
+	</tbody>
+</table>
+
+
+			
+			
+
+
+<div class = "parte6">		
+  <form action="demo_form.asp">Nome da Equipe
+	   <input type="text" name="usrname">	
+  </form>
+  </div>
+  
+  
+  
+  
+  
+  
+  <div class = "caixatexto">		
+  <form action="demo_form.asp">Tema para Equipe
+  </form>
+  </div>
+  
+  <div class="col-md-3">
+<select class="span1">
+                <option>Selecione o Tema (MOD/Pack)</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+ </div>
+		 <button type="button" class="btn btn-info">Cancelar</button> 
+		 <button type="button" class="btn btn-info">Criar Equipes</button>
+ </div>
+ </div>
+
+</div>	 
+</body>	
+
+	<!-- jQuery e Tablesorter -->
+	<script src="tablesorter/js/jquery-latest.js"></script>
+	<script src="tablesorter/js/jquery.tablesorter.min.js"></script>
+	<script src="tablesorter/js/scripts.js"></script>
+
+
+ 

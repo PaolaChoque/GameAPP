@@ -1,0 +1,172 @@
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/enviar-email-convite.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700' rel='stylesheet' type='text/css'>
+  <script src="js/enviar-email-convite.js"</script>
+
+
+<html lang="en">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+<html>
+<head>
+<script src="js/tinymce.min.js"></script>
+  <script>tinymce.init({ selector:'textarea' });</script>
+<div style="border: 1px  solid red;" class="col-md-12">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span>   
+        <span class="icon-bar"></span>
+      </button>
+	  
+      <a class="navbar-brand" href="#"><strong>Game APP |</strong>Company Console</a>
+    </div>
+      
+	<div class= 'col-md-2 pull-right'>
+    <a class= "navbar-brand" href ="#"><small>Nome da Empresa</small><br/><small>Nome do Administrador</small></a>
+	</div>
+	
+	<div class= 'col-md-5 pull-right'>
+    <a class= "navbar-brand" href ="#"><strong>Cadastrar/Funcionários</strong></a>
+	</div>
+	</div>
+	</div>
+<!-- /.navbar-collapse -->
+     <!-- /.container-fluid --> 
+</nav>
+</div>
+</div>
+</head>
+<body>
+
+
+<div style="border: 1px  solid red; height: 100%;" class="col-md-2 pull-left div-vermelha">
+
+   <ul class="nav nav-pills nav-stacked">
+     <button type= "button" class= "btn btn-default btn-lg btn-block" > Voltar </button>
+   </ul>
+ 
+</div>
+
+<div style="border: 1px  solid blue; height: 90%;" class="col-md-10"><!-- linha da tela três -->
+<div class="col-md-9">
+<textarea>Easy (and free!) You should check out our premium features.</textarea>
+</div>
+</br>
+
+<div class="row-fluid">
+  <div class = "col-xs-4">
+            <label>
+                <input type="radio" name="sexo" value="masculino"> Enviar para todos
+            </label>
+			</br>
+ </div> </div>
+ <div class="col-md-12">
+<div class="row-fluid">
+  <div class = "col-xs-4">
+            <label>
+                <input type="radio" name="sexo" value="feminino"> Todos das(s) Equipes(s)
+            </label>
+ </div> 
+ </div>
+ </div>
+ 
+<div id="Layer1" style="position:absolute; left:20px; top:305px; width:784; height:200; z-index:1;">
+<div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover table-condensed">
+            <thead>
+                <tr>
+                    <th class="col-md-10">Ativo</th>
+                    <td class="col-md-2"><center><input type="checkbox" name="opcoes" value="html"/> <br /></center></td>
+                   </tr>
+            </thead>
+        </table>
+    </div>
+
+
+                 <!--aqui começa a tabela-->
+	<div id="Layer1" style="position:absolute; left:0px; top:35px; width:800; height:200; z-index:1; overflow: auto">
+		<div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover table-condensed">
+            <thead>
+                <tr>
+                    <td class="col-md-10">Feedback</td>
+                    <td class="col-md-2"><center><input type="checkbox" name="opcoes" value="html"/> <br /></center></td>
+                   </tr>
+            </thead>
+			
+            <tbody ng-repeat="membro in membroSede">
+
+                    <tr class="listas">
+                        <td class="col-md-10">Quiz Master</td>  
+                      <td class="col-md-2"><center><input type="checkbox" name="opcoes" value="html"/> <br /></center></td>
+						</tr>
+						
+						<tr>
+                         <td class="col-md-10">Feedback Expert</td>
+                        <td class="col-md-2"><center><input type="checkbox" name="opcoes" value="html"/> <br /></center></td>
+                        </tr>
+						
+                       <tr>
+					   <td class="col-md-10">Treinamento de Desing Thinking</td>
+						<td class="col-md-2"><center><input type="checkbox" name="opcoes" value="html"/> <br /></center></td>
+					   </tr>
+					   
+					   <tr class="listas">
+                        <td class="col-md-10">Quiz Master</td>  
+                      <td class="col-md-2"><center><input type="checkbox" name="opcoes" value="html"/> <br /></center></td>
+						</tr>
+						
+						<tr class="listas">
+                        <td class="col-md-10">Quiz Master</td>  
+                      <td class="col-md-2"><center><input type="checkbox" name="opcoes" value="html"/> <br /></center></td>
+						</tr>
+						
+						
+            </tbody>
+        </table>
+       </div>
+	   </div> <!--aqui termina a tabela-->
+	   
+	  </br></br></br></br>
+	  </br></br></br></br></br>
+
+	 
+	  
+<div class="row-fluid">
+  <div class = "col-xs-4">
+            <label>
+                <input type="radio" name="sexo" value="feminino"> Defenir manualmente
+            </label>
+ </div> </div>
+</br>
+
+<div class="sidebar">
+
+ <button type="button" class="btn btn-info">Cancelar</button>
+ <button type="button" class="btn btn-info">Salvar</button>
+ </div>
+     </div>	
+	 </div> 
+
+	 </div>  	 
+	 </div>  	 
+	 </div>  	 
+
+	 </div>
+</body>	
+<script src="js/jquery.min.js"></script> 
+ <script src="js/bootstrap.min.js"></script> 
+
+
+ 

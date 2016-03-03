@@ -1,0 +1,420 @@
+.col-md-1{     /*Aqui é o ativo do iphone ou celular */
+
+   margin-right:-10px;
+   margin-top: -330px;
+   margin-left: 810px;
+}            
+
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;/*alteração12->14*/
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: 	#C0C0C0; color: #EEEEEE;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+	 background-color: #EEEEEE; color: #C0C0C0;/*esse aqui <-- muda a cor da letra de dentro da off*/
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;         /*esse aqui <-- muda a cor da bolinha de dentro*/
+    position: absolute; top: -6; bottom: 0;
+    right: 62px;/*esse comando faz com que ele vá do lado esquerdo para lado direito"tamanho(56->62)"*/
+    border: 2px solid #C0C0C0; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}     /*Aqui termina o ativo iphone celular mais conhecido onoffswitch*/
+
+
+
+
+.onoffswitch2-2{  /*Aqui é o ativo do iphone ou celular 2 */
+
+   margin-right: 215px;
+   margin-top: 25px;
+   margin-left: 810px;
+}            
+.onoffswitch2 {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch2-checkbox {
+    display: none;
+}
+.onoffswitch2-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch2-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch2-inner:before, .onoffswitch2-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch2-inner:before {
+    content: "ON";
+    padding-left: 10px;/*posição do on-off*/
+    background-color: #6D748C; color: #FFFFFF;
+}
+.onoffswitch2-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch2-switch {
+    display: block; width: 19px; margin:224px;/*28- 206tamanho da boliinha de  dentro */
+    background: #FFFFFF;
+    position: absolute; top: -131; bottom: 153;/*posição da bolinha de dentro, para cima e para baixo*/
+    right: 62px;/*muda a distanvcia que a bolinha vai percorrer*/
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch2-checkbox:checked + .onoffswitch2-label .onoffswitch2-inner {
+    margin-left: 0;
+}
+.onoffswitch2-checkbox:checked + .onoffswitch2-label .onoffswitch2-switch {
+    right: 0px; 
+}                           /*Aqui termina o ativo iphone celular mais conhecido onoffswitch 2*/
+
+
+
+
+
+.onoffswitch3-3{  /*Aqui é o ativo do iphone ou celular 3 */
+
+   margin-right:215px;
+   margin-top: -30px;
+   margin-left: 810px;
+}            
+.onoffswitch3 {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch3-checkbox {
+    display: none;
+}
+.onoffswitch3-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch3-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch3-inner:before, .onoffswitch3-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch3-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #6D748C; color: #FFFFFF;
+}
+.onoffswitch3-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch3-switch {
+    display: block; width: 19px; margin: 224px;/*160->190*/
+    background: #FFFFFF;
+    position: absolute; top: -51; bottom: 73;/*tamanho da bolinha de dentro*/
+    right: 62px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch3-checkbox:checked + .onoffswitch3-label .onoffswitch3-inner {
+    margin-left: 0;
+}
+.onoffswitch3-checkbox:checked + .onoffswitch3-label .onoffswitch3-switch {
+    right: 0px; 
+} 
+            			 /*Aquitermina o ativo do iphone ou celular 3 */
+
+
+.onoffswitch4-4{  /*Aqui é o ativo do iphone ou celular 4 */
+
+   margin-right:215px;
+   margin-top: -39px;
+   margin-left: 810px;
+}            
+.onoffswitch4 {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch4-checkbox {
+    display: none;
+}
+.onoffswitch4-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch4-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch4-inner:before, .onoffswitch4-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch4-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #6D748C; color: #FFFFFF;
+}
+.onoffswitch4-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch4-switch {
+    display: block; width: 19px; margin: 224px;/*160->190*/
+    background: #FFFFFF;
+    position: absolute; top:24; bottom: -3;/*tamanho da bolinha de dentro*/
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch4-checkbox:checked + .onoffswitch4-label .onoffswitch4-inner {
+    margin-left: 0;
+}
+.onoffswitch4-checkbox:checked + .onoffswitch4-label .onoffswitch4-switch {
+    right: 0px; 
+} 	 /*Aquitermina o ativo do iphone ou celular 4 */						 
+						 
+
+	.unit1{       /*muda posicão dos texto"Publica automaticamente"*/
+ margin-right:10px;
+   margin-top: 60px;
+   margin-left: 510px;
+	 } 
+						 
+	 .unit2{
+ margin-right:10px;
+   margin-top: 7px;
+   margin-left: 510px;
+	 } 
+	 .unit3{
+ margin-right:10px;
+   margin-top: 7px;
+   margin-left: 510px;
+	 } 
+	 .unit4{
+ margin-right:10px;
+   margin-top: 7px;
+   margin-left: 510px;
+	 } 
+	 
+	 
+						 
+						 
+/*Muada a cor do icone facebook,google....*/
+.navbar-text > a {
+    color: inherit; 
+    text-decoration: none;
+}
+
+a{
+	color:#707273;
+	
+}
+a:hover{
+	color:#C0C0C0;
+	background : white;
+}
+
+a:active{
+	color:#C0C0C0;
+}
+
+a:link {
+	color: #C0C0C0;
+}            /*Termina aqui as configurações de cor do icone facebook,google,etc.*/
+
+
+
+.col-md-7{        /*classe-configurações do i-icone */
+ 
+			    margin-right:200px;				
+				margin-top: 50px;  
+				margin-left: 1000px;	
+}
+
+
+
+
+/*Esses são os botões do final da página cancelar-salvar*/
+.btn.btn-info {
+size: 5px;
+   margin-right:-900px;
+   margin-top: 30px;
+   margin-left: 900px
+}/*Aqui termina os botões do final da página cancelar-salvar*/ 
+
+.btn.btn-success.mesmo-tamanho{ /*Esses são os botões da frente dos icones configurações de cor tamanho,etc.*/
+	background-color:#C0C0C0;
+	border-bottom-color:#C0C0C0;
+	border-top-width: 1px;
+	border-right-width: 9px;
+	border-bottom-width: 1px;
+	border-left-width: 9px;
+	border-bottom-style: solid;
+	border-top-color: #C0C0C0;
+	border-right-color: #C0C0C0;
+	border-bottom-color: #C0C0C0;
+	border-left-color: #C0C0C0;
+	color: 	#FFFFFF;/*muda a cor do texto de dentro do botão*/
+} /*Aqui termina os botões da frente dos icones configurações de cor tamanho,etc.*/
+
+
+
+
+
+
+		.row-fluid {		
+			 width: 900px;   /* faz a separação do "nome" e "campo" na VERTICAL*/
+			    margin-right:20px;				/*Aqui é o tamanho da margin do nome com caixa de texto*/
+				margin-top: -40px;  
+				margin-left: 400px;				   /*Faz separação do do menu e a tabbable*/
+				
+					}					
+		
+            .fa.fa-facebook-square.fa-4x{  	/*configurações do facebook-twitter-instagram,etc.*/		
+				margin-top: -40px;  
+				margin-left: 10px;
+		      }		
+
+			   .fa.fa-twitter-square.fa-4x{  			
+				margin-top: -40px;  
+				margin-left: 10px;
+		      }		
+			  
+			   .fa.fa-instagram.fa-4x{  		
+				margin-top: 15px;  
+				margin-left: 10px;
+		      }		
+			  
+			   .fa.fa-google-plus-square.fa-4x{  			
+				margin-top: 13px;  
+				margin-left: 10px;
+		      }		
+
+			  
+			  .fa.fa-linkedin-square.fa-4x{
+				  margin-top: 13px;  
+				margin-left: 10px;
+			  }
+			  
+			  .fa.fa-youtube-square.fa-4x{
+				  margin-top: 7px;  
+				margin-left: 291px;
+			  } 	/*termina aqui as configurações do facebook-twitter-instagram,etc.*/
+			  
+			  
+			  
+			  
+						
+	
+	
+	
+	
+	
+    .navbar-brand{              /*Aqui começa as configurações da navbar */
+		
+		position: fixed center;
+			margin-top: 5px;
+			margin-bottom:0px ;
+			margin-left:0px ;
+			margin-right: 5px;
+			
+		padding-top: 5px; /*O padding tem um funcionamento muito similar ao do margin, porém ao invés de dar uma espaçamento
+		                    externo, faz a mesma coisa que a aclasse em baixo (sheduler-border) que a margin */
+		padding-right: 20px; 
+		padding-bottom: 0px;
+		padding-left: 5px;
+		                                /*Aqui termina as configurações da navbar */
+	}
+	
+	
+	
+	
+
+.container-fluid{ 
+	font-size:1.0em;
+	background-color:#fff;
+    margin-right: auto;
+    margin-left: auto;
+	padding-right: 150px;
+    padding-left: 15px;
+	position: relative;
+    min-height: 60px;
+    padding-right: 20px;
+    padding-left: 60px;
+}
+
+
+
+.divider { 
+	
+	background-color:#000;
+	margin-bottom:10px;
+}	
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px!important;
+    border: 1px solid transparent;
+}
+
+.breadcrumb {
+	background-color:#FFFFFF!important;
+}
+.btn-btn-large-btn-primary {
+		position:absolute;
+		top: 50px;
+		left: 50px;	
+	} 
+/* Posicionamento dos icones Checbox e stop*/
+
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-
+, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
