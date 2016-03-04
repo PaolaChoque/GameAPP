@@ -52,9 +52,8 @@ border-bottom:none;
 
 .canvas-container{
 	margin-right:10px;
-   margin-top: -490px!important;
-   margin-left: 570px
-	
+   margin-top: -500px!important;
+   margin-left: 570px;
 }
 
 .unit10{
@@ -63,6 +62,42 @@ border-bottom:none;
    margin-left: 700px;
 
 }
+.canvas-container1{
+	margin-right:10px;
+   margin-top: -185px!important;
+   margin-left: 780px	
+}
+.unit11{
+	margin-right:10px;
+   margin-top: 10px!important;
+   margin-left: 900px;
+
+}
+
+.canvas-container2{
+	margin-right:10px;
+   margin-top: 5px!important;
+   margin-left: 570px	
+}
+.unit12{
+	margin-right:10px;
+   margin-top: 5px!important;
+   margin-left: 700px;
+
+}
+
+.canvas-container3{
+	margin-right:10px;
+   margin-top: -185px!important;
+   margin-left: 780px	
+}
+.unit13{
+	margin-right:10px;
+   margin-top: 10px!important;
+   margin-left: 900px;
+
+}
+
 
 
 

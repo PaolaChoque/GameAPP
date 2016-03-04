@@ -94,7 +94,7 @@
 .onoffswitch2-switch {
     display: block; width: 19px; margin:224px;/*28- 206tamanho da boliinha de  dentro */
     background: #FFFFFF;
-    position: absolute; top: -131; bottom: 153;/*posição da bolinha de dentro, para cima e para baixo*/
+    position: absolute; top: -130; bottom: 131;/*posição da bolinha de dentro, para cima e para baixo*/
     right: 62px;/*muda a distanvcia que a bolinha vai percorrer*/
     border: 2px solid #999999; border-radius: 20px;
     transition: all 0.3s ease-in 0s; 
@@ -150,7 +150,7 @@
 .onoffswitch3-switch {
     display: block; width: 19px; margin: 224px;/*160->190*/
     background: #FFFFFF;
-    position: absolute; top: -51; bottom: 73;/*tamanho da bolinha de dentro*/
+    position: absolute; top: -52; bottom: 53;/*tamanho da bolinha de dentro*/
     right: 62px;
     border: 2px solid #999999; border-radius: 20px;
     transition: all 0.3s ease-in 0s; 
@@ -204,7 +204,7 @@
 .onoffswitch4-switch {
     display: block; width: 19px; margin: 224px;/*160->190*/
     background: #FFFFFF;
-    position: absolute; top:24; bottom: -3;/*tamanho da bolinha de dentro*/
+    position: absolute; top:18; bottom: -15;/*tamanho da bolinha de dentro*/
     right: 56px;
     border: 2px solid #999999; border-radius: 20px;
     transition: all 0.3s ease-in 0s; 
@@ -239,8 +239,28 @@
    margin-left: 510px;
 	 } 
 	 
+	 .btn.btn-large1{
+   margin-right:10px;
+   margin-top: -7px;
+   margin-left: 0px;
+		}				 
+		
 	 
-						 
+	 
+	 
+		.btn.btn-large2{
+   margin-right:10px;
+   margin-top: -47px;
+   margin-left: 370px;
+		}	
+
+
+.btn.btn-large3{
+   margin-right:10px;
+   margin-top: -5px;
+   margin-left: 0px;
+		}				 
+				
 						 
 /*Muada a cor do icone facebook,google....*/
 .navbar-text > a {
@@ -278,11 +298,19 @@ a:link {
 
 
 /*Esses são os botões do final da página cancelar-salvar*/
-.btn.btn-info {
+.btn.btn-info2 {
 size: 5px;
-   margin-right:-900px;
+   margin-right:10px;
+   margin-top: -33px;
+   margin-left: 890px
+}
+  
+ .btn.btn-info {
+size: 5px;
+   margin-right:10px;
    margin-top: 30px;
-   margin-left: 900px
+   margin-left: 980px
+}
 }/*Aqui termina os botões do final da página cancelar-salvar*/ 
 
 .btn.btn-success.mesmo-tamanho{ /*Esses são os botões da frente dos icones configurações de cor tamanho,etc.*/
@@ -340,7 +368,7 @@ size: 5px;
 			  }
 			  
 			  .fa.fa-youtube-square.fa-4x{
-				  margin-top: 7px;  
+				  margin-top: -10px;  
 				margin-left: 291px;
 			  } 	/*termina aqui as configurações do facebook-twitter-instagram,etc.*/
 			  

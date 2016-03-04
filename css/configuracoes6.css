@@ -1,45 +1,7 @@
-
-
-table.table-striped.table-bordered.table-hover.table-condensed{
-	position:center;
-}
-  	 
-
-.col-md-7{
-	margin-right: 10px;
-   margin-top: 5px;
-   margin-left: 10px;
-}
-
-
-
-/*Esses são os botões do final da página cancelar-salvar*/
-
-.button{
-	  margin-right:100px;
-   margin-top: -80px;
-   margin-left: 200px
-}
-.btn.btn-info2{
-   margin-right:100px;
-   margin-top: -80px;
-   margin-left: 200px
-}
-   .btn.btn-info3{
-   margin-right:100px;
-   margin-top: -80px;
-   margin-left: 200px
-}/*Aqui termina os botões do final da página cancelar-salvar*/ 
-
-
-	
-
-	
-	
-    .navbar-brand{              /*Aqui começa as configurações da navbar */
+.navbar-brand{              /*Aqui começa as configurações da navbar */
 		
 		position: fixed center;
-			margin-top: 5px;
+			margin-top: 10px;
 			margin-bottom:0px ;
 			margin-left:0px ;
 			margin-right: 5px;
@@ -86,7 +48,11 @@ table.table-striped.table-bordered.table-hover.table-condensed{
 .breadcrumb {
 	background-color:#FFFFFF!important;
 }
- 
+.btn.btn-info {
+		position:absolute;
+		top: 480px!important;
+		left: 960px;	
+	} 
 /* Posicionamento dos icones Checbox e stop*/
 
 

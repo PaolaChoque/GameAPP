@@ -2,10 +2,14 @@
 <link href="css/tela1.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700' rel='stylesheet' type='text/css'>
   <script src="js/enviar-email-convite.js"</script>
+  
   <!--preciso charmar duas vezes a tabela--><script src="js/jquery.min.js"></script> 
  <script src="js/bootstrap.min.js"></script> 
 <script src="js/jquery.min.js"></script> 
- <script src="js/bootstrap.min.js"></script> <!--termina aqui a chamada-->
+ <script src="js/bootstrap.min.js"></script>
+ <!--termina aqui a chamada da tabela-->
+ 
+ 
  <!--script do canvas -->
 <script src="js/Chart.js"</script>
 <script src="js/exemplo1.js"></script> 
@@ -289,35 +293,8 @@ new Chart(ctx).Pie(data);
           <label class="unit10">Ações</label>
      </div>
 
-
-<div class="canvas-container">
-<canvas id="idgrafico" >
-<script>
-var data = [
-{
- value: 40,
- color:"#666666"
- },
-
- {
- value : 30,
- color : "#FFFF99"
- },
- 
-
-
-];
-var canvas = document.getElementById("idgrafico");
-var ctx = canvas.getContext("2d");
-new Chart(ctx).Pie(data);
-</script>
-</canvas>
-</div>
-
-
-
 <div class="canvas-container1">
-<canvas id="idgrafico" >
+<canvas id="idgrafico1" >
 <script>
 var data = [
 {
@@ -333,13 +310,73 @@ var data = [
 
 
 ];
-var canvas = document.getElementById("idgrafico");
+var canvas = document.getElementById("idgrafico1");
 var ctx = canvas.getContext("2d");
 new Chart(ctx).Pie(data);
 </script>
 </canvas>
 </div>
+<div class="row-fluid">
+          <label class="unit11">Realizações</label>
+     </div>
+	 
+	 
+<div class="canvas-container2">
+<canvas id="idgrafico2" >
+<script>
+var data = [
+{
+ value: 40,
+ color:"#666666"
+ },
 
+ {
+ value : 30,
+ color : "#FFFF99"
+ },
+ 
+
+
+];
+var canvas = document.getElementById("idgrafico2");
+var ctx = canvas.getContext("2d");
+new Chart(ctx).Pie(data);
+</script>
+</canvas>
+</div>
+<div class="row-fluid">
+          <label class="unit12">Missões</label>
+     </div>
+
+	 
+<div class="canvas-container3">
+<canvas id="idgrafico3" >
+<script>
+var data = [
+{
+ value: 40,
+ color:"#666666"
+ },
+
+ {
+ value : 30,
+ color : "#FFFF99"
+ },
+ 
+
+
+];
+var canvas = document.getElementById("idgrafico3");
+var ctx = canvas.getContext("2d");
+new Chart(ctx).Pie(data);
+</script>
+</canvas>
+</div>
+<div class="row-fluid">
+          <label class="unit13">Programas</label>
+     </div>
+				  
+				  
 				  
 </div> <!-- aqui fecha a tab-pane -->
 

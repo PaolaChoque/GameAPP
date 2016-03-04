@@ -1,10 +1,16 @@
 <link rel="stylesheet" href="tablesorter/css/blue/style.css">
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/jogadores-usuarios.css" rel="stylesheet">
-<link href="css/cadastrar-equipes.css" rel="stylesheet">
 <link href="css/Premios.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="js/enviar-email-convite.js"></script>
+
+
+
+
+<script src="js/jquery.min.js"></script> 
+ <script src="js/bootstrap.min.js"></script> 
+<html lang="en">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+
 <head>
 
 		<div style="border: 1px  solid red;" class="col-md-12">
@@ -43,15 +49,16 @@
 
 <div style="border: 1px solid red; height: 100%;" class="col-md-2 pull-left div-vermelha">
 
-   <ul class="nav nav-pills nav-stacked">
+   <ul class="nav nav-list "> 
+	<a data-toggle="collapse" data-target=".nav-collapse" href="#about">☰</a> 
+
+<nav class="nav-collapse" data-toggle="collapse" data-target=".nav-collapse">
+
+ <ul class="nav nav-pills nav-stacked">
    
-   
-    <span  class = "glyphicon glyphicon-menu-hamburger pull-right"  = oculto-ária "true" >  </span> 
-	 </br>
      <li role="presentation"><a href="#">Inicial</a></li>
 	 <div class="tabbable tabs-left">
-  <ul class="nav nav-tabs">
-  </ul>
+  <ul class="nav nav-tabs"></ul>
   <div class="tab-content">
   </div>
 </div>
@@ -76,7 +83,7 @@
 </div>
 	 <li role="presentation"><a href="#">Cadastro</a></li>
 	 <li role="presentation"><a href="#">Joagadores</a></li>
-	 <li role="presentation" class="active"><a href="#">-Equipes</a></li>
+	 <li role="presentation"class ="active"><a href="#">-Equipes</a></li>
 	 <li role="presentation"><a href="#">-Prêmios</a></li>
 	 <div class="tabbable tabs-left">
   <ul class="nav nav-tabs">
@@ -88,7 +95,7 @@
 	 <li role="presentation"><a href="#">Configurações</a></li>
 	 <li role="presentation"><a href="#">Sair</a></li>
 
- </ul>
+ </ul>	
  
 </div>
 
@@ -124,12 +131,12 @@
             <thead>
                 <tr>
                     <!-- datatableCount -->
-                    <th>Prêmios</th> 
-                    <th><center>Tipo </center></th>
-					<th>Qtd.inicial</th> 
-					<th>Qtd.Atual</th> 
-					<th>Ativo</th> 
-                    <th><center><input type="checkbox" name="opcoes" value="html"/></center></th>
+                    <th style="border-width: thin; border-style: solid; border-color: black;">Prêmios</th> 
+                    <th style="border-width: thin; border-style: solid; border-color: black;"><center>Tipo </center></th>
+					<th style="border-width: thin; border-style: solid; border-color: black;">Qtd.inicial</th> 
+					<th style="border-width: thin; border-style: solid; border-color: black;">Qtd.Atual</th> 
+					<th style="border-width: thin; border-style: solid; border-color: black;">Ativo</th> 
+                    <th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/></center></th>
 
                 </tr>
             </thead>
@@ -137,40 +144,51 @@
                 <!-- Data Show Row-->
                     <tr class="listas">
 				
-                        <td>Jantar para você e um acompanhante no Rest.Chez Michoux</td>
-						<td><center>Experiência</center></td>
-						<td><center>10</center></td>
-						<td><center>9</center></td>
-                        <td><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
-                        <td><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+                        <td style="border-width: thin; border-style: solid; border-color: black;">Jantar para você e um acompanhante no Rest.Chez Michoux</td>
+						<td style="border-width: thin; border-style: solid; border-color: black;"><center>Experiência</center></td>
+						<td style="border-width: thin; border-style: solid; border-color: black;"><center>10</center></td>
+						<td style="border-width: thin; border-style: solid; border-color: black;"><center>9</center></td>
+                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
 						<tr>
 						
-                         <td>Viagem Nacional-Pacote de 5 dias</td>
-						 <td><center>Viagem</center></td>
-						<td><center>2</center></td>
-						<td><center>1</center></td>
-                        <td><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
-                       <td><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+                         <td style="border-width: thin; border-style: solid; border-color: black;">Viagem Nacional-Pacote de 5 dias</td>
+						 <td style="border-width: thin; border-style: solid; border-color: black;"><center>Viagem</center></td>
+						<td style="border-width: thin; border-style: solid; border-color: black;"><center>2</center></td>
+						<td style="border-width: thin; border-style: solid; border-color: black;"><center>1</center></td>
+                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+                       <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
                         </tr> 
 						
                        <tr>
-					   <td>TV 42º HDTV 4K </td>
-					   <td><center>Eletroeletrônico</center></td>
-						<td><center>1</center></td>
-						<td><center>1</center></td>
-                        <td><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
-                        <td><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;">TV 42º HDTV 4K </td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>Eletroeletrônico</center></td>
+						<td style="border-width: thin; border-style: solid; border-color: black;"><center>1</center></td>
+						<td style="border-width: thin; border-style: solid; border-color: black;"><center>1</center></td>
+                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
 					   </tr>
 
 					    <tr>
-					   <td>TV 60º HDTV 4K </td>
-					   <td><center>Eletroeletrônico</center></td>
-						<td><center>1</center></td>
-						<td><center>0</center></td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;">TV 60º HDTV 4K </td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>Eletroeletrônico</center></td>
+						<td style="border-width: thin; border-style: solid; border-color: black;"><center>1</center></td>
+						<td style="border-width: thin; border-style: solid; border-color: black;"><center>0</center></td>
 						 <!--Posicionamento dos icones Checbox e stop*/-->
-                        <td><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
-					    <td><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
-					   </tr>   
+                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+					    <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+					   </tr> 
+
+                       <tr>
+					   <td style="border-width: thin; border-style: solid; border-color: black;">Vale-cinema CINEMARK </td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>Show/Entretenimento</center></td>
+						<td style="border-width: thin; border-style: solid; border-color: black;"><center>10</center></td>
+						<td style="border-width: thin; border-style: solid; border-color: black;"><center>5</center></td>
+						 <!--Posicionamento dos icones Checbox e stop*/-->
+                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+					    <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+					   </tr> 
+					   
                     </tr>
             </tbody>
         </table>

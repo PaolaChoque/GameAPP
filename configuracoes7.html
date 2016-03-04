@@ -1,5 +1,10 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/configurações.css" rel="stylesheet">
+
+<link href="css/configuracoes7.css" rel="stylesheet">
+<link href="css/jquery-confirm.css" rel="stylesheet">
+<script src="js/configuracoes5.js"></script>
+<script src="js/jquery-confirm.js"></script>
+
 <script src="js/jquery.min.js"></script> 
  <script src="js/bootstrap.min.js"></script> 
 <html lang="en">
@@ -133,113 +138,83 @@
 <div class="col-md-3">      									<!--Aqui começa a tab do lado esquerdo com tabela-->
   <ul class ="nav nav-tabs nav-stacked">	
    
-    <li class="active"><a href="#tab1" data-toggle="tab">Dados da Empresa</a></li>
+    <li><a href="#tab1" data-toggle="tab">Dados da Empresa</a></li>
 	<li><a href="#tab2" data-toggle="tab">Redes Socias</a></li>
 	<li><a href="#tab3" data-toggle="tab">Jogo</a></li>
 	<li><a href="#tab4" data-toggle="tab">Usuário Gestores</a></li>
 	<li><a href="#tab5" data-toggle="tab">Conteúdo</a></li>
 	<li><a href="#tab6" data-toggle="tab">Categorias de Objetos</a></li>
 	<li><a href="#tab7" data-toggle="tab">Tipo de Reconhecimento</a></li>
-	<li><a href="#tab8" data-toggle="tab">Tipo de Prêmios</a></li>
+	<li class="active"><a href="#tab8" data-toggle="tab">Tipos de Prêmios</a></li>
 	<li><a href="#tab9" data-toggle="tab">Usuário Facilitadores</a></li>
   </ul>    														 <!--Aqui Termina o cabeçalho da tab-->
   </div>
   <div class="tab-content">
   
-   <div class="tab-pane active" id="tab1">
+   <div class="tab-pane active" id="tab8">
   
-	<div class= "col-md-7">
-			<p><b>Gestores do Jogo</b></br>Os gestores do Jogo são colaboradores que podem disparar intervenções
-			ou criar ações para os demais Jogadores participarem ou interagirem.</br>
-			Use esta tela para selecionar quem serão os colaboradores com este perfil.
-			</p>
-     </div>	
-	
-	 <div id="Layer1" style="position:absolute; left:285px; top:100px; width:820; height:300; z-index:1;">
+	 <div id="Layer1" style="position:absolute; left:285px; top:30px; width:720; height:300; z-index:1;">
 <div class="table-responsive">
        <table class="tablesorter">
 	<thead>
 		<tr>
-			<th style="border-width: thin; border-style: solid; border-color: black;">Nome</th>
-			<th style="border-width: thin; border-style: solid; border-color: black;">Cargo</th>
-			<th style="border-width: thin; border-style: solid; border-color: black;">Departamento</th>
-			<th style="border-width: thin; border-style: solid; border-color: black;">Unidade</th>
-			<th style="border-width: thin; border-style: solid; border-color: black;">Cidade</th>
-			<th style="border-width: thin; border-style: solid; border-color: black;">Estado</th>
-			<th style="border-width: thin; border-style: solid; border-color: black;">Pais</th>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Tipos de Prêmios</th>
+					<th style="border-width: thin; border-style: solid; border-color: black;"><center>Ativo</center></th>
 			<th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Marcos Pereira</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Analista Financeiro</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Finaceiro</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;"><center> SP1</center></td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">São Paulo</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Experiência</td>
 			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+		</tr>
+		
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Viagem</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
 		</tr>
 		<tr>
-			<td style="border-width: thin; border-style: solid; border-color: black;">José Carlos</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Analista Financeiro</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Finaceiro</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;"><center> SP1</center></td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">São Paulo</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Eletrodoméstico</td>
 			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
 		</tr>
+		
 		<tr>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Maria José</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Analista Finaceiro</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Contas a Pagar</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;"><center> SP1</center></td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">São Paulo</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Eletroeletrônico</td>
 			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
 		</tr>
+		
 		<tr>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Márcia da Silva</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Analista Finaceiro</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Contas a Pagar</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;"><center> BA1</center></td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Salvador</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Celular/Smartphone</td>
 			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
 		</tr>
+		
 		<tr>
-			<td style="border-width: thin; border-style: solid; border-color: black;">João Augusto</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Gerentede Vendas</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Comercial</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;"><center>SP3</center></td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Sorocaba</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Computador/Tablet</td>
 			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
 		</tr>
+		
 		<tr>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Pedro Siqueira</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Vendedor</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Comercial</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;"><center>RJ1</center></td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Rio de janeiro</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Show/Entretenimento</td>
 			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
 		</tr>
+		
 		<tr>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Andrea Gonçalves</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Gerente Marketing</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Marketing</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;"><center>SP2</center></td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Ribeirão Preto</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Comida/Gastronomia</td>
 			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+		</tr>
+		
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Bebida/Enogastronomia</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
 		</tr>
 	</tbody>
 </table>
@@ -257,17 +232,28 @@
 	
 	<div class="tab-pane" id="tab3">
           <p>Estou na seção 3</p>
-      </div>							<!--Termina aqui o teste 1 para ver se funciona a caixa de lado-->
-	
-	</div>
-	</div>	
-	</div>	
+      </div>		
 
+	  <div class="tab-pane" id="tab4">
+          <p>Estou na seção 4</p>
+      </div>
+	  <div class="tab-pane" id="tab5">
+          <p>Estou na seção 5</p>
+      </div> 
+	  <div class="tab-pane" id="tab6">
+          <p>Estou na seção 6</p>
+      </div>
+	  
+	  <div class="tab-pane" id="tab7">
+          <p>Estou na seção 6</p>
+      </div>	
+	  
+<div class="tab-pane" id="tab1">
+          <p>Estou na seção 1</p>
+      </div>	  <!--Termina aqui o teste 1 para ver se funciona a caixa de lado-->
 	
-<div class="button pull-right">
-         <button type="button" class="btn btn-info2">Cancelar</button> 
-		 <button type="button" class="btn btn-info3">Salvar</button>	
-		 
+	    
+		 <button type= "button" class= "btn btn-info"> Adicionar Conteúdo</button>
 </div>				
 </div>				
 </div>				
