@@ -53,6 +53,12 @@
 		top: 480px!important;
 		left: 960px;	
 	} 
+	
+.btn.btn-info1{
+	position:absolute;
+		top: 480px!important;
+		left: 860px;
+}
 /* Posicionamento dos icones Checbox e stop*/
 
 

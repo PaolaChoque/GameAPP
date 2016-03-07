@@ -4,8 +4,6 @@
 
 
 
-
-
 <script src="craftpip-jquery-confirm-524c959/dist/jquery-confirm.min.js"></script>
     <link rel="stylesheet" href="craftpip-jquery-confirm-524c959/dist/jquery-confirm.min.css">
 
@@ -69,21 +67,6 @@
 </div>
 </head>
 <body>
-<script>
-function AbrirModal(){
-$.alert({
-            title:"",
-            content: 'BLA BLA BLA!',
-            animation: 'zoom',
-            closeAnimation: 'scale',
-
-            theme: 'supervan',
-            closeIcon: false,
-            confirmButton: "OK"
-
-        })
-		}
-</script>
 
 <div style="border: 1px solid red; height: 100%;" class="col-md-2 pull-left div-vermelha">
 
@@ -229,14 +212,35 @@ $.alert({
       </div>	  <!--Termina aqui o teste 1 para ver se funciona a caixa de lado-->
 	
 	    
-		 <button type= "button" class= "btn btn-info" onclick="AbrirModal();"> Adicionar Conteúdo</button>
-</div>				
-</div>				
-</div>				
+		 <div class="container">
+
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info1" data-toggle="modal" data-target="#myModal">Cancelar</button>
+  <button type="button" class="btn btn-info">Salvar</button>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><center>ATENÇÃO!</center></h4>
+        </div>
+        <div class="modal-body">
+          <p>Esta Categoria está sendo usada em </br>Ações e Programas!</br>
+		  Confirme se deseja mesmo excluí-la.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
+		  <button type="button" class="btn btn-default" data-dismiss="modal">Sim</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
+</div>				
+</div>				
+</div>	
+			
 </body>	
-
-
-
- 

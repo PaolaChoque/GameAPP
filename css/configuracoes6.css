@@ -48,11 +48,20 @@
 .breadcrumb {
 	background-color:#FFFFFF!important;
 }
+/* Posicionamento dos Botões*/
 .btn.btn-info {
 		position:absolute;
 		top: 480px!important;
 		left: 960px;	
 	} 
+	
+.btn.btn-info1{
+	position:absolute;
+		top: 480px!important;
+		left: 860px;
+}/*Termina aqui Posicionamento dos Botões*/ 
+
+
 /* Posicionamento dos icones Checbox e stop*/
 
 

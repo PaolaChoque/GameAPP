@@ -2,7 +2,7 @@
 <link href="css/tela1.css" rel="stylesheet">
 <link href="css/jogadores-usuarios.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700' rel='stylesheet' type='text/css'>
-  <script src="js/enviar-email-convite.js"</script>
+
   <!--preciso charmar duas vezes a tabela--><script src="js/jquery.min.js"></script> 
  <script src="js/bootstrap.min.js"></script> 
 <script src="js/jquery.min.js"></script> 
@@ -271,15 +271,12 @@
     </div>
     </div>
 				
- <div class="sidebar">
- <button type="button" class="btn btn-info">Enviar e-mail/convite</button>
- </div>
-  <div class="sidebar1">
-  <button type="button" class="btn btn-info">Importar planilha</button>
-</div>  
- <div class="sidebar2">
-  <button type="button" class="btn btn-info">Adicionar funcionário</button> 
- </div>
+ <button type="button" class="btn btn-info1">Enviar e-mail/convite</button>
+
+
+  <button type="button" class="btn btn-info2">Importar planilha</button>
+  
+
 
 				
 </div> <!-- aqui fecha a tab-pane -->
@@ -295,7 +292,31 @@
 						
 </div>
 	 
-	  
+	   <div class="container">
+
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Adicionar Funcionário</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><center>ATENÇÃO!</center></h4>
+        </div>
+        <div class="modal-body">
+          <p>Esta Categoria está sendo usada em </br>Ações e Programas!</br>
+		  Confirme se deseja mesmo excluí-la.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
+		  <button type="button" class="btn btn-default" data-dismiss="modal">Sim</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
  
 </body>	
 

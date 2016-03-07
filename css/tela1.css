@@ -98,11 +98,27 @@ border-bottom:none;
 
 }
 
+/*Aqui são as configurações dos componentes ,esstrela, trofeu...*/
+.glyphicon.glyphicon-star{
+	font-size: 30px;
+	margin-right:10px;
+   margin-top: 10px!important;
+   margin-left: -20px;
+}
 
+.glyphicon.glyphicon-star-empty{
+	font-size: 30px;
+	margin-right:80px;
+   margin-top: 10px!important;
+   margin-left: 30px;
+}
 
-
-
-
+.col-md-3{
+	font-size: 15px;
+	margin-right:10px;
+   margin-top: 10px!important;
+   margin-left: 0px;
+}
 
 color:Black;{
 	background-color:#000;

@@ -1,0 +1,83 @@
+.row-fluid {		
+			 width: 900px;   /* faz a separação do "nome" e "campo" na VERTICAL*/
+			    margin-right:20px;				/*Aqui é o tamanho da margin do nome com caixa de texto*/
+				margin-top: 10px;  
+				margin-left: 5px;				   /*Faz separação do do menu e a tabbable*/
+					}
+
+
+       .unit1{                   
+			width: 110px;
+			margin-top: 10px; 
+			margin-left: 20px;
+		      }						
+		
+		
+        .unit2{                    /* faz a separação da no "nome" e o "campo" na HORIZONTAL*/
+			width: 122px;
+			margin-top: 10px; 
+			margin-left: 20px;
+		      }		
+
+			  
+			  
+			.unit3{                    /* Começa aqui as configurações de Endereço e número!!!*/
+			width: 122px;             /* faz a separação da no "nome" e "campo" na VERTICAL*/
+	        margin-top: 10px;
+           margin-left: 20px;			
+		      }	 
+			.col-md-3{ 
+           margin-top: -22px;
+			margin-right: 100px;
+			margin-left: 150px;
+            }	
+
+		/* Termina aqui as configurações de Endereço e número!!!*/
+		
+		
+		.unit4{                    /* Começa aqui as configurações de Complemento e Bairro!!!*/
+	width: 450px;             /* faz a separação da no "nome" e "campo" na VERTICAL*/
+	margin-top: 15px;  
+	margin-right: 10px;
+	margin-left: 150px;
+    }	 
+     .unit5{                    
+	width: 150px;             /* faz a separação da no "nome" e "campo" na VERTICAL*/
+	margin-top: 8px;  
+	margin-right: -10px;
+			margin-left: 150px; 
+    }	 
+
+	 .unit6{                    
+	width: 150px;             /* faz a separação da no "nome" e "campo" na VERTICAL*/
+	margin-top: -40px;  
+	margin-right: -10px;
+			margin-left: 275px; 
+    }
+	 			
+.col-md-4{ 
+    margin-top: 5px;
+	margin-right: 140px;
+	margin-left: 147px;
+     }							  /* Termina aqui as configurações de Complemento e Bairro!!!*/
+
+					.row-fluid-3{        /* Começa aqui as configurações de Cidade - Estado- Pais*/
+
+					margin-top: 200px;
+						margin-right: 140px;
+						margin-left: 143px;
+					}	 	
+
+.unit7{                    
+	width: 550px;           
+	margin-top: 5px;  
+	margin-right: 10px;
+	margin-left: 145px;
+    }	 
+     .unit8{                    
+	width: 550px;           
+	margin-top: 0px;  
+	margin-right: 10px;
+	margin-left: 145px;
+    }	  
+     
