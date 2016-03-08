@@ -1,21 +1,21 @@
 .row-fluid {		
 			 width: 900px;   /* faz a separação do "nome" e "campo" na VERTICAL*/
 			    margin-right:20px;				/*Aqui é o tamanho da margin do nome com caixa de texto*/
-				margin-top: 10px;  
+				margin-top: 0px;  
 				margin-left: 5px;				   /*Faz separação do do menu e a tabbable*/
 					}
 
 
        .unit1{                   
 			width: 110px;
-			margin-top: 10px; 
+			margin-top: 1px; 
 			margin-left: 20px;
 		      }						
 		
 		
         .unit2{                    /* faz a separação da no "nome" e o "campo" na HORIZONTAL*/
-			width: 122px;
-			margin-top: 10px; 
+			width: 124px;
+			margin-top: 3px; 
 			margin-left: 20px;
 		      }		
 
@@ -23,8 +23,8 @@
 			  
 			.unit3{                    /* Começa aqui as configurações de Endereço e número!!!*/
 			width: 122px;             /* faz a separação da no "nome" e "campo" na VERTICAL*/
-	        margin-top: 10px;
-           margin-left: 20px;			
+	        margin-top: -3px;
+           margin-left: 22px;			
 		      }	 
 			.col-md-3{ 
            margin-top: -22px;
@@ -37,47 +37,219 @@
 		
 		.unit4{                    /* Começa aqui as configurações de Complemento e Bairro!!!*/
 	width: 450px;             /* faz a separação da no "nome" e "campo" na VERTICAL*/
-	margin-top: 15px;  
+	margin-top: -5px;  
 	margin-right: 10px;
-	margin-left: 150px;
+	margin-left: 152px;
     }	 
      .unit5{                    
 	width: 150px;             /* faz a separação da no "nome" e "campo" na VERTICAL*/
-	margin-top: 8px;  
+	margin-top: -6px;  
 	margin-right: -10px;
-			margin-left: 150px; 
+			margin-left: 153px; 
     }	 
 
 	 .unit6{                    
 	width: 150px;             /* faz a separação da no "nome" e "campo" na VERTICAL*/
-	margin-top: -40px;  
+	margin-top: -36px;  
 	margin-right: -10px;
-			margin-left: 275px; 
+			margin-left: 249px; 
     }
 	 			
 .col-md-4{ 
     margin-top: 5px;
 	margin-right: 140px;
-	margin-left: 147px;
+	margin-left: 150px;
      }							  /* Termina aqui as configurações de Complemento e Bairro!!!*/
 
 					.row-fluid-3{        /* Começa aqui as configurações de Cidade - Estado- Pais*/
 
-					margin-top: 200px;
+					margin-top: 120px;
 						margin-right: 140px;
-						margin-left: 143px;
+						margin-left: 167px;
 					}	 	
 
 .unit7{                    
 	width: 550px;           
+	margin-top: 0px;  
+	margin-right: 10px;
+	margin-left: 169px;
+    }
+	
+	.unit7-1{                    
+	width: 550px;           
+	margin-top: -35px;  
+	margin-right: 10px;
+	margin-left: 290px;
+    }
+
+	
+     .unit8{                    
+	width: 550px;           
 	margin-top: 5px;  
 	margin-right: 10px;
-	margin-left: 145px;
+	margin-left: 169px;
+    }
+
+.unit8-1{                    
+	width: 550px;           
+	margin-top: -35px;  
+	margin-right: 10px;
+	margin-left: 290px;
+    }	
+	
+	.unit9{                    
+	width: 550px;           
+	margin-top: -7px;  
+	margin-right: 10px;
+	margin-left: 152px;
     }	 
-     .unit8{                    
+
+.unit10{                    
+	width: 550px;           
+	margin-top: 5px;  
+	margin-right: 10px;
+	margin-left: 172px;
+    }
+	
+	.unit10-1{                    
+	width: 550px;           
+	margin-top: -35px;  
+	margin-right: 10px;
+	margin-left: 290px;
+    }
+
+.unit11{                    
+	width: 550px;           
+	margin-top: -20px;  
+	margin-right: 10px;
+	margin-left: 469px;
+    }
+	
+.unit11-1{                    
+	width: 550px;           
+	margin-top: -35px;  
+	margin-right: 10px;
+	margin-left: 545px;
+    }
+
+.unit12{                    
+	width: 550px;           
+	margin-top: -30px;  
+	margin-right: 10px;
+	margin-left: 710px;
+    }	
+    
+.unit12-1{                    
+	width: 550px;           
+	margin-top: -37px;  
+	margin-right: 10px;
+	margin-left: 715px;
+    }
+
+.unit12-2{                    
+	width: 550px;           
+	margin-top: -23px;  
+	margin-right: 10px;
+	margin-left: 775px;
+    }	
+	 
+	 .unit13{                    
+	width: 550px;           
+	margin-top: -7px;  
+	margin-right: 10px;
+	margin-left: 169px;
+    }
+		
+				.unit13-1{                    
+				width: 550px;           
+				margin-top: -20px;  
+				margin-right: 10px;
+				margin-left: 472px;
+				}
+				.unit13-2{                    
+				width: 550px;           
+				margin-top: -34px;  
+				margin-right: 10px;
+				margin-left: 520px;
+				}
+				.unit13-3{                    
+				width: 550px;           
+				margin-top: -30px;  
+				margin-right: 10px;
+				margin-left: 590px;
+				}
+				.unit13-22{ 
+				font-size:21px;
+				width: 550px;           
+				margin-top: -30px;  
+				margin-right: 10px;
+				margin-left: 573px;
+				}
+				
+
+				.unit13-4{                    
+				width: 550px;           
+				margin-top: -22px;  
+				margin-right: 15px;
+				margin-left: 645px;
+				}
+				
+	.unit14{                    
+	width: 550px;           
+	margin-top: -15px;  
+	margin-right: 10px;
+	margin-left: 169px;
+    }
+	
+	.unit15{                    
 	width: 550px;           
 	margin-top: 0px;  
 	margin-right: 10px;
-	margin-left: 145px;
-    }	  
-     
+	margin-left: 152px;
+    }	
+	
+	
+	.row-fluid4{ 
+           margin-top: 0px;
+			margin-right: 100px;
+			margin-left: 160px;
+            }	
+			
+			.row-fluid5{ 
+           margin-top: 0px;
+			margin-right: 100px;
+			margin-left: 160px;
+            }
+			
+			
+body {
+  font: 120%/1.6 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 50em;
+  border: 1px solid #666;
+}
+thead {
+  background: #ccc url(http://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+tr:hover {
+  background-color:#3d80df;
+  color: #fff;
+}
+thead tr:hover {
+  background-color: transparent;
+  color: inherit;
+}
+tr:nth-child(even) {
+    background-color: #edf5ff;
+}
+th {
+  font-weight: normal;
+  text-align: left;
+}
+th, td {
+  padding: 0.1em 1em;/*tamanho da linha da tabela*/
+}
