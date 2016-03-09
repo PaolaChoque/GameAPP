@@ -63,7 +63,7 @@
 
 					.row-fluid-3{        /* Começa aqui as configurações de Cidade - Estado- Pais*/
 
-					margin-top: 120px;
+					margin-top: 42px;
 						margin-right: 140px;
 						margin-left: 167px;
 					}	 	
@@ -152,10 +152,29 @@
 	margin-right: 10px;
 	margin-left: 775px;
     }	
+	
+	
+					.unit41{        
+					margin-top: 10px;  
+					margin-left: 172px;
+					}
+					
+					.unit42{        
+					margin-top: -35px;  
+					margin-left: 774px;
+					}
+					
+					.textop   {    
+					margin-top: -15px;  
+					margin-left: 473px;
+					}
+					
+					
+					
 	 
 	 .unit13{                    
 	width: 550px;           
-	margin-top: -7px;  
+	margin-top: -10px;  
 	margin-right: 10px;
 	margin-left: 169px;
     }
@@ -164,26 +183,26 @@
 				width: 550px;           
 				margin-top: -20px;  
 				margin-right: 10px;
-				margin-left: 472px;
+				margin-left: 425px;
 				}
 				.unit13-2{                    
 				width: 550px;           
 				margin-top: -34px;  
 				margin-right: 10px;
-				margin-left: 520px;
+				margin-left: 470px;
 				}
 				.unit13-3{                    
 				width: 550px;           
 				margin-top: -30px;  
 				margin-right: 10px;
-				margin-left: 590px;
+				margin-left: 530px;
 				}
 				.unit13-22{ 
 				font-size:21px;
 				width: 550px;           
 				margin-top: -30px;  
 				margin-right: 10px;
-				margin-left: 573px;
+				margin-left: 518px;
 				}
 				
 
@@ -191,8 +210,17 @@
 				width: 550px;           
 				margin-top: -22px;  
 				margin-right: 15px;
-				margin-left: 645px;
+				margin-left: 580px;
 				}
+				
+				.unit13-33{                    
+			         
+				margin-top: -2px;  
+				margin-right: 15px;
+				margin-left: 4px;
+				}
+				
+				
 				
 	.unit14{                    
 	width: 550px;           
@@ -213,13 +241,62 @@
            margin-top: 0px;
 			margin-right: 100px;
 			margin-left: 160px;
-            }	
+            }
+
+.caixa2{
+				margin-top: -20px;
+				margin-right: 29px;
+				margin-left: 79px;
+			}			
 			
 			.row-fluid5{ 
-           margin-top: 0px;
+           margin-top: 2px;
 			margin-right: 100px;
-			margin-left: 160px;
+			margin-left: 2px;
             }
+			
+			.caixa3{
+				margin-top: -160px;
+				margin-right: 29px;
+				margin-left: 230px;
+			}	
+			
+.btnclick{
+	margin-top: 54px;
+			margin-right: 100px;
+			margin-left: 970px;
+}			
+	
+.row-fluid01{
+				margin-top: 5px;
+				margin-right: 29px;
+				margin-left: -130px;
+			}
+			
+.unit001{
+				margin-top: -25px;
+				margin-right: 29px;
+				margin-left: -8px;
+			}
+			
+			
+.btn.btn-info{
+	margin-top: -34px;
+
+	margin-left: 800px;
+}
+.btn.btn-info1{
+	margin-top: -22px;
+
+	margin-left: 730px;
+}
+.btn.btn-info2{
+	margin-top: -34px;
+
+	margin-left: 645px;
+}
+	
+			
 			
 			
 body {

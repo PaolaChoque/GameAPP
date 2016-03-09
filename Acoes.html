@@ -11,6 +11,7 @@
 
 <html>
 <head>
+
 <!-- COMEÇA AQUI  A TABELA NO HEAD-->
 	<meta charset="UTF-8">
 	<title>Tablesorter - Tutsup</title>
@@ -24,7 +25,9 @@
 	
 	<!-- Meu script -->
 	<script src="js/scripts.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
  <!-- TERMINA AQUI  A TABELA NO HEAD-->
+
 
 <!-- COMEÇA AQUI o codigo do modal porém não é extamente necessário chamar esses links todos...
   <title>Bootstrap Example</title>
@@ -55,7 +58,7 @@
 	</div>
 	
 	<div class= 'col-md-5 pull-right'>
-    <a class= "navbar-brand" href ="#"><strong>Objetos</strong></a>
+    <a class= "navbar-brand" href ="#"><strong>Ações</strong></a>
 	</div>
 	</div>
 	</div>
@@ -83,8 +86,8 @@
   <div class="tab-content">
   </div>
 </div>
-     <li role="presentation"class ="active"><a href="#">Objetos</a></li>
-     <li role="presentation"><a href="#">Ações</a></li>
+     <li role="presentation"><a href="#">Objetos</a></li>
+     <li role="presentation"class ="active"><a href="#">Ações</a></li>
 	 <li role="presentation"><a href="#">Reconhecimento</a></li> 
 	 <li role="presentation"><a href="#">Missões</a></li>
 	 <li role="presentation"><a href="#">Programas</a></li>
@@ -158,9 +161,9 @@
 <div class="tabbable tabs-left">  
 
   
-	 <div id="Layer1" style="position:absolute; left:39px; top:-8px; width:710; height:400; z-index:1;">
+	 <div  style="position:absolute; left:39px; top:-9px; width:710; height:400; z-index:1;">
 <div class="table-responsive">
-       <table class="tablesorter">
+       <table class="tablesorter" id="Layer1">
 	<thead>
 		<tr>
                     <!-- datatableCount -->
@@ -180,6 +183,7 @@
 						
                         <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
                         <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+						</tr>
 						<tr>
 						
                          <td style="border-width: thin; border-style: solid; border-color: black;">Outra ação qualquer a er realizada</td>
@@ -220,15 +224,13 @@
 						 <!--Posicionamento dos icones Checbox e stop*/-->                               
                         <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
 					    <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+						 
 					   </tr> 
-                    </tr>
+                    
 	</tbody>
 </table>
     </div>
     </div>
-	
-	
-	
 			<div class="container">
 		  <!-- Trigger the modal with a button -->
 		  <button type="button" class="btn btn-info1" data-toggle="modal" data-target="#myModal">Clonar Ação</button>
@@ -242,7 +244,7 @@
 				  <h4 class="modal-title"><center>ATENÇÃO!</center></h4>
 				</div>
 				<div class="modal-body">
-				  <p>Este Ação está sendo usada em</br>Reconhecimentos e Programas!</br>
+				  <p>Esta Ação está sendo usada em</br>Reconhecimentos e Programas!</br>
 				  Confirme se deseja mesmo excluí-la.</p>
 				</div>
 				<div class="modal-footer">
@@ -253,18 +255,9 @@
 			</div>
 		  </div>
 		</div>
-		
-		
-
 </div>				
 </div>		
-
-
-
-		
 </div>				
- 
-
 </body>	
 
 

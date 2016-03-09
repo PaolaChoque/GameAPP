@@ -10,6 +10,28 @@
 
 <head>
 
+<script>
+            (function($) {
+			
+                AddTableRow = function() {
+                    var newRow = $("<tr class='listas'>");
+                    var cols = "";
+
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+
+                    newRow.append(cols);
+                    $("#playlistTable").append(newRow);
+
+                    return false;
+                };
+            })(jQuery);
+
+        </script>
 
 <!-- COMEÇA AQUI  A TABELA NO HEAD-->
 	<meta charset="UTF-8">
@@ -128,43 +150,37 @@
 			
 			
 			
-<div id="Layer1" style="position:absolute; left:168px; top:155px; width:720; height:300; z-index:1;">		
+<div id="Layer1" style="position:absolute; left:168px; top:155px; width:720; z-index:1;">		
 <table id="playlistTable">
   <thead>
     <tr>
       <th style="border-width: thin; border-style: solid; border-color: black;">#</th>
-      <th style="border-width: thin; border-style: solid; border-color: black;">Track Name</th>
-      <th style="border-width: thin; border-style: solid; border-color: black;">Artist</th>
-      <th style="border-width: thin; border-style: solid; border-color: black;">Album</th>
+      <th style="border-width: thin; border-style: solid; border-color: black;">Resposta</th>
+      <th style="border-width: thin; border-style: solid; border-color: black;"><center>Certa</center></th>
+      <th style="border-width: thin; border-style: solid; border-color: black;">Ganha/Perde</th>
+      <th style="border-width: thin; border-style: solid; border-color: black;">Pontos</th>
+<th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/></center></th>
     </tr>
   </thead>
 
- 
 
     <tr>
-      <td style="border-width: thin; border-style: solid; border-color: black;">6</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">PMT</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">Deeper Water</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">oscow</td>
-    </tr>
-
-    <tr>
-      <td style="border-width: thin; border-style: solid; border-color: black;">7</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">Four</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">Kings</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">Ah</td>
-    </tr>
-
-    <tr>
-      <td style="border-width: thin; border-style: solid; border-color: black;">8</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">Gravity</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">Embrace</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">Out of Nothing</td>
-    </tr>
+      <td style="border-width: thin; border-style: solid; border-color: black;">1</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;"></td>
+<th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /></center></th>
+      <td style="border-width: thin; border-style: solid; border-color: black;">ganha</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;"></td>
+<td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+    </tr>  
     
   </tbody>
 </table>
 </div>
+
+
+ <div class="btnclick">
+	<button onclick="AddTableRow()" type="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+	</div>
 
 
 <div class = "row-fluid-3">
@@ -176,9 +192,11 @@
 		
 	</form>
   </div>
+  
   <div class ="unit7-1">	
-		<input type="text" name="qtd." size="5" maxlength="8" id="qtd." value="">Mínimom1 vez
+		<input type="text" name="qtd." size="5" maxlength="8" id="qtd." value="">Mínimo1 vez
 </div>
+
 
   
   <div class="unit8">				
@@ -224,9 +242,26 @@
 	</form>
   </div>
   
-  </br>
-  </br>
-  </br>
+			  <div class="unit41">				
+				<form action="demo_form.asp">
+					<input type="text" name="qtd." size="11" maxlength="11" id="qtd." value="Label inicial">
+				</form>
+			  </div>
+  
+  <div class="unit42">	
+			<div class="unit">				
+				<form action="demo_form.asp">
+					<input type="text" name="qtd." size="11" maxlength="8" id="qtd." value="Label final">
+				</form>
+			  </div> 
+			  </div> 
+			
+          <div class="textop">			
+			  <p><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+			  Ponto Médio 
+			  <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+			  </p>
+		  </div>
   
    <div class = "unit13">
  <INPUT TYPE="radio" NAME="OPCAO" VALUE="op1"checked>Pontuação por Ponto Médio
@@ -260,39 +295,41 @@
 	</div>
 	
 	<div class = "unit15">
- <INPUT TYPE="radio" NAME="OPCAO" VALUE="op1"checked>Interção física/real
+ <INPUT TYPE="radio" NAME="OPCAO" VALUE="op1">Interção física/real
 	</div>
 	
 			 <div class="row-fluid4">
-		Reespostas
+		Respostas
+		<div class = "caixa2">
 		  <input type= "text" name = "month" size="58" maxlength="8" id="month" value= " acoEst.Chez Michox" />
 		  </div>
   
 		  <div class="row-fluid5">
 		 Pontos
+		 <div class = "caixa2">
 		  <input type= "text" name = "month" size="18" maxlength="8" id="month" value= " acoEst.Chez Michox" />
 		  </div>
+		  </div>
 		  
-		  <div class = "unit13">
+		  <div class = "unit13-33">
  <INPUT TYPE="checkbox" NAME="OPCAO" VALUE="op1">Habilita QR-Code Reader
 	</div>	
 
 	 <tr>
-	 <div class="row-fluid">
+	 <div class="row-fluid01">
    <td>
-    <label for="imagem">Imagem de perfil:</label>
+    <label for="imagem">Ícone</label>
    </td></div>
-    <div class="col-md-3">
+    <div class="unit001">
    <td>
     <input type="file" name="imagem" >
    </td>
    </div>
   </tr>	
-	
-	
-		 <button type="button" class="btn btn-info">Cancelar</button> 
-		 <button type="button" class="btn btn-info1">Criar</button>
-		 <button type="button" class="btn btn-info2">Criar Equipes</button>
+
+		 <button type="button" class="btn btn-info1">Salvar</button>
+		 <button type="button" class="btn btn-info2">Cancelar</button>
+	     <button type="button" class="btn btn-info">Salvar e criar Ação</button> 
  </div>
  </div>
 

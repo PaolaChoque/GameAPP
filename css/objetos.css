@@ -17,6 +17,13 @@
 	
 	
 	
+	/*Aqui é a classe que você criou da caixa com obções!*/
+	.span1{  
+				margin-top: 10px;  
+				margin-right:10px;
+				margin-left: 245px;
+	}/*Aqui termina a classe que você criou da caixa com obções!*/
+	
 
 .container-fluid{ 
 	font-size:1.0em;

@@ -1,0 +1,311 @@
+ .celular{  /*Aqui é o ativo do iphone ou celular */
+
+   margin-right:10px;
+   margin-top: -30px;
+   margin-left: 870px;
+}
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+ 
+ 
+ 
+ .row-fluid {		
+					 width: 700px;   /* faz a separação da no "nome" e "campo" na VERTICAL*/
+					}
+		
+        .unit2{                    
+		width: 130px;					/* faz a separação da no "nome" e "campo" na HORIZONTAL*/
+		margin-left: 20px;
+		 margin-top: 20px;
+		}		
+ 
+ 
+  .unit2-1{
+	 width: 175px;
+	  margin-top: 10px;
+	margin-left: 20px;
+ }
+ 
+ 
+ .unit3{
+	 width: 175px;
+	  margin-top: 10px;
+	margin-left: -45px;
+ }
+ 
+					 .unit3-1{
+						 width: 175px;
+						  margin-top: -30px;
+						margin-left: 320px;
+					 }
+				
+ 
+ .unit4{
+	 width: 175px;
+	  margin-top: -20px;
+	margin-left: 337px;
+ } 
+ 
+					.unit4-1{
+						 width: 175px;
+						  margin-top: -30px;
+						margin-left: 502px;
+					 }
+ 
+ .unit5{
+	 width: 175px;
+	  margin-top: -20px;
+	margin-left: 530px;
+ }
+ 
+                      .unit5-1{
+						 width: 175px;
+						  margin-top: -26px;
+						margin-left: 600px;
+					 }
+
+ .unit6{
+	 width: 175px;
+	  margin-top: -20px;
+	margin-left: 622px;
+ }
+
+ .unit7{
+	 width: 175px;
+	  margin-top: 10px;
+	margin-left: 20px;
+ }
+					.unit7-1{
+				 width: 875px;
+				  margin-top: -25px;
+				margin-left: 155px;
+		        }
+ 
+  .unit8{
+	 width: 775px;
+	  margin-top: 130px;
+	margin-left: 155px;
+ }
+ 
+					 .caixa8-1{
+						
+						  margin-top: -23px;
+						margin-left: 505px;
+					 }
+ 
+ .unit9{
+	 width: 775px;
+	  margin-top: -5px;
+	margin-left: 155px;
+ }
+ 
+ 					 .caixa9-1{
+						  margin-top: -20px;
+						margin-left: 505px;
+					 }
+.unit10{
+		 margin-top: 10px;
+		margin-left: 20px;
+	 }
+	 
+	 .unit10-1{
+		 margin-top: -35px;
+		margin-left: 155px;
+	 }
+	 
+	 .unit10-2{
+		 margin-top: -25px;
+		margin-left: 455px;
+	 }		
+
+
+.unit11{
+		 margin-top: 10px;
+		margin-left: 20px;
+	 }
+	 
+	 .unit11-1{
+		 margin-top: -35px;
+		margin-left: 155px;
+	 }
+	 
+	 .unit11-2{
+		 margin-top: -25px;
+		margin-left: 305px;
+	 }
+
+
+
+	 .unit12{
+		 margin-top: 10px;
+		margin-left: 20px;
+	 }	
+	 
+	 .unit12-2{
+		 margin-top: -25px;
+		margin-left: 155px;
+	 }
+	 .unit12-3{
+		 margin-top: -5px;
+		margin-left: 155px;
+	 }
+
+	 
+.unit13{
+		 margin-top: 120px;
+		margin-left: 175px;
+	 }
+	 
+.unit14{
+   margin-top: 0px;
+   margin-left: 155px;
+	 }	
+
+
+
+.unit15{
+		 margin-top: 10px;
+		margin-left: 20px;
+	 }
+	 
+	 .unit15-1{
+		 margin-top: -35px;
+		margin-left: 280px;
+	 }
+
+	 
+	 
+
+ 
+ .unit16{
+	 width: 175px;
+	  margin-top: 0px;
+	margin-left: 20px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .navbar-brand{
+		
+		position: fixed center;
+			margin-top: 5px;
+			margin-bottom:0px ;
+			margin-left:0px ;
+			margin-right: 5px;
+			
+		padding-top: 5px; /*O padding tem um funcionamento muito similar ao do margin, porém ao invés de dar uma espaçamento
+		                    externo, faz a mesma coisa que a aclasse em baixo (sheduler-border) que a margin */
+		padding-right: 20px; 
+		padding-bottom: 0px;
+		padding-left: 5px;
+		
+	}
+	
+	
+	.navbar-header {
+		color:black;
+	
+		
+	}
+	
+	.container{
+		border: 1px solid pink;
+		
+	}
+	
+
+.container-fluid{ 
+	font-size:1.0em;
+	background-color:#fff;
+    margin-right: auto;
+    margin-left: auto;
+	padding-right: 150px;
+    padding-left: 15px;
+	position: relative;
+    min-height: 60px;
+    padding-right: 20px;
+    padding-left: 60px;
+}
+
+
+
+.divider { 
+	
+	background-color:#000;
+	margin-bottom:10px;
+}	
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px!important;
+    border: 1px solid transparent;
+}
+
+.breadcrumb {
+	background-color:#FFFFFF!important;
+}
+.btn-btn-large-btn-primary {
+		position:absolute;
+		top: 50px;
+		left: 50px;	
+	} 
+/* Posicionamento dos icones Checbox e stop*/
+
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
