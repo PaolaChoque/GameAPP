@@ -1,0 +1,338 @@
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<link href="css/cadastrar-reconhecimento-conquistas.css" rel="stylesheet">
+
+
+<script src="js/jquery.min.js"></script> 
+ <script src="js/bootstrap.min.js"></script> 
+<html lang="en">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+
+<html>
+<head>
+
+<!-- COMEÇA AQUI  A TABELA NO HEAD-->
+	<meta charset="UTF-8">
+	<title>Tablesorter - Tutsup</title>
+	
+	<!-- Estilos necessários para o tema do tablesorter -->
+	<link rel="stylesheet" href="css/blue/style.css">
+	
+	<!-- jQuery e Tablesorter -->
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/jquery.tablesorter.min.js"></script>
+	
+	<!-- Meu script -->
+	<script src="js/scripts.js"></script>
+ <!-- TERMINA AQUI  A TABELA NO HEAD-->
+
+
+
+<div style="border: 1px  solid red;" class="col-md-12">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span>   
+        <span class="icon-bar"></span>
+      </button>
+	  
+      <a class="navbar-brand" href="#"><strong>Game APP |</strong>Company Console</a>
+    </div>
+      
+	<div class= 'col-md-2 pull-right'>
+    <a class= "navbar-brand" href ="#"><small>Nome da Empresa</small><br/><small>Nome do Administrador</small></a>
+	</div>
+	
+	<div class= 'col-md-5 pull-right'>
+    <a class= "navbar-brand" href ="#"><strong>Cadastrar Ações</strong></a>
+	</div>
+	</div>
+	</div>
+<!-- /.navbar-collapse -->
+     <!-- /.container-fluid --> 
+</nav>
+</div>
+</div>
+</head>
+<body>
+
+
+<div style="border: 1px  solid red; height: 100%;" class="col-md-2 pull-left div-vermelha">
+
+   <ul class="nav nav-pills nav-stacked">
+     <button type= "button" class= "btn btn-default btn-lg btn-block" > Voltar </button>
+   </ul>
+ 
+</div>
+ 
+
+
+<div style="border: 1px  solid blue; height: 90%;" class="col-md-10"><!-- linha da tela três -->
+
+
+<div class="row-fluid">
+          <label class="unit2">Tipo</label>
+     </div>
+	  
+	 <div class="caixa2-1">
+<select class="span1">
+                <option>Selecione o Tipo</option>
+                <option>Viagem</option>
+                <option>Eletrodomésticos</option>
+                <option>Eletroeletrónico</option>
+                <option>Celular/Smartphone</option>
+                <option>Computador/Tablet</option>
+                <option>Show/Entretenimento</option>
+                <option>Comida/Gastronomia</option>
+                <option>Bebida/Enogastronomia</option>
+              </select>	  
+ </div>
+ 
+	 
+ <div class="celular">
+  <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
+</div>
+</div>
+   <label class="unit2-2">Reconhecimento</br>/Conquista</label>
+   
+  <div class="row-fluid2">
+          <input type= "text" name = "month" size="60" maxlength="50" id="month" placeholder=""/>
+     </div>
+	 
+ 
+ <div class="row-fluid">
+          <label class="unit3">Modo de aferiação</label>
+     </div>
+	 
+  
+
+  <div class = "unit3-1">
+            <label>
+                <input type="radio" name="sexo" value="masculino"> Por Pontos
+            </label>	
+    </div>
+	
+<div class="unit3-3">Quantidade de Pontos
+          <input type= "text" name = "month" size="4" maxlength="50" id="month" placeholder="  "/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>		
+
+  <div class = "unit3-2">
+            <label>
+                <input type="radio" name="sexo" value="masculino"> Por Ações(não sequencias)
+            </label>	
+    </div>
+  
+	
+	
+	<div id="Layer1" style="position:absolute; left:215px; top:100px; width:720; z-index:1;">
+<div class="table-responsive">
+       <table class="tablesorter">
+	<thead>
+		<tr>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Selecione as Ações</th>		
+  <th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" /> </center></td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Ação qualquer a ser realizada</td>	
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" checked /> </center></td>			
+		</tr>
+		
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Outa ação a ser realizada</td>	
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" checked /> </center></td>			
+		</tr>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Mais uma ação qualquer a ser realizada</td>	
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>			
+		</tr>
+		
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Qualquer ação a ser realizada</td>	
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>			
+		</tr>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Ação XPTO a ser realizada</td>	
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>			
+		</tr>
+	
+	
+		
+	</tbody>
+</table>
+    </div>
+    </div>
+	
+	
+	   <div class = "unit4">
+            <label>
+                <input type="radio" name="sexo" value="masculino"> Por Missão
+            </label>	
+    </div>
+	
+	
+	<div class="caixa4-1">
+<select class="span1">
+                <option>Selecione a Missão</option>
+                <option>Viagem</option>
+                <option>Eletrodomésticos</option>
+                <option>Eletroeletrónico</option>
+                <option>Celular/Smartphone</option>
+                <option>Computador/Tablet</option>
+                <option>Show/Entretenimento</option>
+                <option>Comida/Gastronomia</option>
+                <option>Bebida/Enogastronomia</option>
+              </select>	  
+ </div>
+	
+	<div class = "unit5">
+            <label>
+                <input type="radio" name="sexo" value="masculino"> Por Programa
+            </label>	
+    </div>
+	
+	<div class="caixa5-1">
+<select class="span1">
+                <option>Selecione o Programa</option>
+                <option>Viagem</option>
+                <option>Eletrodomésticos</option>
+                <option>Eletroeletrónico</option>
+                <option>Celular/Smartphone</option>
+                <option>Computador/Tablet</option>
+                <option>Show/Entretenimento</option>
+                <option>Comida/Gastronomia</option>
+                <option>Bebida/Enogastronomia</option>
+              </select>	  
+ </div>
+ 
+ 
+ <div class = "unit6">
+            <label>
+                <input type="radio" name="sexo" value="masculino"> Por MOD/PACK
+            </label>	
+    </div>
+	
+	<div class="caixa6-1">
+<select class="span1">
+                <option>Selecione o MOD/Pack</option>
+                <option>Viagem</option>
+                <option>Eletrodomésticos</option>
+                <option>Eletroeletrónico</option>
+                <option>Celular/Smartphone</option>
+                <option>Computador/Tablet</option>
+                <option>Show/Entretenimento</option>
+                <option>Comida/Gastronomia</option>
+                <option>Bebida/Enogastronomia</option>
+              </select>	  
+ </div>
+	
+
+	    <label class="unit7">Sobre o</br>/reconhecimento</label>
+	  <div class="row-fluid3">
+          <input type= "text" name = "month" size="60" maxlength="50" id="month" placeholder=""/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>
+
+ <div class="row-fluid">
+          <label class="unit8">Bagde/Imagem</label>
+       
+     </div>
+	 
+	 
+	 <div class="unit8-1">	
+		<form action="demo_form.asp">
+         <a href="#" class="ico-search1">clique aqui para importar outra imagem</a></p>
+    </form>		
+</div>
+		
+    
+<div class = "unit8-2">
+<form>
+<input type="checkbox" name="opcoes" value="html"checked />Reconhecimento expira em
+</form>
+	</div>
+
+	
+	
+	 <label class="unit8-3">
+        <input name="nascimento" type="date"  id="month"value= " " class = "textbox70"/>
+	</label>
+	
+
+	
+	
+  <label class="unit9">Mensagem</br>Parabéns</label>
+ <div class="row-fluid4">
+          <input type= "text" name = "month" size="60" maxlength="50" id="month" placeholder=""/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>
+	 
+	 <div class="row-fluid">
+          <label class="unit9-2">Conteudo destravado</label>
+     </div>
+	 
+	 <div class="unit9-1">	
+		<form action="demo_form.asp">
+         <a href="#" class="ico-search1">clique aqui para importar outra imagem</a></p>
+    </form>		
+</div>
+
+
+<div class="row-fluid">
+          <label class="unit10">Premiação</label>
+     </div>
+	  
+	 <div class="caixa2-1">
+<select class="span1">
+                <option>Selecione o prêmio</option>
+                <option>Viagem</option>
+                <option>Eletrodomésticos</option>
+                <option>Eletroeletrónico</option>
+                <option>Celular/Smartphone</option>
+                <option>Computador/Tablet</option>
+                <option>Show/Entretenimento</option>
+                <option>Comida/Gastronomia</option>
+                <option>Bebida/Enogastronomia</option>
+              </select>	  
+ </div>
+	
+	
+	 <div class="row-fluid">
+          <label class="unit11">Pontos extras</label>
+     </div>
+	 
+	
+<div class="unit11-1">
+          <input type= "text" name = "month" size="4" maxlength="50" id="month" placeholder="  "/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>	
+
+
+<div class = "unit11-2">
+            <label>
+                <input type="checkbox" name="sexo" value="masculino"> Pontua também a(s) Equipes(s) que o usuário/jogador faz parte
+            </label>	
+    </div>	 
+	
+<div class="row-fluid">
+          <label class="unit11">Texto p/Log</label>
+     </div>
+	 
+	
+<div class="unit11-1">O usuário/jogador "Fulano"
+          <input type= "text" name = "month" size="17" maxlength="50" id="month" placeholder="  entre com um verbo "/>"Reconhecimento/Conquistas"
+     </div>	
+	 
+	 
+	  <button type="button" class="btn btn-info1">Cancelar</button> 
+		 <button type="button" class="btn btn-info">Salvar</button>
+</body>	
+ 

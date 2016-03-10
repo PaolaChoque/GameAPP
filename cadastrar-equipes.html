@@ -1,29 +1,40 @@
-<link rel="stylesheet" href="tablesorter/css/blue/style.css">
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/jogadores-usuarios.css" rel="stylesheet">
-<link href="css/cadastrar-equipes.css" rel="stylesheet">
-  <script src="js/cadastrar-equipes.js"</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-
-<script src="js/jquery.min.js"></script> 
- <script src="js/bootstrap.min.js"></script> 
-
 <head>
 
 
 <!-- COMEÇA AQUI  A TABELA NO HEAD-->
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=IE8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">	
 	<title>Tablesorter - Tutsup</title>
 	
 	<!-- Estilos necessários para o tema do tablesorter -->
 	<link rel="stylesheet" href="css/blue/style.css">
 	
 	<!-- jQuery e Tablesorter -->
-	<script src="js/jquery-latest.js"></script>
-	<script src="js/jquery.tablesorter.min.js"></script>
 	
+	
+	
+       
+      
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="tablesorter/css/blue/style.css">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/jogadores-usuarios.css" rel="stylesheet">
+<link href="css/cadastrar-equipes.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="js/cadastrar-equipes.js"></script>
+	
+  
+ <script src="js/bootstrap.min.js"></script> 
+ 
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="js/jquery.fn.gantt.js"></script>
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/r298/prettify.min.js"></script>
 	<!-- Meu script -->
-	<script src="js/scripts.js"></script>
+	
  <!-- TERMINA AQUI  A TABELA NO HEAD-->
 
 		<div style="border: 1px  solid red;" class="col-md-12">
@@ -108,7 +119,7 @@
 			</form>
 			</div>
 			
-
+	<div id="Layer1" style="position:absolute; left:45px; top:210px; width:720; z-index:1;">
 <table class="tablesorter">
 	<thead>
 		<tr>
@@ -195,11 +206,9 @@
 		</tr>
 	</tbody>
 </table>
+</div>
 
-	
-
-
-<div class = "parte6">		
+<div class = "parte9">		
   <form action="demo_form.asp">Nome da Equipe
 	   <input type="text" name="usrname">	
   </form>
@@ -207,7 +216,10 @@
   
   
   
+  <div class="gantt"></div>
   
+  
+
   
   
   <div class = "caixatexto">		
@@ -233,7 +245,7 @@
 </body>	
 
 	<!-- jQuery e Tablesorter -->
-	<script src="tablesorter/js/jquery-latest.js"></script>
+	
 	<script src="tablesorter/js/jquery.tablesorter.min.js"></script>
 	<script src="tablesorter/js/scripts.js"></script>
 

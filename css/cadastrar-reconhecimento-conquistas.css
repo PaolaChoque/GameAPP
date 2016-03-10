@@ -1,7 +1,7 @@
  .celular{  /*Aqui é o ativo do iphone ou celular */
 
    margin-right:10px;
-   margin-top: -38px;
+   margin-top: -15px;
    margin-left: 870px;
 }
 .onoffswitch {
@@ -53,202 +53,189 @@
  
  
  .row-fluid {		
-					 width: 680px;   /* faz a separação da no "nome" e "campo" na VERTICAL*/
+					 width: 700px;   /* faz a separação da no "nome" e "campo" na VERTICAL*/
 					}
 		
         .unit2{                    
-		width: 130px;					/* faz a separação da no "nome" e "campo" na HORIZONTAL*/
+		width: 175px;					/* faz a separação da no "nome" e "campo" na HORIZONTAL*/
 		margin-left: 20px;
-		 margin-top: 15px;
+		 margin-top: 0px;
 		}		
  
  
-  .unit2-1{
+  .caixa2-1{
 	 width: 175px;
-	  margin-top: -100px;
+	  margin-top: -25px;
+	margin-left: 200px;
+ }
+ .unit2-2{
+	 width: 175px;
+	  margin-top: -20px;
 	margin-left: 20px;
+ }
+ 
+ .row-fluid2{
+	  width: 175px;
+	  margin-top: -35px;
+	margin-left: 200px;
  }
  
  
  .unit3{
 	 width: 175px;
-	  margin-top: 0px;
-	margin-left: -45px;
+	  margin-top: 10px;
+	margin-left: 20px;
  }
  
 					 .unit3-1{
 						 width: 175px;
+						  margin-top: -25px;
+						margin-left: 199px;
+					 }
+				.unit3-2{
+						 width: 375px;
+						  margin-top: -5px;
+						margin-left: 199px;
+					 }
+					 
+					 .unit3-3{
+						 width: 375px;
 						  margin-top: -30px;
-						margin-left: 320px;
-					 }
-				
- 
- .unit4{
-	 width: 175px;
-	  margin-top: -20px;
-	margin-left: 337px;
- } 
- 
-					.unit4-1{
-						 width: 175px;
-						  margin-top: -30px;
-						margin-left: 502px;
+						margin-left: 499px;
 					 }
  
- .unit5{
-	 width: 175px;
-	  margin-top: -20px;
-	margin-left: 530px;
- }
  
-                      .unit5-1{
-						 width: 175px;
-						  margin-top: -26px;
-						margin-left: 600px;
-					 }
-
- .unit6{
-	 width: 175px;
-	  margin-top: -20px;
-	margin-left: 622px;
- }
-
- .unit7{
-	 width: 175px;
-	  margin-top: -1px;
-	margin-left: 20px;
- }
-					.unit7-1{
-				 width: 875px;
-				  margin-top: -25px;
-				margin-left: 155px;
-		        }
  
-  .unit8{
+  .unit4{
 	 width: 775px;
-	  margin-top: 125px;
-	margin-left: 155px;
+	  margin-top: 155px;
+	margin-left: 200px;
  }
  
-					 .caixa8-1{
+					 .caixa4-1{
 						
 						  margin-top: -23px;
 						margin-left: 505px;
 					 }
  
- .unit9{
+ .unit5{
 	 width: 775px;
 	  margin-top: -5px;
-	margin-left: 155px;
+	margin-left: 200px;
  }
  
- 					 .caixa9-1{
+ 					 .caixa5-1{
 						  margin-top: -20px;
 						margin-left: 505px;
 					 }
-.unit10{
-		 margin-top: -5px;
-		margin-left: 20px;
-	 }
-	 
-	 .unit10-1{
-		 margin-top: -19px;
-		margin-left: 155px;
-	 }
-	 
-	 .unit10-2{
-		 margin-top: -35px;
-		margin-left: 455px;
-	 }		
-
-
-.unit11{
-		 margin-top: 10px;
-		margin-left: 20px;
-	 }
-	 
-	 .unit11-1{
-		 margin-top: -35px;
-		margin-left: 155px;
-	 }
-	 
-	 .unit11-2{
-		 margin-top: -25px;
-		margin-left: 305px;
-	 }
-
-
-
-	 .unit12{
-		 margin-top: 0px;
-		margin-left: 20px;
-	 }	
-	 
-	 .unit12-2{
-		 margin-top: -25px;
-		margin-left: 155px;
-	 }
-	 .unit12-3{
-		 margin-top: -5px;
-		margin-left: 155px;
-	 }
-
-	 
-.unit13{
-		 margin-top: 120px;
-		margin-left: 175px;
-	 }
-	 
-.unit14{
-   margin-top: -8px;
-   margin-left: 155px;
-	 }	
-
-
-
-.unit15{
-		 margin-top: 0px;
-		margin-left: 20px;
-	 }
-	 
-	 .unit15-1{
-		 margin-top: -35px;
-		margin-left: 280px;
-	 }
-
-	 
-	 
-
- 
- .unit16{
-	 width: 175px;
-	  margin-top: 0px;
-	margin-left: 20px;
+					 
+ .unit6{
+	 width: 775px;
+	  margin-top: -5px;
+	margin-left: 200px;
  }
  
- .btn.btn-info1{
+ 					 .caixa6-1{
+						  margin-top: -20px;
+						margin-left: 505px;
+					 }					 
+
+.unit7{
+	width: 175px;
+		 margin-top: 0px;
+		margin-left: 20px;
+	 }
+	 
+	 .row-fluid3{
+	width: 175px;
+		 margin-top: -40px;
+		margin-left: 200px;
+	 }
+	 
+	 .unit8{
+	width: 175px;
+		 margin-top: 15px;
+		margin-left: 20px;
+	 }
+	 
+	 .unit8-1{
+		 margin-top: -25px;
+		margin-left: 255px;
+	 }
+	 .unit8-2{
+		 margin-top: -35px;
+		margin-left: 555px;
+	 }
+	 .unit8-3{
+		 margin-top: -37px;
+		margin-left: 768px;
+	 }
+
+	 
+	 
+	 .unit9{
+		width: 175px;
+		 margin-top: -8px;
+		margin-left: 20px;
+	 } 
+	 
+	 .row-fluid4{
+		width: 175px;
+		 margin-top: -40px;
+		margin-left: 200px;
+	 }
+	 .unit9-1{
+		 margin-top: -25px;
+		margin-left: 255px;
+	 }
+	 .unit9-2{
+		 margin-top: 15px;
+		margin-left: 20px;
+	 }
 	
-	  margin-top: -59px;
-	margin-left: 740px;
- }
- .btn.btn-info2{
+	.unit10{                    
+		width: 175px;					/* faz a separação da no "nome" e "campo" na HORIZONTAL*/
+		margin-left: 20px;
+		 margin-top: 0px;
+		}		
+ 
+ 
+  .caixa2-1{
+	 width: 175px;
+	  margin-top: -25px;
+	margin-left: 200px;
+ } 
+	
 
-	  margin-top: -60px;
-	margin-left: 0px;
+	.unit11{                    
+		width: 175px;					/* faz a separação da no "nome" e "campo" na HORIZONTAL*/
+		margin-left: 20px;
+		 margin-top: 7px;
+		}		
+ 
+ 
+  .unit11-1{
+	 width: 875px;
+	  margin-top: -25px;
+	margin-left: 200px;
  }
- .btn.btn-info{
+ .unit11-2{
+	 width: 875px;
+	  margin-top: -25px;
+	margin-left: 300px;
+ } 
+	 
 
-	  margin-top: -60px;
-	margin-left: 0px;
- }
- 
- 
- 
- 
- 
- 
- 
- 
+	 .btn.btn-info1{
+		   margin-top: -35px;
+	margin-left: 860px;
+	 } 
+	 
+	 
+	 .btn.btn-info{
+		   margin-top: -34px;
+	margin-left: 950px;
+	 }
  
  .navbar-brand{
 		

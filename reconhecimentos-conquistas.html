@@ -1,6 +1,6 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<link href="css/Acoes.css" rel="stylesheet">
+<link href="css/reconhecimentos-conquistas.css" rel="stylesheet">
 
 <script src="js/jquery.min.js"></script> 
  <script src="js/bootstrap.min.js"></script> 
@@ -55,7 +55,7 @@
 	</div>
 	
 	<div class= 'col-md-5 pull-right'>
-    <a class= "navbar-brand" href ="#"><strong>Ações</strong></a>
+    <a class= "navbar-brand" href ="#"><strong>Reconhecimentos/Conquistas</strong></a>
 	</div>
 	</div>
 	</div>
@@ -84,8 +84,8 @@
   </div>
 </div>
      <li role="presentation"><a href="#">Objetos</a></li>
-     <li role="presentation"class ="active"><a href="#">Ações</a></li>
-	 <li role="presentation"><a href="#">Reconhecimento</a></li> 
+     <li role="presentation"><a href="#">Ações</a></li>
+	 <li role="presentation"class ="active"><a href="#">Reconhecimento</a></li> 
 	 <li role="presentation"><a href="#">Missões</a></li>
 	 <li role="presentation"><a href="#">Programas</a></li>
 	 <li role="presentation"><a href="#">Desafios</a></li>
@@ -138,7 +138,7 @@
 
 <div class="caixa">
 <select class="span1">
-                <option>Selecione o Período para filtrar</option>
+                <option>Selecione o Tipo para filtrar</option>
                 <option>Viagem</option>
                 <option>Eletrodomésticos</option>
                 <option>Eletroeletrónico</option>
@@ -154,14 +154,15 @@
 <div class="tabbable tabs-left">  
 
   
-	 <div  style="position:absolute; left:39px; top:-9px; width:707; height:400; z-index:1;">
+	 <div id="Layer1" style="position:absolute; left:14px; top:-9px; width:735; height:400;z-index:1;">
 <div class="table-responsive">
-       <table class="tablesorter" id="Layer1">
+       <table class="tablesorter">
 	<thead>
 		<tr>
                     <!-- datatableCount -->
-                    <th style="border-width: thin; border-style: solid; border-color: black;">Ações</th> 
-                    <th style="border-width: thin; border-style: solid; border-color: black;"><center>Vigências </center></th>
+                    <th style="border-width: thin; border-style: solid; border-color: black;">Reconhecimentos</br>Conquistas</th> 
+                    <th style="border-width: thin; border-style: solid; border-color: black;"><center>Tipo </center></th>
+					<th style="border-width: thin; border-style: solid; border-color: black;"><center>Modo de aferição</center></th> 
 					<th style="border-width: thin; border-style: solid; border-color: black;"><center>Ativo</center></th> 
                     <th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/></center></th>
 
@@ -171,32 +172,36 @@
                 <!-- Data Show Row-->
                     <tr class="listas">
 				
-                        <td style="border-width: thin; border-style: solid; border-color: black;">Ações qualquera ser realizada</td>
-						<td style="border-width: thin; border-style: solid; border-color: black;"><center>01/jan/2015-31/jan/2015</center></td>
+                        <td style="border-width: thin; border-style: solid; border-color: black;">Feedback Expert</td>
+						<td style="border-width: thin; border-style: solid; border-color: black;"><center>Medalha</center></td>
+						<td style="border-width: thin; border-style: solid; border-color: black;"><center>por Programa</center></td>
 						
                         <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
                         <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
 						</tr>
 						<tr>
 						
-                         <td style="border-width: thin; border-style: solid; border-color: black;">Outra ação qualquer a er realizada</td>
-						 <td style="border-width: thin; border-style: solid; border-color: black;"><center>01/jan/2015-31/jan/2015</center></td>
+                         <td style="border-width: thin; border-style: solid; border-color: black;">Quiz Master</td>
+						 <td style="border-width: thin; border-style: solid; border-color: black;"><center>Troféu</center></td>
+						 <td style="border-width: thin; border-style: solid; border-color: black;"><center>por Ações</center></td>
 					
                         <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
                         </tr> 
 						
                        <tr>
-					   <td style="border-width: thin; border-style: solid; border-color: black;">Mais uma ação qualquer a ser realizada</td>
-					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>01/jan/2015-31/jan/2015</center></td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;">Treinamento Desing Thinking</td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>Certificado</center></td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>por Ações</center></td>
 					
                         <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
                         <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
 					   </tr>
 
 					    <tr>
-					   <td style="border-width: thin; border-style: solid; border-color: black;">Qualquer ação a ser relaizada</td>
-					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>01/jan/2015-31/jan/2015</center></td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;">Nivel I</td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>Bagde</center></td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>por Pontos</center></td>
 
 						 <!--Posicionamento dos icones Checbox e stop*/-->
                         <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" checked /> </center></td>
@@ -204,16 +209,18 @@
 					   </tr> 
 
                        <tr>
-					   <td style="border-width: thin; border-style: solid; border-color: black;">Ação XPTO a ser realizada</td>
-					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>01/jan/2015-31/jan/2015</center></td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;">Nivel II</td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>Badge</center></td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>por Pontos</center></td>
 						 <!--Posicionamento dos icones Checbox e stop*/-->
                         <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" checked /> </center></td>
 					    <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
 					   </tr> 
 					   
 					    <tr>
-					   <td style="border-width: thin; border-style: solid; border-color: black;">Mais uma ação recorrente a ser realizada  </td>
-					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>01/jan/2015-31/jan/2015</center></td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;">Nível III  </td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>Bagde</center></td>
+					   <td style="border-width: thin; border-style: solid; border-color: black;"><center>por Pontos</center></td>
 						 <!--Posicionamento dos icones Checbox e stop*/-->                               
                         <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
 					    <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
@@ -225,34 +232,19 @@
     </div>
 	
  
-			<div class="container">
-		  <!-- Trigger the modal with a button -->
-		  <button type="button" class="btn btn-info1" data-toggle="modal" data-target="#myModal">Clonar Ação</button>
-		  <button type="button" class="btn btn-info">Adicionar Ação</button>
-		  <!-- Modal -->
-		  <div class="modal fade" id="myModal" role="dialog">     <!--.fade = desvanecer o modal de dentro pra fora-->
-			<div class="modal-dialog modal-sm"><!--diálogo-.modal=define a largura adequada e margem do modal"tamanho".modal-lg-->
-			  <div class="modal-content">
-				<div class="modal-header">
-				  <button type="button" class="close" data-dismiss="modal">&times;</button>
-				  <h4 class="modal-title"><center>ATENÇÃO!</center></h4>
-				</div>
-				<div class="modal-body">
-				  <p>Este Ação está sendo usada em </br>Reconhecimento e Programas!</br>
-				  Confirme se deseja mesmo excluí-la.</p>
-				</div>
-				<div class="modal-footer">
-				  <button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
-				  <button type="button" class="btn btn-default" data-dismiss="modal">Sim</button>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
+			
+		  <button type="button" class="btn btn-info">Adicionar Reconhecimento</button>
+		  
+			
 
 </div>				
 </div>				
 </div>				
+</div>				
+</div>				
+</div>				
+</div>				
+				
  
 
 </body>	
