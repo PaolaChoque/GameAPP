@@ -53,16 +53,12 @@
 
 
 
-
-
-
-
 /*Esses são os botões do final da página cancelar-salvar*/
 .btn.btn-info {
 size: 5px;
    margin-right:-900px;
    margin-top: -20px;
-   margin-left: 900px
+   margin-left: 900px;
 }
 
 		.row-fluid {		

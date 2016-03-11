@@ -14,16 +14,6 @@
 		                                /*Aqui termina as configurações da navbar */
 	}
 	
-	
-	/*configuração da  caixa de obções*/
-	.span1{  
-				margin-top: 25px;  
-				margin-right:10px;
-				margin-left: 547px;
-	}/*termina aqui as configuração da  caixa de obções*/
-	
-	
-	
 	.btn.btn-info{
 		margin-top: -40px;  
 		margin-right:10px;
@@ -70,7 +60,7 @@
 .btn.btn-info {
 		position:absolute;
 		top: 490px!important;
-		left: 940px;	
+		left: 950px;	
 	} 
 	
 .btn.btn-info1{

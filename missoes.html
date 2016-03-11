@@ -1,0 +1,208 @@
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<link href="css/missoes.css" rel="stylesheet">
+
+<script src="js/jquery.min.js"></script> 
+ <script src="js/bootstrap.min.js"></script> 
+<html lang="en">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+
+
+<html>
+<head>
+<!-- COMEÇA AQUI  A TABELA NO HEAD-->
+	<meta charset="UTF-8">
+	<title>Tablesorter - Tutsup</title>
+	
+	<!-- Estilos necessários para o tema do tablesorter -->
+	<link rel="stylesheet" href="css/blue/style.css">
+	
+	<!-- jQuery e Tablesorter -->
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/jquery.tablesorter.min.js"></script>
+	
+	<!-- Meu script -->
+	<script src="js/scripts.js"></script>
+ <!-- TERMINA AQUI  A TABELA NO HEAD-->
+
+<!-- COMEÇA AQUI o codigo do modal porém não é extamente necessário chamar esses links todos...
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ Termina AQUI comentario do MOdal-->
+
+<div style="border: 1px  solid red;" class="col-md-12">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span>   
+        <span class="icon-bar"></span>
+      </button>
+	  
+      <a class="navbar-brand" href="#"><strong>Game APP |</strong>Company Console</a>
+    </div>
+      
+	<div class= 'col-md-2 pull-right'>
+    <a class= "navbar-brand" href ="#"><small>Nome da Empresa</small><br/><small>Nome do Administrador</small></a>
+	</div>
+	
+	<div class= 'col-md-5 pull-right'>
+    <a class= "navbar-brand" href ="#"><strong>Missões</strong></a>
+	</div>
+	</div>
+	</div>
+<!-- /.navbar-collapse -->
+     <!-- /.container-fluid --> 
+</nav>
+</div>
+</div>
+</head>
+<body>
+
+
+<div style="border: 1px solid red; height: 100%;" class="col-md-2 pull-left div-vermelha">
+
+    <ul class="nav nav-list "> 
+	<a data-toggle="collapse" data-target=".nav-collapse" href="#about">☰</a> 
+
+<nav class="nav-collapse" data-toggle="collapse" data-target=".nav-collapse">
+
+ <ul class="nav nav-pills nav-stacked">
+   
+     <li role="presentation"><a href="#">Inicial</a></li>
+	 <div class="tabbable tabs-left">
+  <ul class="nav nav-tabs"></ul>
+  <div class="tab-content">
+  </div>
+</div>
+     <li role="presentation"><a href="#">Objetos</a></li>
+     <li role="presentation"><a href="#">Ações</a></li>
+	 <li role="presentation"><a href="#">Reconhecimento</a></li> 
+	 <li role="presentation"class ="active"><a href="#">Missões</a></li>
+	 <li role="presentation"><a href="#">Programas</a></li>
+	 <li role="presentation"><a href="#">Desafios</a></li>
+	 <div class="tabbable tabs-left">
+  <ul class="nav nav-tabs">
+  </ul>
+  <div class="tab-content">
+  </div>
+</div>
+	 <li role="presentation"><a href="#">MOD/Packs</a></li>
+	 <div class="tabbable tabs-left">
+  <ul class="nav nav-tabs">
+  </ul>
+  <div class="tab-content">
+  </div>
+</div>
+	 <li role="presentation"><a href="#">Cadastro</a></li>
+	 <li role="presentation"><a href="#">Joagadores</a></li>
+	 <li role="presentation"><a href="#">-Equipes</a></li>
+	 <li role="presentation"><a href="#">-Prêmios</a></li>
+	 <div class="tabbable tabs-left">
+  <ul class="nav nav-tabs">
+  </ul>
+  <div class="tab-content">
+  </div>
+</div>
+
+	 <li role="presentation"><a href="#">Configurações</a></li>
+	 <li role="presentation"><a href="#">Sair</a></li>
+
+ </ul>	
+ 
+</div>
+
+<div style="border: 1px  solid blue; height: 90%;" class="col-md-10"><!-- linha da tela três -->
+
+
+
+
+<ol class="breadcrumb" style="margin-bottom: 5px;">
+
+  <li><a href="#">Home</a> </li>
+  <li><a href="#">Products </a> </li>
+  <li><a href="#">Xyz </a> </li>
+  <li class="active">Features</li>
+</ol>
+
+
+	<div  class="col-md-12">															
+<div class="tabbable tabs-left">  
+
+  
+	 <div  style="position:absolute; left:15px; top:10px; width:707; height:400; z-index:1;">
+<div class="table-responsive">
+       <table class="tablesorter" id="Layer1">
+	<thead>
+		<tr>
+                    <!-- datatableCount -->
+                    <th style="border-width: thin; border-style: solid; border-color: black;">Missões</th> 
+   
+					<th style="border-width: thin; border-style: solid; border-color: black;"><center>Ativo</center></th> 
+                    <th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/></center></th>
+
+                </tr>
+            </thead>
+            <tbody ng-repeat="membro in membroSede">
+                <!-- Data Show Row-->
+                    <tr class="listas">
+				
+                        <td style="border-width: thin; border-style: solid; border-color: black;">President's Club</td>
+				
+						
+                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
+                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+						</tr>
+						<tr>
+						
+                         <td style="border-width: thin; border-style: solid; border-color: black;">VIP Level</td>
+						
+					
+                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
+                       <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+                        </tr> 
+						
+                       <tr>
+					   <td style="border-width: thin; border-style: solid; border-color: black;">Exclusive Longe</td>
+					
+                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
+                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+					   </tr>
+
+					    <tr>
+					   <td style="border-width: thin; border-style: solid; border-color: black;"> </br> </td>
+
+						 <!--Posicionamento dos icones Checbox e stop*/-->
+                        <td style="border-width: thin; border-style: solid; border-color: black;">   </td>
+					    <td style="border-width: thin; border-style: solid; border-color: black;"> </td>
+					   </tr> 
+
+                       <tr>
+					   <td style="border-width: thin; border-style: solid; border-color: black;">  </br> </td>
+						 <!--Posicionamento dos icones Checbox e stop*/-->
+                        <td style="border-width: thin; border-style: solid; border-color: black;"></td>
+					    <td style="border-width: thin; border-style: solid; border-color: black;"></td>
+					   </tr> 
+	</tbody>
+</table>
+    </div>
+    </div>
+	
+ <button type="button" class="btn btn-info1">Clonar Missão</button>
+ <button type="button" class="btn btn-info">Adicionar Missão</button>
+			
+
+</div>				
+</div>				
+</div>				
+ 
+
+</body>	
