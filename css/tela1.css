@@ -6,6 +6,82 @@ fieldset.scheduler-border {
             box-shadow:  0px 0px 0px 0px #000;
 }
 
+/*aqui começa a estrela de Rating*/
+.rating {
+    float:left;
+	 background-color: #FFF;
+    width: 215px;
+    height: 110px;
+}
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+
+}
+
+.rating:not(:checked) > label {
+   font-size:50px;
+   	padding:10px;
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+    text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+                         /*aqui termina a estrela de Rating*/
+                         /*aqui começa as configurações do Nível I,II,III */
+.unitI{
+	margin-right: 10px;
+    margin-left: -200px;
+	margin-top: 70px;
+
+}
+.unitII{
+	margin-right: 10px;
+    margin-left: -135px;
+	margin-top: -25px;
+
+}.unitIII{
+	margin-right: 10px;
+    margin-left: -70px;
+	margin-top: -26px;
+}					    /*aqui termina as configurações do Nível I,II,III */
+
+
+
+
+
+
     legend.scheduler-border {
         font-size: 1.2em !important;    /*size login */
         font-weight: bold !important;

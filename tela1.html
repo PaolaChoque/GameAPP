@@ -1,7 +1,8 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/tela1.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700' rel='stylesheet' type='text/css'>
-
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<script src="chart.min.js"></script>
   
   <!--preciso charmar duas vezes a tabela--><script src="js/jquery.min.js"></script> 
  <script src="js/bootstrap.min.js"></script> 
@@ -242,6 +243,7 @@
 			<legend class="scheduler-border">Missões</legend>
 			<form class="form-horizontal"> 
 			<!--escrever o texto aqui-->
+	
 			  </form>
 			</div> 
 	
@@ -249,7 +251,29 @@
 			<form>
 			<fieldset class="scheduler-border">
 			<legend class="scheduler-border">Realizações</legend>
-			 <big> <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span></big>
+			
+   <fieldset class="rating">
+	 <input type="radio" id="star1" name="rating" /><label for="star1" title="Sucks big time"> </label>
+     <input type="radio" id="star2" name="rating" /><label for="star2" title="Kinda bad"> </label>
+     <input type="radio" id="star3" name="rating" /><label for="star3" title="Meh"></label>
+   </fieldset>
+
+   
+<div class="row-fluid">
+          <label class="unitI">NíveI</label>
+     </div>	
+	 
+	 <div class="row-fluid">
+          <label class="unitII">NíveII</label>
+     </div>
+
+	 <div class="row-fluid">
+          <label class="unitIII">NíveIII</label>
+     </div>	
+	 
+	 
+
+	
 			<form class="form-horizontal"> 
 			  </form>
 			</div> 
@@ -375,6 +399,9 @@ new Chart(ctx).Pie(data);
 <div class="row-fluid">
           <label class="unit13">Programas</label>
      </div>
+				  
+				  
+				  
 				  
 				  
 				  

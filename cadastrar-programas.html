@@ -1,0 +1,394 @@
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<link href="css/cadastrar-programas.css" rel="stylesheet">
+
+<script src="js/jquery.min.js"></script> 
+ <script src="js/bootstrap.min.js"></script> 
+<html lang="en">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+
+<html>
+<head>
+
+<!-- COMEÇA AQUI  A TABELA NO HEAD-->
+	<meta charset="UTF-8">
+	<title>Tablesorter - Tutsup</title>
+	
+	<!-- Estilos necessários para o tema do tablesorter -->
+	<link rel="stylesheet" href="css/blue/style.css">
+	
+	<!-- jQuery e Tablesorter -->
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/jquery.tablesorter.min.js"></script>
+	
+	<!-- Meu script -->
+	<script src="js/scripts.js"></script>
+ <!-- TERMINA AQUI  A TABELA NO HEAD-->
+
+
+
+<div style="border: 1px  solid red;" class="col-md-12">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span>   
+        <span class="icon-bar"></span>
+      </button>
+	  
+      <a class="navbar-brand" href="#"><strong>Game APP |</strong>Company Console</a>
+    </div>
+      
+	<div class= 'col-md-2 pull-right'>
+    <a class= "navbar-brand" href ="#"><small>Nome da Empresa</small><br/><small>Nome do Administrador</small></a>
+	</div>
+	
+	<div class= 'col-md-5 pull-right'>
+    <a class= "navbar-brand" href ="#"><strong>Cadastrar Programas</strong></a>
+	</div>
+	</div>
+	</div>
+<!-- /.navbar-collapse -->
+     <!-- /.container-fluid --> 
+</nav>
+</div>
+</div>
+</head>
+<body>
+
+
+<div style="border: 1px  solid red; height: 100%;" class="col-md-2 pull-left div-vermelha">
+
+   <ul class="nav nav-pills nav-stacked">
+     <button type= "button" class= "btn btn-default btn-lg btn-block" > Voltar </button>
+   </ul>
+ 
+</div>
+ 
+
+
+<div style="border: 1px  solid blue; height: 90%;" class="col-md-10"><!-- linha da tela três -->
+
+
+<div class="row-fluid">
+          <label class="unit2">Programa</label>
+          <input type= "text" name = "month" size="60" maxlength="50" id="month" placeholder="Nome"/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>
+	 
+ <div class="celular">
+  <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
+</div>
+</div>
+	 
+	 
+	 <div class="row-fluid">
+  <label class="unit2-1">Vigência</label>
+
+  <label class="unit3">
+        <input name="nascimento" type="date"  id="month"value= " " class = "textbox70"/>
+	</label>
+	
+	<div class ="unit3-1">a</div>
+
+<label class="unit4">
+        <input name="nascimento" type="date"  id="month"value= " " class = "textbox70"/>
+	</label>
+	
+<div class ="unit4-1">das</div>
+
+<div class="unit5">
+        
+          <input type= "text" name = "month" size="4" maxlength="50" id="month" placeholder=" 00:00"/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>
+	 
+	 <div class ="unit5-1">ás</div>
+	 
+	 <div class="unit6">
+          <input type= "text" name = "month" size="4" maxlength="50" id="month" placeholder=" 00:00"/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>	
+
+</div>
+
+
+<div class="row-fluid">
+          <label class="unit2-2">Objetivo</label>
+          <input type= "text" name = "month" size="60" maxlength="50" id="month" placeholder=""/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>
+
+<div class="row-fluid">
+          <label class="unit2-3">Local/Mapa</label>
+          <input type= "text" name = "month" size="60" maxlength="50" id="month" placeholder=""/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>
+
+	<div align="row-fluid1">
+		<a href="#" class="btn btn-link">Link para imagem/mapa</a>
+		</div>
+
+
+												<!--aqui termina atabela-->
+ <div id="Layer1" style="position:absolute; left:175px; top:650px; width:720; z-index:1;">
+<div class="table-responsive">
+       <table class="tablesorter">
+	<thead>
+		<tr>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Selecione a Equipe</th>
+			<th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Equipe A - Departamento Financeiro</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
+		
+		</tr>
+		
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Equipe B - Deparatamento de Marketing</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
+		
+		</tr>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Equipe C - Coordenadas</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
+		
+		</tr>
+		
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Equipe D - Diretores</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+		
+		</tr>
+	
+	
+		
+	</tbody>
+</table>
+    </div>
+    </div>								<!--aqui termina atabela-->
+										
+ 
+   
+
+
+<div id="Layer1" style="position:absolute; left:175px; top:710px; width:720; z-index:1;">
+<div class="table-responsive">
+       <table class="tablesorter">
+	<thead>
+		<tr>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Objetos</th>
+			<th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 1</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/checked> </center></td>
+	
+		</tr>
+		
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 2</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" /> </center></td>
+	
+		</tr>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 3</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" /> </center></td>
+	
+		</tr>
+		
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Desafio A</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" checked /> </center></td>
+	
+		</tr>
+		
+		
+	</tbody>
+</table>
+    </div>
+    </div>
+		
+
+ <div class="row-fluid">
+          <label class="unit15">Participantes </label>
+     </div>
+	 
+	<div class = "unit15-1">
+            <label>
+                <input type="radio" name="equipe" value="definir" checked> Definir pelas Equipes existentes
+            </label>	
+    </div>
+	
+	
+	<div align="row-fluid1-1">
+		<a href="#" class="btn btn-link1">Participantes definidos.Clique para alterar</a>
+		</div>
+
+	
+	<div class = "unit15-2">
+            <label>
+                <input type="radio" name="equipe" value="definir"> Definir manualmente
+            </label>	
+    </div>
+	
+	
+	<div class="row-fluid">
+          <label class="unit20">Times </label>
+     </div>
+	 
+	<div class = "unit20-1">
+            <label>
+                <input type="radio" name="sexo" value="masculino" > Sem Time (individual)
+            </label>	
+    </div>
+	
+	<div class = "unit20-2">
+            <label>
+                <input type="radio" name="sexo" value="masculino"> Times baseados nas Equipes existentes
+            </label>	
+    </div>
+	
+	<div class = "unit20-3">
+            <label>
+                <input type="radio" name="sexo" value="masculino" checked> Jogadores escolhem os Times
+            </label>	
+    </div>
+	
+	<div class = "unit15-2">
+            <label>
+                <input type="radio" name="sexo" value="masculino"> Sistemas escolhe os Times
+            </label>	
+    </div>
+	
+	
+<div class="row-fluid">
+          <label class="unit30">Personagens </label>
+     </div>
+	 
+	<div class = "unit31">
+            <label>
+                <input type="radio" name="sim" value="Não" > Não
+            </label>	
+    </div>
+	
+	<div class = "unit32">
+            <label>
+                <input type="radio" name="sim" value="Não" checked> Sim
+            </label>	
+    </div>
+	
+	<div align="row-fluid1-1">
+		<a href="#" class="btn btn-link2">Personagens definidos.Clique para alterar</a>
+		</div>
+	
+	
+	<div class = "unit33">
+            <label>
+                <input type="checkbox" name="sexo" value="masculino"> Jogadores escolhem os Personagens a cada rodada
+            </label>	
+    </div>
+	
+	<!---->
+	
+	
+	
+
+<div class="unit16-3">
+<input type="text" name="qtd." size="5" maxlength="8" id="qtd." value="    Qtd."> Jogadores por Time
+</div>
+
+<div class="unit16-4">				
+<form action="demo_form.asp"> Nome Times (prefixo)
+</form>
+</div>
+	
+<div class="unit16-5">
+<input type="text" name="qtd." size="5" maxlength="8" id="qtd." value=""> 
+</div>
+
+<!--    parte dividida     -->
+
+<div class="unit40">
+          <label class="unit2">Rodadas</label>
+     </div>
+
+<div class="unit40-1">
+<input type="text" name="qtd." size="5" maxlength="8" id="qtd." value="    02"> vezes (deixe em branco para indefinido)
+</div>
+
+<div class = "unit40-2">
+            <label>
+                <input type="checkbox" name="sexo" value="masculino"> Rodadas difererentes (default são rodadas recorrentes/iguais)
+            </label>	
+    </div>
+	
+<div class = "unit40-3">
+            <label>
+                <input type="radio" name="rodada" value="definir" > Rodada automática 
+            </label>	
+    </div>
+	
+	<div class = "unit40-4">
+            <label>
+                <input type="radio" name="rodada" value="definir" > Rodada disparada pelo Gestor
+            </label>	
+    </div>
+	<div class = "unit40-5">
+            <label>
+                <input type="radio" name="rodada" value="definir" checked> Rodada disparada pelo facilitador 
+            </label>	
+    </div>
+	
+	<div class="unit40-6">
+<input type="text" name="qtd." size="5" maxlength="8" id="qtd." value="">  minutos (intervalo)
+</div>
+
+<div class="unit40-7">				
+<form action="demo_form.asp"> a cada
+</form>
+</div>
+
+								<div class="caixa40-8">
+							<select class="span1">
+											<option>Selecione o Gestor</option>
+											<option>Viagem</option>
+											<option>Eletrodomésticos</option>
+											<option>Eletroeletrónico</option>
+											<option>Celular/Smartphone</option>
+											<option>Computador/Tablet</option>
+											<option>Show/Entretenimento</option>
+											<option>Comida/Gastronomia</option>
+											<option>Bebida/Enogastronomia</option>
+										  </select>	  
+							 </div>
+							 
+							 <div class="caixa40-9">
+							<select class="span1">
+											<option>Selecione o Facilitador</option>
+											<option>Viagem</option>
+											<option>Eletrodomésticos</option>
+											<option>Eletroeletrónico</option>
+											<option>Celular/Smartphone</option>
+											<option>Computador/Tablet</option>
+											<option>Show/Entretenimento</option>
+											<option>Comida/Gastronomia</option>
+											<option>Bebida/Enogastronomia</option>
+										  </select>	  
+							 </div>
+ 
+	
+
+
+	 <button type="button" class="btn btn-info1">Cancelar</button> 
+		 <button type="button" class="btn btn-info">Salvar</button>
+</body>	
