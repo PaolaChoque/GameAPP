@@ -53,6 +53,7 @@
  
  
  .row-fluid {		
+  font-size: 15px;
 					 width: 680px;   /* faz a separação da no "nome" e "campo" na VERTICAL*/
 					}
 		
@@ -183,7 +184,7 @@
 		}		 
 					 
 		.unit33{
-		 margin-top: 0px;
+		 margin-top: -10px;
   margin-left: 305px;								 
 	 }			 
 					 
@@ -298,6 +299,127 @@
 								margin-left: 503px;
 								 margin-top: 10px; 
 						 }
+						 
+						 
+						 .unit41{
+							 width: 130px;			
+								margin-left: 20px;
+								 margin-top: 10px; 
+						 }
+						 .unit41-1{
+							 width: 430px;			
+								margin-left: 160px;
+								 margin-top: -25px; 
+						 }
+						 .unit41-2{
+							 width: 430px;			
+								margin-left: 160px;
+								 margin-top: -10px; 
+						 }
+						 .unit41-3{
+							 width: 530px;			
+								margin-left: 420px;
+								 margin-top: -40px; 
+						 }
+												
+													.unit44{   
+														 width: 120px;	/* faz a separação da no "nome" e "campo" na HORIZONTAL*/		
+															margin-left: 20px;
+															 margin-top: 0px; 
+															}
+													 .row-fluid1{
+														 width: 660px;			
+															margin-left:´10px;
+															 margin-top: 0px;
+													    }
+													  .unit44-1{   
+														 width: 120px;
+															margin-left: 20px;
+															 margin-top: 0px; 
+															} 
+															.unit44-2{   
+														 width: 120px;
+															margin-left: 20px;
+															 margin-top: 0px; 
+															}  
+															.btn.btn-link5{
+														    width: 120px;
+															 margin-left: 170px;
+															 margin-top: -30px; 
+															}
+															.unit44-3{   
+														 width: 120px;
+															margin-left: 20px;
+															 margin-top: 0px; 
+															}
+															
+															.unit44-4{   
+														 width: 520px;
+															margin-left: 145px;
+															 margin-top: -30px; 
+															}
+															.unit44-5{   
+														 width: 520px;
+															margin-left: 20px;
+															 margin-top: 0px; 
+															}
+															.unit44-6{   
+														  width: 520px;
+															margin-left: 20px;
+															 margin-top: 125px; 
+															}
+															.caixa44-8{   
+														  width: 520px;
+															margin-left: 200px;
+															 margin-top: -25px; 
+															}
+															.cax{   
+														  width: 520px;
+															margin-left: 200px;
+															 margin-top: -40px; 
+															}
+						 
+.unit50{
+	width: 130px;			
+	margin-left: 20px;
+	 margin-top: 30px;
+}
+.unit50-1{
+	width: 130px;			
+	margin-left: 160px;
+	 margin-top: -30px;
+}
+.unit50-2{
+	width: 130px;			
+	margin-left: 160px;
+	 margin-top: -10px;
+}
+.unit50-3{
+	width: 130px;			
+	margin-left: 160px;
+	 margin-top: -10px;
+}	
+
+.unit50-4{
+	width: 130px;			
+	margin-left: 310px;
+	 margin-top: -25px;
+}	
+.unit50-5{
+width: 130px;					
+	margin-left: 20px;
+ margin-top: -5px;
+}	
+.unit50-6{
+	width: 130px;				
+	margin-left: 20px;
+ margin-top: 5px;
+}
+.unit50-7{
+	width: 530px;				
+	margin-left: 300px;
+ margin-top: -25px;
+}					 
  
  
  
@@ -313,11 +435,42 @@
 	  margin-top: 0px;
 	margin-left: 0px;
  }
+ 
+ .btn.btn-link3{
+	  margin-top: -65px;
+	margin-left: 300px;
+ }
+ 
+ 
+ .btn.btn-link4{
+	  margin-top: -48px;
+	margin-left: 300px;
+ }
+ 
  .btn.btn-info{
 
-	  margin-top: 130px;
-	margin-left: 0px;
+	  margin-top: -210px;
+	margin-left: 770px;
  }
+ 
+.btn.btn-default1{
+	margin-top: -2px;
+	margin-left: 120px;	
+}
+
+
+
+
+
+
+
+
+.btn.btn-default{
+	margin-top: 0px;
+	margin-left: 0px;	
+}
+
+
 
  
  .navbar-brand{
