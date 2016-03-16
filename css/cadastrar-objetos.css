@@ -298,7 +298,7 @@
 	
 			
 			
-			
+                     /*começa aqui configurações da tabela zebrada*/			
 body {
   font: 120%/1.6 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
 }
@@ -329,4 +329,4 @@ th {
 }
 th, td {
   padding: 0.1em 1em;/*tamanho da linha da tabela*/
-}
+}                      /*termina aqui configurações da tabela zebrada*/	

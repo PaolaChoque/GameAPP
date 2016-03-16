@@ -1,5 +1,5 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
-
+<link href="css/configurações2.css" rel="stylesheet">
 <link href="css/cadastrar-programas.css" rel="stylesheet">
 
 <script src="js/jquery.min.js"></script> 
@@ -21,10 +21,6 @@
                     cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
                     cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
                     cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
-                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
-                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
-                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
-
                     newRow.append(cols);
                     $("#playlistTable").append(newRow);
 
@@ -242,11 +238,11 @@
     </div>
 	
 	
-		<!-- Aqui começa o modal!-->
+		<!-- Aqui começa o modaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaal!-->
 	
 
 		  <!-- Trigger the modal with a button -->
-		  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Clonar Ação</button>
+		  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Participantes 1</button>
 		  <!-- Modal -->
 		  <div class="modal fade" id="myModal" role="dialog">     <!--.fade = desvanecer o modal de dentro pra fora-->
 			<div class="modal-dialog modal-sm"><!--diálogo-.modal=define a largura adequada e margem do modal"tamanho".modal-lg-->
@@ -307,7 +303,7 @@
 		  </div>
 		  
 	
-	<!-- Aqui termina o modal!-->
+	<!-- Aqui termina o modaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaal!-->
 	
 
 	
@@ -423,57 +419,77 @@
 		</div>
 		
 		
-		<!--Aqui ira começãr o terceiro modal-->
-					
-					 <!-- Trigger the modal with a button -->
-		  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">modal terceiro</button>
+		
+   <!-- Aqui começa o modal!-->
+	
+		  <!-- Trigger the modal with a button -->
+		  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Personagens</button>
 		  <!-- Modal -->
 		  <div class="modal fade" id="myModal" role="dialog">     <!--.fade = desvanecer o modal de dentro pra fora-->
 			<div class="modal-dialog modal-sm"><!--diálogo-.modal=define a largura adequada e margem do modal"tamanho".modal-lg-->
 			  <div class="modal-content">
 				<div class="modal-header">
 				  <button type="button" class="close" data-dismiss="modal">&times;</button>
-				  <h4 class="modal-title"><center>Participantes</center></h4>
+				  <h4 class="modal-title">Participantes</h4>
 				</div>
 				<div class="modal-body">
+
 				
-	<!--aqui começa a tabela-->
-		
-<table id="playlistTable">
+			<!--aqui começa a tabela-->
+		         
+<div id="Layer1" style="position:absolute; left: 60px; top:5px; width:120; z-index:1;">		
+<table id="playlistTable" class="table">
   <thead>
     <tr>
-      <th style="border-width: thin; border-style: solid; border-color: black;">lola</th>
-      <th style="border-width: thin; border-style: solid; border-color: black;">lola</th>
-      <th style="border-width: thin; border-style: solid; border-color: black;"><center>lola</center></th>
-      <th style="border-width: thin; border-style: solid; border-color: black;">Ganha/Perde</th>
-      <th style="border-width: thin; border-style: solid; border-color: black;">Pontos</th>
-<th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/></center></th>
+      <th style="border-width: thin; border-style: solid; border-color: black;">#</th>
+      <th style="border-width: thin; border-style: solid; border-color: black;">Nome</th>
+      <th style="border-width: thin; border-style: solid; border-color: black;"><center>Qtd.Máx.</center></th>
     </tr>
   </thead>
 
 
     <tr>
       <td style="border-width: thin; border-style: solid; border-color: black;">1</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;"></td>
-<th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /></center></th>
-      <td style="border-width: thin; border-style: solid; border-color: black;">ganha</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;"></td>
-<td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+      <td style="border-width: thin; border-style: solid; border-color: black;">Emissor</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;">1</td>
+    </tr>   
+	
+	<tr>
+      <td style="border-width: thin; border-style: solid; border-color: black;">2</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;">Receptor</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;">1</td>
     </tr>  
-    
+	<tr>
+      <td style="border-width: thin; border-style: solid; border-color: black;">3</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;">Observador</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;">2</td>
+    </tr>  
+  
   </tbody>
 </table>
-</div>								<!--aqui termina atabela-->			
-				</div>
+</div>
+
+
+    <div class="btnclick">
+	  <button onclick="AddTableRow()" type="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+	</div>
+
+	<div class="row-fluid">
+          <label class="unitmd">4 Jogadores por Times </label>
+     </div>
+	     <button type="button" class="btn btn-info1" data-dismiss="modal">Cancelar</button>
+	     <button type="button" class="btn btn-info" data-dismiss="modal">Salvar</button>
+         
+		 
+<!--aqui é o final do modal,cont.-->
+       </div>
 				<div class="modal-footer">
 				
 				</div>
 			  </div>
 			</div>
 		  </div>
-				
-		
-		<!--Aqui ira terminar o terceiro modal-->
+	<!-- Aqui termina o modal!-->
 		
 		
 		
@@ -682,3 +698,7 @@
 	 <button type="button" class="btn btn-info1">Cancelar</button> 
 		 <button type="button" class="btn btn-info">Salvar</button>
 </body>	
+
+<script src="tablesorter/js/jquery-latest.js"></script>
+	<script src="tablesorter/js/jquery.tablesorter.min.js"></script>
+	<script src="tablesorter/js/scripts.js"></script>
