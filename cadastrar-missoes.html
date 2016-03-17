@@ -1,0 +1,266 @@
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/configurações2.css" rel="stylesheet">
+<link href="css/cadastrar-missoes.css" rel="stylesheet">
+
+<script src="js/jquery.min.js"></script> 
+ <script src="js/bootstrap.min.js"></script> 
+<html lang="en">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+
+<html>
+<head>
+
+<script>
+            (function($) {
+			
+                AddTableRow = function() {
+                    var newRow = $("<tr class='listas'>");
+                    var cols = "";
+
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+
+                    newRow.append(cols);
+                    $("#playlistTable").append(newRow);
+
+                    return false;
+                };
+            })(jQuery);
+
+        </script>
+		
+		
+<script>
+            (function($) {
+			
+                 table = function() {
+                    var newRow = $("<tr class='listas'>");
+                    var cols = "";
+
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    newRow.append(cols);
+                    $("#tabela2").append(newRow);
+
+                    return false;
+                };
+            })(jQuery);
+          </script>
+
+
+
+<!-- COMEÇA AQUI  A TABELA NO HEAD-->
+	<meta charset="UTF-8">
+	<title>Tablesorter - Tutsup</title>
+	
+	<!-- Estilos necessários para o tema do tablesorter -->
+	<link rel="stylesheet" href="css/blue/style.css">
+	
+	<!-- jQuery e Tablesorter -->
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/jquery.tablesorter.min.js"></script>
+	
+	<!-- Meu script -->
+	<script src="js/scripts.js"></script>
+ <!-- TERMINA AQUI  A TABELA NO HEAD-->
+
+
+
+<div style="border: 1px  solid red;" class="col-md-12">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span>   
+        <span class="icon-bar"></span>
+      </button>
+	  
+      <a class="navbar-brand" href="#"><strong>Game APP |</strong>Company Console</a>
+    </div>
+      
+	<div class= 'col-md-2 pull-right'>
+    <a class= "navbar-brand" href ="#"><small>Nome da Empresa</small><br/><small>Nome do Administrador</small></a>
+	</div>
+	
+	<div class= 'col-md-5 pull-right'>
+    <a class= "navbar-brand" href ="#"><strong>Cadastrar Programas</strong></a>
+	</div>
+	</div>
+	</div>
+<!-- /.navbar-collapse -->
+     <!-- /.container-fluid --> 
+</nav>
+</div>
+</div>
+</head>
+<body>
+
+
+<div style="border: 1px  solid red; height: 100%;" class="col-md-2 pull-left div-vermelha">
+
+   <ul class="nav nav-pills nav-stacked">
+     <button type= "button" class= "btn btn-default btn-lg btn-block" > Voltar </button>
+   </ul>
+ 
+</div>
+ 
+
+
+<div style="border: 1px  solid blue; height: 90%;" class="col-md-10"><!-- linha da tela três -->
+
+
+<div class="row-fluid">
+          <label class="unit1">Programa</label>
+          <input type= "text" name = "month" size="60" maxlength="50" id="month" placeholder=" "/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>
+	 
+ <div class="celular">
+  <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
+</div>
+</div>
+	 
+	 
+	 <div class="row-fluid">
+  <label class="unit1-1">Vigência</label>
+
+  <div class="unit1-2">
+        <input name="nascimento" type="date"  id="month"value= " " class = "textbox70"/>
+	</div>
+	
+	<div class ="unit1-3">a</div>
+
+<label class="unit1-4">
+        <input name="nascimento" type="date"  id="month"value= " " class = "textbox70"/>
+	</label>
+	
+<div class ="unit1-5">das</div>
+
+<div class="unit1-6">
+          <input type= "text" name = "month" size="4" maxlength="50" id="month" placeholder=" 00:00"/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>
+	 
+	 <div class ="unit1-7">ás</div>
+	 
+	 <div class="unit1-8">
+          <input type= "text" name = "month" size="4" maxlength="50" id="month" placeholder=" 00:00"/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>	
+
+
+ <!--aqui começa o paineeeeeeeeeeeeeeeeeeeeeel -->
+<div class="panel panel-default">
+  <div class="panel-heading">Rodada #1 (ou Rodada única/recorrente)</div>
+  <div class="panel-body">
+  
+
+		
+		<!--Aqui começa a tabela dentro da Panel-->
+<div id="Layer1" style="position:absolute; left:165px; top: 120px; width:720; z-index:1;">
+<div class="table-responsive">
+       <table class="tablesorter">
+	<thead>
+		<tr>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Selecione os Objetos</th>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Categorias</th>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Ordem</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 1</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Quiz/Trívia</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center> 1 </center></td>
+		</tr>
+		
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 2</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Quiz/Trívia</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center> - </center></td>
+		</tr>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 3</td>
+		    <td style="border-width: thin; border-style: solid; border-color: black;">Quiz/Trívia</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center> 2 </center></td>
+	
+		</tr>
+		
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Desafio A</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Perguntas de processo</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center> - </center></td>
+		</tr>
+		
+	</tbody>
+</table>
+    </div>
+    </div>				<!--Aqui termina a tabela dentro da Panel-->		
+	
+	<div class="row-fluid">
+          <label class="unit2">Dica de tela</label>
+          <input type= "text" name = "month" size="60" maxlength="50" id="month" placeholder=" "/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>	
+
+	 <div class="row-fluid">
+          <label class="unit2-1">Imagem</label>
+     </div>	
+	 
+	 <div class = "redirecionar">
+	 <a href="page2.htm">Clique aquí para importar outra imagem</a>
+	 </div>
+	 
+  <div class="row-fluid">
+          <label class="unit2-2">Data limite</label>
+     </div>
+
+  <label class="unit2-3">
+        <input name="nascimento" type="date"  id="month"value= " " class = "textbox70"/>
+	</label>
+	
+	<div class ="unit2-4">ás</div>
+
+          <div class= "unit2-5">
+		 <input type= "text" name = "month" size="8" maxlength="50" id="month" placeholder="  00:00"/>
+			</div>
+
+	 <div class="row-fluid">
+          <label class="unit2-6">Mensagem Parabéns</label>
+     </div>
+	 
+	 <div class= "unit2-7">
+		 <input type= "text" name = "month" size="50" maxlength="50" id="month" placeholder="  "/>
+			</div>
+	 
+	  <div class="row-fluid">
+          <label class="unit2-8">Conteúdo destravado</label>
+     </div>
+	 
+	  <div class = "redirecionar2-9">
+	 <a href="page2.htm">Clique aquí para importar conteúdo</a>
+	 </div>
+	 
+	 </div>
+ 
+  <div class="panel-footer">Rodada #2(aparece se estiver selecionado 'Rodadas diferentes')</div>
+</div>
+          <!--aqui termina o paineeeeeeeeeeeeeeeeeeeeeel -->
+		
+		
+		
+</div>		
+		
+		
+		
+</body>	
+
+<script src="tablesorter/js/jquery-latest.js"></script>
+	<script src="tablesorter/js/jquery.tablesorter.min.js"></script>
+	<script src="tablesorter/js/scripts.js"></script>

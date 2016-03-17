@@ -21,6 +21,7 @@
                     cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
                     cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
                     cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+
                     newRow.append(cols);
                     $("#playlistTable").append(newRow);
 
@@ -29,6 +30,24 @@
             })(jQuery);
 
         </script>
+		
+		
+<script>
+            (function($) {
+			
+                 table = function() {
+                    var newRow = $("<tr class='listas'>");
+                    var cols = "";
+
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    newRow.append(cols);
+                    $("#tabela2").append(newRow);
+
+                    return false;
+                };
+            })(jQuery);
+          </script>
 
 
 
@@ -154,9 +173,73 @@
 		<a href="#" class="btn btn-link">Link para imagem/mapa</a>
 		</div>
 
+<!-- Aqui começa o modaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaal 3!-->
+	
 
-
+		  <!-- Trigger the modal with a button -->
+		  <button type="button" class="btn btn-info3" data-toggle="modal" data-target="#myModalpersonas">Participantes 1</button>
+		  <!-- Modal -->
+		  <div class="modal fade" id="myModalpersonas" role="dialog">     <!--.fade = desvanecer o modal de dentro pra fora-->
+			<div class="modal-dialog modal-sm"><!--diálogo-.modal=define a largura adequada e margem do modal"tamanho".modal-lg-->
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  <h4 class="modal-title"><center>Participantes</center></h4>
+				</div>
+				<div class="modal-body">
+				
+	<!--aqui começa a tabela-->
+<div class="table-responsive">
+       <table class="tablesorter">
+	<thead>
+		<tr>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Selecione a Equipe</th>
+			<th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Equipe A - Departamento Financeiro</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
 		
+		</tr>
+		
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Equipe B - Deparatamento de Marketing</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
+		
+		</tr>
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Equipe C - Coordenadas</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
+		
+		</tr>
+		
+		<tr>
+			<td style="border-width: thin; border-style: solid; border-color: black;">Equipe D - Diretores</td>
+			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+		
+		</tr>
+	
+	
+		
+	</tbody>
+	
+</table>
+				  <button type="button" class="btn btn-info1" data-dismiss="modal">Cancelar</button>
+	             <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+    </div>								<!--aqui termina atabela-->			
+				</div>
+				<div class="modal-footer">
+				
+				</div>
+			  </div>
+			</div>
+		  </div>
+		  
+	
+	<!-- Aqui termina o modaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaal 3!-->
+			
 
  <div class="row-fluid">
           <label class="unit15">Participantes </label>
@@ -237,76 +320,7 @@
             </label>	
     </div>
 	
-	
-		<!-- Aqui começa o modaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaal!-->
-	
 
-		  <!-- Trigger the modal with a button -->
-		  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Participantes 1</button>
-		  <!-- Modal -->
-		  <div class="modal fade" id="myModal" role="dialog">     <!--.fade = desvanecer o modal de dentro pra fora-->
-			<div class="modal-dialog modal-sm"><!--diálogo-.modal=define a largura adequada e margem do modal"tamanho".modal-lg-->
-			  <div class="modal-content">
-				<div class="modal-header">
-				  <button type="button" class="close" data-dismiss="modal">&times;</button>
-				  <h4 class="modal-title"><center>Participantes</center></h4>
-				</div>
-				<div class="modal-body">
-				
-	<!--aqui começa a tabela-->
-<div class="table-responsive">
-       <table class="tablesorter">
-	<thead>
-		<tr>
-			<th style="border-width: thin; border-style: solid; border-color: black;">Selecione a Equipe</th>
-			<th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Equipe A - Departamento Financeiro</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
-		
-		</tr>
-		
-		<tr>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Equipe B - Deparatamento de Marketing</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
-		
-		</tr>
-		<tr>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Equipe C - Coordenadas</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
-		
-		</tr>
-		
-		<tr>
-			<td style="border-width: thin; border-style: solid; border-color: black;">Equipe D - Diretores</td>
-			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
-		
-		</tr>
-	
-	
-		
-	</tbody>
-	
-</table>
-				  <button type="button" class="btn btn-default1" data-dismiss="modal">Cancelar</button>
-				  <button type="button" class="btn btn-default" data-dismiss="modal">Ok</button>
-    </div>								<!--aqui termina atabela-->			
-				</div>
-				<div class="modal-footer">
-				
-				</div>
-			  </div>
-			</div>
-		  </div>
-		  
-	
-	<!-- Aqui termina o modaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaal!-->
-	
-
-	
 	
 
 <div class="unit16-3">
@@ -321,6 +335,82 @@
 <div class="unit16-5">
 <input type="text" name="qtd." size="10" maxlength="8" id="qtd." value=""> 
 </div>
+
+
+
+ <!-- Aqui começa o modal!-->
+	
+		  <!-- Trigger the modal with a button -->
+		  <button type="button" class="btn btn-info3" data-toggle="modal" data-target="#myModal">Personagens</button>
+		  <!-- Modal -->
+		  <div class="modal fade" id="myModal" role="dialog">     <!--.fade = desvanecer o modal de dentro pra fora-->
+			<div class="modal-dialog modal-sm"><!--diálogo-.modal=define a largura adequada e margem do modal"tamanho".modal-lg-->
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  <h4 class="modal-title">Personagens</h4>
+				</div>
+				<div class="modal-body">
+
+				
+			<!--aqui começa a tabela-->
+
+		
+<div id="Layer1" style="position:absolute; left: 60px; top:5px; width:120; z-index:1;">		
+<table id="playlistTable" class="table">
+  <thead>
+    <tr>
+      <th style="border-width: thin; border-style: solid; border-color: black;">#</th>
+      <th style="border-width: thin; border-style: solid; border-color: black;">Nome</th>
+      <th style="border-width: thin; border-style: solid; border-color: black;"><center>Qtd.Máx.</center></th>
+    </tr>
+  </thead>
+
+
+    <tr>
+      <td style="border-width: thin; border-style: solid; border-color: black;">1</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;">Emissor</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;">1</td>
+    </tr>   
+	
+	<tr>
+      <td style="border-width: thin; border-style: solid; border-color: black;">2</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;">Receptor</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;">1</td>
+    </tr>  
+	<tr>
+      <td style="border-width: thin; border-style: solid; border-color: black;">3</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;">Observador</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;">2</td>
+    </tr>  
+  
+  </tbody>
+</table>
+</div>
+
+
+    <div class="btnclick">
+	  <button onclick="AddTableRow()" type="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+	</div>
+
+	<div class="row-fluid">
+          <label class="unitmd">4 Jogadores por Times </label>
+     </div>
+	     <button type="button" class="btn btn-info1" data-dismiss="modal">Cancelar</button>
+	     <button type="button" class="btn btn-info" data-dismiss="modal">Salvar</button>
+         
+		 
+<!--aqui é o final do modal,cont.-->
+       </div>
+				<div class="modal-footer">
+				
+				</div>
+			  </div>
+			</div>
+		  </div>
+	<!-- Aqui termina o modal!-->
+
+
 
 <!--    parte dividida     -->
 
@@ -391,11 +481,10 @@
 											<option>Comida/Gastronomia</option>
 											<option>Bebida/Enogastronomia</option>
 										  </select>	  
-							 </div>
-							 
-							 
-	<!--aqui termina a segunda parte dividindo a tela! E AGORA vai começar a parte do panel -->
-
+							 </div>	 							 
+	<!--aqui termina a terceira parte dividindo a tela! E AGORA vai começar a parte do panel -->
+	
+               <!--aqui começa o paineeeeeeeeeeeeeeeeeeeeeel -->
 <div class="panel panel-default">
   <div class="panel-heading">Rodada #1 (ou Rodada única/recorrente)</div>
   <div class="panel-body">
@@ -418,84 +507,6 @@
 		<a href="#" class="btn btn-link5">Clique aquí para importar outra imagem</a>
 		</div>
 		
-		
-		
-   <!-- Aqui começa o modal!-->
-	
-		  <!-- Trigger the modal with a button -->
-		  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Personagens</button>
-		  <!-- Modal -->
-		  <div class="modal fade" id="myModal" role="dialog">     <!--.fade = desvanecer o modal de dentro pra fora-->
-			<div class="modal-dialog modal-sm"><!--diálogo-.modal=define a largura adequada e margem do modal"tamanho".modal-lg-->
-			  <div class="modal-content">
-				<div class="modal-header">
-				  <button type="button" class="close" data-dismiss="modal">&times;</button>
-				  <h4 class="modal-title">Participantes</h4>
-				</div>
-				<div class="modal-body">
-
-				
-			<!--aqui começa a tabela-->
-		         
-<div id="Layer1" style="position:absolute; left: 60px; top:5px; width:120; z-index:1;">		
-<table id="playlistTable" class="table">
-  <thead>
-    <tr>
-      <th style="border-width: thin; border-style: solid; border-color: black;">#</th>
-      <th style="border-width: thin; border-style: solid; border-color: black;">Nome</th>
-      <th style="border-width: thin; border-style: solid; border-color: black;"><center>Qtd.Máx.</center></th>
-    </tr>
-  </thead>
-
-
-    <tr>
-      <td style="border-width: thin; border-style: solid; border-color: black;">1</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">Emissor</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">1</td>
-    </tr>   
-	
-	<tr>
-      <td style="border-width: thin; border-style: solid; border-color: black;">2</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">Receptor</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">1</td>
-    </tr>  
-	<tr>
-      <td style="border-width: thin; border-style: solid; border-color: black;">3</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">Observador</td>
-      <td style="border-width: thin; border-style: solid; border-color: black;">2</td>
-    </tr>  
-  
-  </tbody>
-</table>
-</div>
-
-
-    <div class="btnclick">
-	  <button onclick="AddTableRow()" type="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
-	</div>
-
-	<div class="row-fluid">
-          <label class="unitmd">4 Jogadores por Times </label>
-     </div>
-	     <button type="button" class="btn btn-info1" data-dismiss="modal">Cancelar</button>
-	     <button type="button" class="btn btn-info" data-dismiss="modal">Salvar</button>
-         
-		 
-<!--aqui é o final do modal,cont.-->
-       </div>
-				<div class="modal-footer">
-				
-				</div>
-			  </div>
-			</div>
-		  </div>
-	<!-- Aqui termina o modal!-->
-		
-		
-		
-		
-		
-		
 
 <div class="row-fluid1">
           <label class="unit44-3">Tempo</label>
@@ -512,7 +523,7 @@
         </div>
 		
 		<!--Aqui começa a tabela dentro da Panel-->
-<div id="Layer1" style="position:absolute; left:50px; top:650px; width:720; z-index:1;">
+<div id="Layer1" style="position:absolute; left:215px; top:730px; width:720; z-index:1;">
 <div class="table-responsive">
        <table class="tablesorter">
 	<thead>
@@ -600,20 +611,12 @@
  </div>
   <div class="panel-footer">Rodada #2(aparece se estiver selecionado 'Rodadas diferentes')</div>
 </div>
+          <!--aqui termina o paineeeeeeeeeeeeeeeeeeeeeel -->	
 
-<!--Agora termina a parte do panel -->						 
+
+		  
 							 
-							 
-		</br>					 
-		</br>					 
-		</br>					 
-		</br>					 
-					</br>					 
-		</br>					 
-		</br>					 
-		</br>					 
-							 
- 
+	<!--Parte final da tela-->							 				 					 	
  <div class="row-fluid">
           <label class="unit41">Pontuação </label>
      </div>
@@ -636,15 +639,6 @@
             </label>	
     </div>	
 	
-	
-	
-	
-	
-
-	 
-<!--Parte final da tela-->	
-
-
  <div class="row-fluid">
           <label class="unit50">Premiação </label>
      </div>
@@ -671,6 +665,79 @@
 		<a href="#" class="btn btn-link3">Prêmios definidos.Clique para alterar</a>
 		</div>
 		
+		
+
+   <!-- Aqui começa o modal             4   !-->
+	
+		  <!-- Trigger the modal with a button -->
+		  <button type="button" class="btn btn-info9" data-toggle="modal" data-target="#myModalregalos">Prêmios Equipe</button>
+		  <!-- Modal -->
+		  <div class="modal fade" id="myModalregalos" role="dialog">     <!--.fade = desvanecer o modal de dentro pra fora-->
+			<div class="modal-dialog modal-sm"><!--diálogo-.modal=define a largura adequada e margem do modal"tamanho".modal-lg-->
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  <h4 class="modal-title">Prêmios Equipe</h4>
+				</div>
+				<div class="modal-body">
+
+				
+			<!--aqui começa a tabela-->
+		         
+<div id="Layer2" style="position:absolute; left: 60px; top:5px; width:120; z-index:1;">		
+<table id="tabela2" class="table">
+
+    <tr>
+      <td style="border-width: thin; border-style: solid; border-color: black;">1°</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;">
+        <div class="caixadt">
+							<select class="span1">
+											<option>Selecione o Gestor</option>
+											<option>Viagem</option>
+											<option>Eletrodomésticos</option>
+							</select>	  
+							 </div>
+	  </td>
+     </tr>   
+	
+	<tr>
+      <td style="border-width: thin; border-style: solid; border-color: black;">2°</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;"> </td>
+    </tr>  
+	<tr>
+      <td style="border-width: thin; border-style: solid; border-color: black;">3°</td>
+      <td style="border-width: thin; border-style: solid; border-color: black;"> </td>
+    </tr>  
+  
+  </tbody>
+</table>
+</div>
+
+
+    <div class="btnclick1">
+	  <button onclick="AddTableRow()" type="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+	</div>
+		 <div class= "botaodosinfernos">
+		 <button type="button" class="btn btn-info1" data-dismiss="modal">Cancelar</button>
+		 </div>
+		 <div class= "botaodosinfernos1">
+	     <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+		 </div>
+	
+<!--aqui é o final do modal,cont.-->
+       </div>
+				<div class="modal-footer">
+				
+				</div>
+			  </div>
+			</div>
+		  </div>
+	<!-- Aqui termina o modal 				4				!-->
+
+
+		
+		
+		
 		<div align="row-fluid1-1">
 		<a href="#" class="btn btn-link4">Definir prêmios</a>
 		</div>
@@ -678,16 +745,21 @@
 		<div class ="unit50-4">Selecione o Prêmio</div>
 		
 <div class="row-fluid">
-          <label class="unit50-5">Mensagem </br> Parabéns</label>
-          <input type= "text" name = "month" size="60" maxlength="50" id="month" placeholder=" "/><!--Maxlength define o número de caracteres dentro da caixa-->
+          <label class="unit50-5">Mensagem Parabéns</label>
      </div>
+	 
+	 <div class= "ultimocx">
+	 <input type= "text" name = "month" size="60" maxlength="50" id="month" placeholder=" "/>
+	 </div>
 	 
 	 <div class="row-fluid">
           <label class="unit50-6">Pontos extras</label>
-          <input type= "text" name = "month" size="8" maxlength="50" id="month" placeholder=" "/><!--Maxlength define o número de caracteres dentro da caixa-->
      </div>
 	 
-	
+	 <div class= "ultimocxf">
+	  <input type= "text" name = "month" size="8" maxlength="50" id="month" placeholder=" "/> 
+	 </div>
+	 
 	<div class = "unit50-7">
             <label>
                 <input type="checkbox" name="premiação" value="todos" > Premia as Equipes que o usuário/jogador faz parte 
@@ -695,8 +767,11 @@
     </div>
 	           
 
-	 <button type="button" class="btn btn-info1">Cancelar</button> 
-		 <button type="button" class="btn btn-info">Salvar</button>
+	 <button type="button" class="btn btn-info9">Cancelar</button> 
+	 <button type="button" class="btn btn-info8">Salvar</button>
+	 <button type="button" class="btn btn-primary btn-md">Salvar e enviar convites</button>	 
+	 <button type="button" class="btn btn-primary btn-md">Salvar e criar Recohecimentos</button>	 
+  		 
 </body>	
 
 <script src="tablesorter/js/jquery-latest.js"></script>

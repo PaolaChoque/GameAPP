@@ -1,0 +1,219 @@
+ body {					  /*começa aqui configurações da tabela zebrada*/		
+  font: 120%/1.6 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 50em;
+  border: 1px solid #666;
+}
+thead {
+  background: #ccc url(http://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #a5a5a5;
+}
+tr:hover {
+  background-color:#3d80df;
+  color: #fff;
+}
+thead tr:hover {
+  background-color: transparent;
+  color: inherit;
+}
+tr:nth-child(even) {
+    background-color: #edf5ff;
+}
+th {
+  font-weight: normal;
+  text-align: left;
+}
+th, td {
+  padding: 0.1em 1em;/*tamanho da linha da tabela*/
+}				 
+ 
+
+
+ 
+ .celular{  /*Aqui é o ativo do iphone ou celular */
+
+   margin-right:10px;
+   margin-top: -30px;
+   margin-left: 870px;
+}
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+ 
+label {            /* configurações do label tamanho das letras ,em negrito*/
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+	font-size: 14px;
+     font-weight: 400;/* deixa em negrito*/
+}         		  /* termina aqui as configurações do label tamanho das letras ,em negrito*/
+
+              /* faz a separação da no "nome" e "campo" na VERTICAL*/
+ 
+ .row-fluid {		
+  font-size: 13px;
+					 width: 680px;   /* faz a separação da no "nome" e "campo" na VERTICAL*/
+					}
+		
+        .unit1{                    
+		width: 122px;				/* faz a separação da no "nome" e "campo" na HORIZONTAL*/
+		margin-left: 20px;
+		 margin-top: 5px;
+		}		
+ 
+ 
+  .unit1-1{
+	 width: 175px;
+	  margin-top: 1px;
+	margin-left: 20px;
+ }
+ 
+ .unit1-2{
+	 width: 10px;
+	  margin-top: -30px;
+	margin-left: 155px;
+ }
+ .unit1-3{
+	 width: 130px;
+	  margin-top: -20px;
+	margin-left: 310px;
+ }
+ .unit1-4{
+	 width: 130px;
+	  margin-top: -25px;
+	margin-left: 330px;
+ } 
+ 
+ .unit1-5{
+	 width: 130px;
+	  margin-top: -28px;
+	margin-left: 490px;
+ }
+ 
+ .unit1-6{
+	 width: 130px;
+	  margin-top: -25px;
+	margin-left: 515px;
+ } 
+ .unit1-7{
+	 width: 130px;
+	  margin-top: -20px;
+	margin-left: 560px;
+ }
+ .unit1-8{
+	 width: 130px;
+	  margin-top: -25px;
+	margin-left: 577px;
+ } 
+ 
+.panel.panel-default{
+	width: 740px;
+	margin-top: 10px;
+	margin-left: 155px;
+}
+
+ .unit2{
+	 width: 100px;
+	  margin-top: 110px;
+	margin-left: -5px;
+ } 
+ .unit2-1{
+	 width: 100px;
+	  margin-top: 5px;
+	margin-left: -5px;
+ } 
+ 
+ .redirecionar{
+	  width: 500px;
+	  margin-top: -25px;
+	  margin-left: 108px;
+ }
+ 
+ .unit2-2{
+	 width: 100px;
+	  margin-top: 5px;
+	margin-left: -5px;
+ } 
+ .unit2-3{
+ width: 100px;
+	  margin-top: -28px;
+	margin-left: 110px;
+ }
+ .unit2-4{
+	 width: 100px;
+	  margin-top: -30px;
+	margin-left: 268px;
+ }
+ .unit2-5{
+	 width: 10px;
+	  margin-top: -22px;
+	margin-left: 285px;
+ } 
+ 
+ .unit2-6{
+	 width: 50px;
+	  margin-top: -2px;
+	margin-left: -5px;
+ }
+ .unit2-7{
+	 width: 10px;
+	  margin-top: -38px;
+	margin-left: 110px;
+ } 
+ .unit2-8{
+	 width: 10px;
+	  margin-top: 10px;
+	margin-left: -5px;
+ } 
+ .redirecionar2-9{
+	 width: 200px;
+	 margin-top: -40px;
+	margin-left: 115px;
+ }
+
+

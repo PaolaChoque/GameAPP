@@ -1,9 +1,44 @@
+.botaodosinfernos{
+	font-size:15px;
+	width: 10px;
+	margin-left: -25px;
+	margin-top: 80px; 
+}
+
+.botaodosinfernos1{
+	font-size:15px;
+	width: 10px;
+	margin-left: 245px;
+	margin-top: -33px; 
+}
+	
+}
 .btnclick{								/*configuarações do botão (+)*/
 	font-size:15px;
 	 width: 120px;
 	margin-left: 245px;
 	 margin-top: 123px; 
-}										/* termine aqui as configuarações do botão (+)*/
+}		
+.btnclick1{								
+	font-size:15px;
+	width: 120px;
+	margin-left: 245px;
+	margin-top: 23px; 
+}		              	/* termine aqui as configuarações do botão (+)*/
+
+.btn.btn-info5{
+	font-size:15px;
+	width: 120px;
+	margin-left: 15px;
+	margin-top: 83px; 
+}
+
+.btn.btn-primary1{
+	font-size:15px;
+	width: 200px;
+	margin-left: 200px;
+	margin-top: -23px; 
+}
 
 .table{                                         
 	font-size:  15;
@@ -17,9 +52,9 @@
 	  font-size:13px;
 	 width: 220px;
 	margin-left: 18px;
-	 margin-top: 30px; 
+	 margin-top: 130px; 
   }						 /* termina aqui a classe do linha escrita dentro do modal "jogadores por time" */
-  
+ 
   
   .btn.btn-info1{                /*botões de dentro do modal a sua posição*/
 	margin-left: 185px;
@@ -40,8 +75,15 @@
   
   
   
+  .btn.btn-info9{
+	  margin-left: 455px;
+	 margin-top: -43px;   
+  }
   
-  
+  .btn.btn-primary.btn-md{
+	   margin-left: 555px;
+	 margin-top: -43px; 
+  }
   
   
   body {					  /*começa aqui configurações da tabela zebrada*/		
@@ -82,17 +124,7 @@ th, td {
  
  
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
  
  .celular{  /*Aqui é o ativo do iphone ou celular */
 
@@ -146,15 +178,23 @@ th, td {
     right: 0px; 
 }
  
- 
+label {            /* configurações do label tamanho das letras ,em negrito*/
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+	font-size: 14px;
+     font-weight: 400;/* deixa em negrito*/
+}         		  /* termina aqui as configurações do label tamanho das letras ,em negrito*/
+
+              /* faz a separação da no "nome" e "campo" na VERTICAL*/
  
  .row-fluid {		
-  font-size: 15px;
+  font-size: 13px;
 					 width: 680px;   /* faz a separação da no "nome" e "campo" na VERTICAL*/
 					}
 		
         .unit2{                    
-		width: 130px;					/* faz a separação da no "nome" e "campo" na HORIZONTAL*/
+		width: 122px;					/* faz a separação da no "nome" e "campo" na HORIZONTAL*/
 		margin-left: 20px;
 		 margin-top: 15px;
 		}		
@@ -242,7 +282,7 @@ th, td {
  
   
 					 .unit15{ 
-				   margin-top: -5px;
+				   margin-top: -15px;
 				   margin-left: 20px;
 					 }
 
@@ -262,7 +302,7 @@ th, td {
 					 }	 
 					 
 		.unit30{
-		 margin-top: 10px;
+		 margin-top: 2px;
   margin-left: 20px;								 
 	 }
 	 .unit31{
@@ -270,12 +310,12 @@ th, td {
   margin-left: 160px;								 
 	 }
 	 .unit32{
-		 margin-top: -26px;
+		 margin-top: -30px;
   margin-left: 230px;								 
 	 }
 					 
 		.btn.btn-link2{
-			 margin-top: -30px;
+			 margin-top: -33px;
   margin-left: 290px;
 		}		 
 					 
@@ -339,25 +379,25 @@ th, td {
  .unit40{
 	width: 130px;			
 		margin-left: 0px;
-		 margin-top: 50px; 
+		 margin-top: 15px; 
  } 
  
  .unit40-1{
 	width: 930px;			
 		margin-left: 160px;
-		 margin-top: -25px; 
+		 margin-top: -30px; 
  } 
  
  .unit40-2{
 	width: 930px;			
 		margin-left: 500px;
-		 margin-top: -20px; 
+		 margin-top: -25px; 
  }
  
  .unit40-3{
 	width: 930px;			
 		margin-left: 160px;
-		 margin-top: 10px; 
+		 margin-top: -2px; 
  }
  
  .unit40-4{
@@ -381,7 +421,7 @@ th, td {
 						 .unit40-7{
 							width: 930px;			
 								margin-left: 503px;
-								 margin-top: -25px; 
+								 margin-top: -20px; 
 						 }
 						 
 						 .caixa40-8{
@@ -400,12 +440,12 @@ th, td {
 						 .unit41{
 							 width: 130px;			
 								margin-left: 20px;
-								 margin-top: 10px; 
+								 margin-top: -10px; 
 						 }
 						 .unit41-1{
 							 width: 430px;			
 								margin-left: 160px;
-								 margin-top: -25px; 
+								 margin-top: -28px; 
 						 }
 						 .unit41-2{
 							 width: 430px;			
@@ -415,7 +455,7 @@ th, td {
 						 .unit41-3{
 							 width: 530px;			
 								margin-left: 420px;
-								 margin-top: -40px; 
+								 margin-top: -48px; 
 						 }
 												
 													.unit44{   
@@ -478,7 +518,7 @@ th, td {
 .unit50{
 	width: 130px;			
 	margin-left: 20px;
-	 margin-top: 30px;
+	 margin-top: 15px;
 }
 .unit50-1{
 	width: 130px;			
@@ -499,26 +539,44 @@ th, td {
 .unit50-4{
 	width: 130px;			
 	margin-left: 310px;
-	 margin-top: -25px;
+	 margin-top: -20px;
 }	
+
+.ultimocx{
+	width: 130px;			
+	margin-left: 160px;
+	 margin-top: -42px;
+}
+
 .unit50-5{
-width: 130px;					
+width: 30px;					
 	margin-left: 20px;
  margin-top: -5px;
 }	
 .unit50-6{
 	width: 130px;				
-	margin-left: 20px;
- margin-top: 5px;
+	margin-left: 10px;
+ margin-top: 13px;
 }
+
+.ultimocxf{
+	width: 30px;					
+	margin-left: 160px;
+ margin-top: -35px;
+}
+
 .unit50-7{
 	width: 530px;				
-	margin-left: 300px;
- margin-top: -25px;
+	margin-left: 315px;
+ margin-top: -20px;
 }					 
  
  
- 
+ .panel.panel-default{             /*aqui coemça as configurações do panel */
+	 width: 930px;				
+	 margin-left: 160px;
+     margin-top: 25px;
+ }								/*aqui termina as configurações do panel */
  
  
  .btn.btn-info1{
@@ -532,42 +590,57 @@ width: 130px;
 	margin-left: 0px;
  }
  
- .btn.btn-link3{
-	  margin-top: -65px;
+ .btn.btn-link3{					/*aqui começa as configuração do texto linkado como botão*/
+	  margin-top: -72px;
 	margin-left: 300px;
- }
+ }								
  
  
  .btn.btn-link4{
-	  margin-top: -48px;
+	  margin-top: -55px;
 	margin-left: 300px;
- }
+ }									/*aqui termina as configuração do texto linkado como botão*/
  
- .btn.btn-info{
+ .btn.btn-info0{        /*aqui começa as configurações do primeiro botão que contém o modal e também dos botões de dentro do modal*/
 
-	  margin-top: -210px;
+	  margin-top: -15px;
 	margin-left: 770px;
- }
+ }                                   /*aqui começa as configurações do primeiro botão que contém o modal*/
  
-.btn.btn-default1{
+.btn.btn-info{
+	font-size: 14px;
 	margin-top: -2px;
-	margin-left: 120px;	
+	margin-left: 5px;	
+	
 }
 
-
-
-
-
-
-
-
-.btn.btn-default{
+.btn.btn-info1{
 	margin-top: 0px;
-	margin-left: 0px;	
+	margin-left: 190px;	
+} 					/*termina aqui as configurações do primeiro botão que contém o modal e também os botões de dentro*/
+
+.btn.btn-info3{					/*cont. das cofigurações do botão do modal de fora e de dentro */
+	 margin-top: 15px;
+	margin-left: 620px;
 }
-
-
-
+							/* termina aqui a cont. das cofigurações do botão do modal de fora e de dentro */
+							
+							
+	.btn.btn-info9	{				/*botões do final da tela*/
+	font-size: 14px;
+	margin-top: -2px;
+	margin-left: 545px;	
+	}	
+	.btn.btn-info8	{
+	font-size: 14px;
+	margin-top: -2px;
+	margin-left: 5px;	
+	}					
+	.btn.btn-primary.btn-md{
+	font-size: 14px;
+	margin-top: -2px;
+	margin-left: 5px;
+	}					 	/* termina aqui os botões do final da tela*/
  
  .navbar-brand{
 		

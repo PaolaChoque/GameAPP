@@ -46,7 +46,7 @@
 		<script>
             (function($) {
 			
-                 AddTableRow = function() {
+                 table = function() {
                     var newRow = $("<tr class='listas'>");
                     var cols = "";
 
@@ -116,11 +116,67 @@
  
 </div>
 
-<div style="border: 1px  solid blue; height: 90%;" class="col-md-10"><!-- linha da tela três --> 
+<div style="border: 1px  solid blue; height: 90%;" class="col-md-10">         <!-- linha da tela três --> 
 
+<!--primeira parte da tela com o onoffswitch-->
+<div class="row-fluid">
+          <label class="unit0">Programa</label>
+          <input type= "text" name = "month" size="60" maxlength="50" id="month" placeholder=" "/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>	
+	 
+<div class="celular">
+  <div class="onoffswitch">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
+</div>
+</div>
+	 
+	 <div class="row-fluid">
+  <label class="unit1">Vigência</label>
+
+  <label class="unit1-1">
+        <input name="nascimento" type="date"  id="month"value= " " class = "textbox70"/>
+	</label>
 	
-				
-  
+	<div class ="unit1-2">a</div>
+
+<label class="unit1-3">
+        <input name="nascimento" type="date"  id="month"value= " " class = "textbox70"/>
+	</label>
+	
+<div class ="unit1-4">das</div>
+
+<div class="unit1-5">
+        
+          <input type= "text" name = "month" size="4" maxlength="50" id="month" placeholder=" 00:00"/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>
+	 
+	 <div class ="unit1-6">ás</div>
+	 
+	 <div class="unit1-7">
+          <input type= "text" name = "month" size="4" maxlength="50" id="month" placeholder=" 00:00"/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>	
+
+</div>
+
+
+<div class="row-fluid">
+          <label class="unit1-8">Objetivo</label>
+          <input type= "text" name = "month" size="60" maxlength="50" id="month" placeholder=""/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>
+
+<div class="row-fluid">
+          <label class="uni11-9">Local/Mapa</label>
+          <input type= "text" name = "month" size="60" maxlength="50" id="month" placeholder=""/><!--Maxlength define o número de caracteres dentro da caixa-->
+     </div>
+
+	<div align="row-fluid">
+		<a href="#" class="btn btn-link">Link para imagem/mapa</a>
+		</div>			
+  <!-- termina aqui a primeira parte da tela com o onoffswitch-->
 	
 				
 
