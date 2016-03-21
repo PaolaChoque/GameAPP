@@ -124,7 +124,7 @@ font-size:3.0em;
 
 
 .gantt, .gantt2 {
-    width: 100%;
+    width: 60%;									/*tamanho da largura do gantt*/
     margin: 20px auto;
     border: 14px solid #ddd;
     position: relative;
@@ -145,13 +145,13 @@ font-size:3.0em;
 }
 
 .fn-gantt {
-    width: 100%;
+    width: 100%;				  		    /*também é o tamanho da largura do gantt-parte ed cima do quadro*/
 }
 
 .fn-gantt .fn-content {
     overflow: hidden;
     position: relative;
-    width: 100%;
+    width: 100%;						/*também é o tamanho da largura do gantt- parte de baixo do quadro*/
 }
 
 
@@ -170,7 +170,7 @@ font-size:3.0em;
 
 .fn-gantt .row {
     float: left;
-    height: 24px;
+    height: 20px;/*aqui muda o tamanho de dentro do gantt*/
     line-height: 24px;
     margin-left: -1px;
 }
@@ -433,7 +433,7 @@ font-size:3.0em;
 .fn-gantt .navigate .page-number span {
     color: #666666;
     margin: 0 6px;
-    height: 20px;
+    height: 120px;
     line-height: 20px;
     display: inline-block;
 }

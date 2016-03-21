@@ -3,7 +3,8 @@
    margin-right:-100px;
    margin-top: -400px;
    margin-left: 980px;
-}            
+} 
+
 
 .onoffswitch {
     position: relative; width: 90px;
@@ -176,7 +177,7 @@ size: 5px;
 					}
 
               .row-fluid-10{
-					margin-top: -26px;
+					margin-top: -28px;
 						margin-left:670px;
 					}
 	.row-fluid-11 {		
@@ -204,6 +205,13 @@ size: 5px;
 	}
 	
 	
+	 /*Aqui começa as configurações do menu ☰ para o lado direito */
+	.nav.nav-list{
+				margin-top: 5px;
+			margin-bottom:0px ;
+			margin-left:200px ;
+			margin-right: 5px;
+	} 
 	
 	
 
