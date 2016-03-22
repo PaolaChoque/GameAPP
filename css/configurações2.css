@@ -77,27 +77,27 @@
 }
 .onoffswitch2-inner:before, .onoffswitch2-inner:after {
     display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
-    font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;/*alteração12->14*/
     box-sizing: border-box;
 }
 .onoffswitch2-inner:before {
     content: "ON";
-    padding-left: 10px;/*posição do on-off*/
-    background-color: #6D748C; color: #FFFFFF;
+    padding-left: 10px;
+    background-color: 	#C0C0C0; color: #EEEEEE;
 }
 .onoffswitch2-inner:after {
     content: "OFF";
     padding-right: 10px;
-    background-color: #EEEEEE; color: #999999;
+	 background-color: #EEEEEE; color: #C0C0C0;/*esse aqui <-- muda a cor da letra de dentro da off*/
     text-align: right;
 }
 .onoffswitch2-switch {
-    display: block; width: 20px; margin:404px;/*20- 474tamanho da boliinha de  dentro */
-    background: #FFFFFF;
-    position: absolute; top: -407; bottom: 86;/*posição da bolinha de dentro, para cima e para baixo*/
-    right: 52px;/*muda a distanvcia que a bolinha vai percorrer*/
-    border: 2px solid #999999; border-radius: 20px;
-    transition: all 0.3s ease-in 0s; 
+    display: block; width: 18px; margin: 402px;
+    background: #FFFFFF;         /*esse aqui <-- muda a cor da bolinha de dentro*/
+    position: absolute; top: -408; bottom: 87;
+    right: 55px;/*esse comando faz com que ele vá do lado esquerdo para lado direito"tamanho(56->62)"*/
+    border: 2px solid #C0C0C0; border-radius: 20px;
+    transition: all 0.3s ease-in 0s;  
 }
 .onoffswitch2-checkbox:checked + .onoffswitch2-label .onoffswitch2-inner {
     margin-left: 0;
@@ -106,6 +106,17 @@
     right: 0px; 
 }                           /*Aqui termina o ativo iphone celular mais conhecido onoffswitch 2*/
 
+
+
+		 /*Aqui começa as configurações do menu ☰ para o lado direito */
+	.nav.nav-list{
+				margin-top: 5px;
+			margin-bottom:0px ;
+			margin-left:200px ;
+			margin-right: 5px;
+	} /*Aqui termina as configurações do menu ☰ para o lado direito */
+	
+	
 
   .unit1{
    margin-right: 9px;

@@ -49,7 +49,7 @@
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px; 
-}     /*Aqui termina o ativo iphone celular mais conhecido onoffswitch*/
+}	    /*Aqui termina o ativo iphone celular mais conhecido onoffswitch*/
 
 
 
@@ -77,26 +77,26 @@
 }
 .onoffswitch2-inner:before, .onoffswitch2-inner:after {
     display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
-    font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;/*alteração12->14*/
     box-sizing: border-box;
 }
 .onoffswitch2-inner:before {
     content: "ON";
-    padding-left: 10px;/*posição do on-off*/
-    background-color: #6D748C; color: #FFFFFF;
+    padding-left: 10px;
+    background-color: 	#C0C0C0; color: #EEEEEE;
 }
 .onoffswitch2-inner:after {
     content: "OFF";
     padding-right: 10px;
-    background-color: #EEEEEE; color: #999999;
+	 background-color: #EEEEEE; color: #C0C0C0;/*esse aqui <-- muda a cor da letra de dentro da off*/
     text-align: right;
 }
 .onoffswitch2-switch {
-    display: block; width: 19px; margin:224px;/*28- 206tamanho da boliinha de  dentro */
-    background: #FFFFFF;
-    position: absolute; top: -130; bottom: 131;/*posição da bolinha de dentro, para cima e para baixo*/
-    right: 62px;/*muda a distanvcia que a bolinha vai percorrer*/
-    border: 2px solid #999999; border-radius: 20px;
+    display: block; width: 18px; margin: 223px;
+    background: #FFFFFF;         /*esse aqui <-- muda a cor da bolinha de dentro*/
+    position: absolute; top: -131; bottom: 138; /*esse dois iens<-- muda a direção de é esquerdadireita para baixo ou em cima*/
+    right: 62px;/*esse comando faz com que ele vá do lado esquerdo para lado direito"tamanho(56->62)"*/
+    border: 2px solid #C0C0C0; border-radius: 20px;
     transition: all 0.3s ease-in 0s; 
 }
 .onoffswitch2-checkbox:checked + .onoffswitch2-label .onoffswitch2-inner {
@@ -104,7 +104,7 @@
 }
 .onoffswitch2-checkbox:checked + .onoffswitch2-label .onoffswitch2-switch {
     right: 0px; 
-}                           /*Aqui termina o ativo iphone celular mais conhecido onoffswitch 2*/
+}             /*Aqui termina o ativo iphone celular mais conhecido onoffswitch 2*/
 
 
 
@@ -133,26 +133,26 @@
 }
 .onoffswitch3-inner:before, .onoffswitch3-inner:after {
     display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
-    font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;/*alteração12->14*/
     box-sizing: border-box;
 }
 .onoffswitch3-inner:before {
     content: "ON";
     padding-left: 10px;
-    background-color: #6D748C; color: #FFFFFF;
+    background-color: 	#C0C0C0; color: #EEEEEE;
 }
 .onoffswitch3-inner:after {
     content: "OFF";
     padding-right: 10px;
-    background-color: #EEEEEE; color: #999999;
+	 background-color: #EEEEEE; color: #C0C0C0;/*esse aqui <-- muda a cor da letra de dentro da off*/
     text-align: right;
 }
 .onoffswitch3-switch {
-    display: block; width: 19px; margin: 224px;/*160->190*/
-    background: #FFFFFF;
-    position: absolute; top: -52; bottom: 53;/*tamanho da bolinha de dentro*/
-    right: 62px;
-    border: 2px solid #999999; border-radius: 20px;
+    display: block; width: 18px; margin: 223px;
+    background: #FFFFFF;         /*esse aqui <-- muda a cor da bolinha de dentro*/
+    position: absolute; top: -51; bottom: 58; /*esse dois iTens<-- muda a direção Se é esquerda direita para baixo ou em cima*/
+    right: 62px;/*esse comando faz com que ele vá do lado esquerdo para lado direito"tamanho(56->62)"*/
+    border: 2px solid #C0C0C0; border-radius: 20px;
     transition: all 0.3s ease-in 0s; 
 }
 .onoffswitch3-checkbox:checked + .onoffswitch3-label .onoffswitch3-inner {
@@ -171,54 +171,73 @@
    margin-left: 810px;
 }            
 .onoffswitch4 {
+	
     position: relative; width: 90px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+	
 }
 .onoffswitch4-checkbox {
+	
     display: none;
 }
 .onoffswitch4-label {
+	
     display: block; overflow: hidden; cursor: pointer;
     border: 2px solid #999999; border-radius: 20px;
 }
 .onoffswitch4-inner {
+	
     display: block; width: 200%; margin-left: -100%;
     transition: margin 0.3s ease-in 0s;
 }
 .onoffswitch4-inner:before, .onoffswitch4-inner:after {
+	
     display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
-    font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;/*alteração12->14*/
     box-sizing: border-box;
 }
 .onoffswitch4-inner:before {
+	
     content: "ON";
     padding-left: 10px;
-    background-color: #6D748C; color: #FFFFFF;
+    background-color: 	#C0C0C0; color: #EEEEEE;
 }
 .onoffswitch4-inner:after {
+	
     content: "OFF";
     padding-right: 10px;
-    background-color: #EEEEEE; color: #999999;
+	 background-color: #EEEEEE; color: #C0C0C0;/*esse aqui <-- muda a cor da letra de dentro da off*/
     text-align: right;
 }
 .onoffswitch4-switch {
-    display: block; width: 19px; margin: 224px;/*160->190*/
-    background: #FFFFFF;
-    position: absolute; top:18; bottom: -15;/*tamanho da bolinha de dentro*/
-    right: 56px;
-    border: 2px solid #999999; border-radius: 20px;
-    transition: all 0.3s ease-in 0s; 
+    display: block; width: 18px; margin: 223px;
+    background: #FFFFFF;         /*esse aqui <-- muda a cor da bolinha de dentro*/
+    position: absolute; top: 24; bottom: -17; /*esse dois iens<-- muda a direção de é esquerdadireita para baixo ou em cima*/
+    right: 62px;/*esse comando faz com que ele vá do lado esquerdo para lado direito"tamanho(56->62)"*/
+    border: 2px solid #C0C0C0; border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
 }
 .onoffswitch4-checkbox:checked + .onoffswitch4-label .onoffswitch4-inner {
     margin-left: 0;
 }
+
 .onoffswitch4-checkbox:checked + .onoffswitch4-label .onoffswitch4-switch {
-    right: 0px; 
-} 	 /*Aquitermina o ativo do iphone ou celular 4 */						 
+   right :0px;
+   
+}	 /*Aquitermina o ativo do iphone ou celular 4 */						 
 		
 
 
 
+		
+		
+		 /*Aqui começa as configurações do menu ☰ para o lado direito */
+	.nav.nav-list{
+				margin-top: 5px;
+			margin-bottom:0px ;
+			margin-left:200px ;
+			margin-right: 5px;
+	} /*Aqui termina as configurações do menu ☰ para o lado direito */
 		
 
 	.unit1{       /*muda posicão dos texto"Publica automaticamente"*/
@@ -248,9 +267,6 @@
    margin-top: -7px;
    margin-left: 0px;
 		}				 
-		
-	 
-	 
 	 
 		.btn.btn-large2{
    margin-right:10px;
@@ -272,21 +288,17 @@
     text-decoration: none;
 }
 
-a{
-	color:#707273;
-	
-}
 a:hover{
-	color:#C0C0C0;
+	color: #666666;  /* cor vermelha - só aparece assim que se dá um clique no icone */
 	background : white;
 }
 
 a:active{
-	color:#C0C0C0;
+	color:	#666666;  /* cor rosa - aparece depois que você da um clique na tela */
 }
 
 a:link {
-	color: #C0C0C0;
+	color: 	##0000FF;    /* cor verde - fica em duas linhas da letra */
 }            /*Termina aqui as configurações de cor do icone facebook,google,etc.*/
 
 
@@ -333,10 +345,6 @@ size: 5px;
 } /*Aqui termina os botões da frente dos icones configurações de cor tamanho,etc.*/
 
 
-
-
-
-
 		.row-fluid {		
 			 width: 900px;   /* faz a separação do "nome" e "campo" na VERTICAL*/
 			    margin-right:20px;				/*Aqui é o tamanho da margin do nome com caixa de texto*/
@@ -348,43 +356,41 @@ size: 5px;
             .fa.fa-facebook-square.fa-4x{  	/*configurações do facebook-twitter-instagram,etc.*/		
 				margin-top: -40px;  
 				margin-left: 10px;
+				color:	#666666;
 		      }		
 
 			   .fa.fa-twitter-square.fa-4x{  			
 				margin-top: -40px;  
 				margin-left: 10px;
+				color:	#666666;
 		      }		
 			  
 			   .fa.fa-instagram.fa-4x{  		
 				margin-top: 15px;  
 				margin-left: 10px;
+				color:	#666666;
 		      }		
 			  
 			   .fa.fa-google-plus-square.fa-4x{  			
 				margin-top: 13px;  
 				margin-left: 10px;
+				color:	#666666;
 		      }		
 
 			  
 			  .fa.fa-linkedin-square.fa-4x{
 				  margin-top: 13px;  
 				margin-left: 10px;
+				color:	#666666;
 			  }
 			  
 			  .fa.fa-youtube-square.fa-4x{
 				  margin-top: -10px;  
 				margin-left: 291px;
+				color:	#666666;
 			  } 	/*termina aqui as configurações do facebook-twitter-instagram,etc.*/
 			  
-			  
-			  
-			  
-						
-	
-	
-	
-	
-	
+		
     .navbar-brand{              /*Aqui começa as configurações da navbar */
 		
 		position: fixed center;
@@ -400,9 +406,6 @@ size: 5px;
 		padding-left: 5px;
 		                                /*Aqui termina as configurações da navbar */
 	}
-	
-	
-	
 	
 
 .container-fluid{ 

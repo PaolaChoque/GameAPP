@@ -1,3 +1,37 @@
+
+/*      CONFIGURÇÕES DA IMAGEM DE ORDENAÇÃO DA TABELA
+		.headerSortDown {
+          background-image: url(desc.gif); 
+        }
+
+		.headerSortUp {
+		   background-image: url(asc.gif);
+			
+			
+			class= "header headerSortDown" ;"header headerSortUp"  (<--- no html)
+		}        
+		TERMINA AQUI AS CONFIGURÇÕES DA IMAGEM DE ORDENAÇÃO DA TABELA */
+
+.table.tablesorter.thead.tr.header {
+    background-image: url(bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+
+
+
+	 /*Aqui começa as configurações do menu ☰ para o lado direito */
+	.nav.nav-list{
+				margin-top: 5px;
+			margin-bottom:0px ;
+			margin-left:200px ;
+			margin-right: 5px;
+	} /*Aqui termina as configurações do menu ☰ para o lado direito */
+
+
+
+
 .navbar-brand{              /*Aqui começa as configurações da navbar */
 		
 		position: fixed center;

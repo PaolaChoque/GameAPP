@@ -14,8 +14,19 @@
 		                                /*Aqui termina as configurações da navbar */
 	}
 	
+	.btnclick{
+		      margin-top: -183px;
+			margin-left: 1020px;
+
+	}
 	
-	
+			 /*Aqui começa as configurações do menu ☰ para o lado direito */
+	.nav.nav-list{
+				margin-top: 5px;
+			margin-bottom:0px ;
+			margin-left:200px ;
+			margin-right: 5px;
+	} /*Aqui termina as configurações do menu ☰ para o lado direito */
 	
 
 .container-fluid{ 

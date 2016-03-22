@@ -13,6 +13,26 @@
 <html>
 <head>
 
+
+<script>
+            (function($) {
+			
+                AddTableRow = function() {
+                    var newRow = $("<tr class='listas'>");
+                    var cols = "";
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    newRow.append(cols);
+                    $("#imbatman").append(newRow);
+                    return false;
+                };
+            })(jQuery);
+
+        </script>
+
 <!-- COMEÇA AQUI  A TABELA NO HEAD-->
 	<meta charset="UTF-8">
 	<title>Tablesorter - Tutsup</title>
@@ -64,10 +84,10 @@
 
 <div style="border: 1px solid red; height: 100%;" class="col-md-2 pull-left div-vermelha">
 
-    <ul class="nav nav-list "> 
-	<a data-toggle="collapse" data-target=".nav-collapse" href="#about">☰</a> 
-
-<nav class="nav-collapse" data-toggle="collapse" data-target=".nav-collapse">
+   <ul class="nav nav-list "> 
+	<a data-toggle="collapse" data-target=".nav-collapse" href="#about"><big>☰</big></a> 
+   </ul>
+<nav class="nav-collapse" data-toggle="collapse" data-target= ☰ ".nav-collapse"><!--adicionei  a ☰ (figura) para a nav só fechar quando apenas clicar nela-->
 
  <ul class="nav nav-pills nav-stacked">
    
@@ -107,7 +127,7 @@
   </div>
 </div>
 
-	 <li role="presentation" class ="active"><a href="#">Configurações</a></li>
+	 <li role="presentation"class ="active"><a href="#">Configurações</a></li>
 	 <li role="presentation"><a href="#">Sair</a></li>
 
  </ul>	
@@ -150,8 +170,8 @@
    <div class="tab-pane active" id="tab9">
   
 	 <div id="Layer1" style="position:absolute; left:285px; top:30px; width:720; height:300; z-index:1;">
-<div class="table-responsive">
-       <table class="tablesorter">
+   <div class="table-responsive">
+       <table id="imbatman" class="tablesorter">  
 	<thead>
 		<tr>
 			<th style="border-width: thin; border-style: solid; border-color: black;">Nome</th>
@@ -201,10 +221,16 @@
 			<td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
 		</tr>
 	
+		  
 		
 	</tbody>
+	
 </table>
+
     </div>
+	  <div class="btnclick">
+	<button onclick="AddTableRow()" type="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+	</div>
     </div>
 	
 	
@@ -242,11 +268,17 @@
           <p>Estou na seção 1</p>
       </div>	  <!--Termina aqui o teste 1 para ver se funciona a caixa de lado-->
 	
-	    
+	
+		
+		
 		<button type="button" class="btn btn-info">Salvar</button> 
 		 <button type="button" class="btn btn-info2">Cancelar</button>	
-</div>				
-</div>				
-</div>				
+</div>	
+			
+</div>	
+			
+</div>	
+
+			
 </body>	
  

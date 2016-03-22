@@ -15,31 +15,37 @@ table.table-striped.table-bordered.table-hover.table-condensed{
 
 /*Esses são os botões do final da página cancelar-salvar*/
 
-.button{
-	  margin-right:100px;
-   margin-top: -80px;
-   margin-left: 200px
+
+.btn.btn-info{
+	  margin-right:900px;
+   margin-top: 27px;
+   margin-left: 40px
 }
-.btn.btn-info2{
-   margin-right:100px;
-   margin-top: -80px;
-   margin-left: 200px
+
+.btn.btn-info1{
+	 margin-right:900px;
+   margin-top: 80px;
+   margin-left: 905px
 }
-   .btn.btn-info3{
-   margin-right:100px;
-   margin-top: -80px;
-   margin-left: 200px
-}/*Aqui termina os botões do final da página cancelar-salvar*/ 
+/*Aqui termina os botões do final da página cancelar-salvar*/ 
+
+
+	 /*Aqui começa as configurações do menu ☰ para o lado direito */
+	.nav.nav-list{
+				margin-top: 5px;
+			margin-bottom:0px ;
+			margin-left:200px ;
+			margin-right: 5px;
+	} /*Aqui termina as configurações do menu ☰ para o lado direito */
+
+   
 
 
 	
-
-	
-	
-    .navbar-brand{              /*Aqui começa as configurações da navbar */
+.navbar-brand{              /*Aqui começa as configurações da navbar */
 		
 		position: fixed center;
-			margin-top: 5px;
+			margin-top: 10px;
 			margin-bottom:0px ;
 			margin-left:0px ;
 			margin-right: 5px;
@@ -86,7 +92,11 @@ table.table-striped.table-bordered.table-hover.table-condensed{
 .breadcrumb {
 	background-color:#FFFFFF!important;
 }
- 
+.btn.btn-info {
+		position:absolute;
+		top: 480px!important;
+		left: 960px;	
+	} 
 /* Posicionamento dos icones Checbox e stop*/
 
 
