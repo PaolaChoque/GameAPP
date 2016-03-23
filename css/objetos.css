@@ -1,3 +1,14 @@
+			 /*Aqui começa as configurações do menu ☰ para o lado direito */
+	.nav.nav-list{
+				margin-top: 5px;
+			margin-bottom:0px ;
+			margin-left:200px ;
+			margin-right: 5px;
+	} /*Aqui termina as configurações do menu ☰ para o lado direito */
+
+
+
+
 .navbar-brand{              /*Aqui começa as configurações da navbar */
 		
 		position: fixed center;

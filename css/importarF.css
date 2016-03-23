@@ -1,0 +1,67 @@
+
+.tamanhoicone{
+    font-size: 2.0em ;
+}
+
+.margembranca{
+    padding: 15px;
+}
+
+fieldset.scheduler-border-custom {
+    border: 1px groove #ddd !important;               /*  borda da caixa*/
+   padding: 0 1.4em 1.4em 1.4em !important;          /*  posição do texto cabeçalho esquerda-direita */
+    margin: 0 0 1.5em 0 !important;					 /*  posição da caixa de texto*/
+    -webkit-box-shadow:  0px 0px y 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border-custom {
+        font-size: 1.2em !important;    /*  size login */
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto; 
+        padding:0 10px;			/*  position Login right-left */
+        width: 357px;                   /*  position do tamanho do espaço do login  */
+        border-bottom: 0px;
+    }
+    
+    .checboxcontainer{
+       margin-left: 15px;
+    }
+    
+    label{
+        font-weight: normal; 
+    }
+    
+    .btnazul{
+        margin-right: 5px;
+    }
+    
+    .header-style{
+        border: 1px solid #DCDCDC;
+    }
+    
+    .menu-style{
+        border: 1px solid #DCDCDC;
+        height: 100%;
+    }
+    
+    .container-style{
+        height: 100%;
+    }
+    
+    .divider-style{
+        width:100%;
+         height: 1px;
+        background: #DCDCDC; 
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+    
+    .navbar.navbar-default.nab-branco{
+        background: #FFFFFF;
+    }
+    .container-fluid{
+        height: 4em;
+    }
