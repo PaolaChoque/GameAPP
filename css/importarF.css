@@ -6,7 +6,7 @@
 .margembranca{
     padding: 15px;
 }
-
+/*esse aqui é a borda da caixa de que contém o texto*/
 fieldset.scheduler-border-custom {
     border: 1px groove #ddd !important;               /*  borda da caixa*/
    padding: 0 1.4em 1.4em 1.4em !important;          /*  posição do texto cabeçalho esquerda-direita */
@@ -23,8 +23,10 @@ fieldset.scheduler-border-custom {
         padding:0 10px;			/*  position Login right-left */
         width: 357px;                   /*  position do tamanho do espaço do login  */
         border-bottom: 0px;
-    }
+    } 
+    /*FIM da borda da caixa de que contém o texto*/
     
+    /*configurações do checkbox no fim da página */
     .checboxcontainer{
        margin-left: 15px;
     }
@@ -32,11 +34,13 @@ fieldset.scheduler-border-custom {
     label{
         font-weight: normal; 
     }
-    
+     /*FIM das configurações do checkbox no fim da página */
+     
     .btnazul{
         margin-right: 5px;
     }
     
+    /*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
     .header-style{
         border: 1px solid #DCDCDC;
     }
@@ -49,19 +53,23 @@ fieldset.scheduler-border-custom {
     .container-style{
         height: 100%;
     }
+    /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
     
+    /*Agrega uma separador dentro do menu */
     .divider-style{
         width:100%;
          height: 1px;
         background: #DCDCDC; 
         margin-left: 5px;
         margin-right: 5px;
-        
-    }
-    
+    } 
+     /*Termina qui o separador  de dentro do menu */
+     
+    /* configurações da navbar*/
     .navbar.navbar-default.nab-branco{
         background: #FFFFFF;
     }
     .container-fluid{
         height: 4em;
     }
+    /* Fim configurações da navbar*/
