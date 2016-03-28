@@ -1,61 +1,118 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<form class="form-horizontal">
+<fieldset>
 
-                <div class="container-fluid">
+<!-- Form Name -->
+<legend>Form Name</legend>
 
-                    <form class="form-horizontal" role="form">
-                        <div class="row">
+<!-- File Button --> 
+<div class="form-group">
+  <label class="col-md-4 control-label" for="filebutton">File Button</label>
+  <div class="col-md-4">
+    <input id="filebutton" name="filebutton" class="input-file" type="file">
+  </div>
+</div>
 
-                            <div class="col-md-12">
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="form-group">
-                                        <label for="inputEmail" class="col-md-2 control-label">Email:</label>
-                                        <div class="col-md-8 pull-right">
-                                            <input type="email" class="form-control " id="inputEmail" placeholder="Email">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Text Input</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+  <span class="help-block">help</span>  
+  </div>
+</div>
 
-                            <div class="col-md-12" >
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="form-group">
-                                        <label for="inputEmail" class="col-md-2 control-label">Email:</label>
-                                        <div class="col-md-8 pull-right">
-                                            <input type="email" class="form-control " id="inputEmail" placeholder="Email">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="radios">Multiple Radios</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+      Option one
+    </label>
+	</div>
+  <div class="radio">
+    <label for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      Option two
+    </label>
+	</div>
+  </div>
+</div>
 
-                            <div class="col-md-6">
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="form-group">
-                                        <label for="inputEmail" class="col-md-2 control-label">Email:</label>
-                                        <div class="col-md-8 pull-right">
-                                            <input type="email" class="form-control " id="inputEmail" placeholder="Email">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Select Basic</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+      <option value="1">Option one</option>
+      <option value="2">Option two</option>
+    </select>
+  </div>
+</div>
 
-                            <div class="col-md-6">
-                                <div class="col-sm-6 col-lg-4">
-                                    <div class="form-group">
-                                        <label for="inputEmail" class="col-md-2 control-label">Email:</label>
-                                        <div class="col-md-8 pull-right">
-                                            <input type="email" class="form-control " id="inputEmail" placeholder="Email">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="checkboxes">Multiple Checkboxes</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="checkboxes-0">
+      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+      Option one
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="checkboxes-1">
+      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+      Option two
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="radios">Inline Radios</label>
+  <div class="col-md-4"> 
+    <label class="radio-inline" for="radios-0">
+      <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+      1
+    </label> 
+    <label class="radio-inline" for="radios-1">
+      <input type="radio" name="radios" id="radios-1" value="2">
+      2
+    </label> 
+    <label class="radio-inline" for="radios-2">
+      <input type="radio" name="radios" id="radios-2" value="3">
+      3
+    </label> 
+    <label class="radio-inline" for="radios-3">
+      <input type="radio" name="radios" id="radios-3" value="4">
+      4
+    </label>
+  </div>
+</div>
+
+</fieldset>
+</form>
 
 
-                        </div><!-- /.row this actually does not appear to be needed with the form-horizontal -->
-                    </form>
+Guardando o  código 
 
-                </div><!-- /.container -->
+
+	.col-md-5{		
+					 width: 700px;   /* faz a separação da no "nome" e "campo" na VERTICAL*/
+					}
+		
+        .form-group{                    /* faz a separação da no "nome" e "campo" na HORIZONTAL*/
+			width: 30em;
+		}	
+                
+                .form-control{
+                    width: 20em;
+                }
+
+
+
+
+
