@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<html>
+    <head>
+        <!--SCRIPT da caixa de texto necessário-aprimorada para edição-->
+        <script src="js/tinymce.min.js"></script>
+        <script>tinymce.init({selector: 'textarea'});</script>
+<!-- FIM do SCRIPT da caixa de texto aprimorada para edição-->
+
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/configuracoes4.css" rel="stylesheet" />   retirei por confiurar a nav-brand---> 
+        <link href="css/enviar-email-convite3.css" rel="stylesheet"/>
+
+        <script src="js/jquery.min.js"></script> 
+        <script src="js/bootstrap.min.js"></script> 
+
+    </head>
+    <body>
+        <!--cabeçãlho-->
+
+        <div class="col-md-12 header-style">
+            <nav class="navbar navbar-default nab-branco">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header ">
+                        <a class="navbar-brand" href="#"><strong>Game APP |</strong>Company Console</a>
+                    </div>
+
+                    <div class= 'col-md-2 pull-right'>
+                        <a class= "navbar-brand" href ="#"><small><small>Nome da Empresa</small></small><br/><small><small>Nome do Administrador</small></small></a>
+                    </div>
+
+                    <div class= 'col-md-5 pull-right'>
+                        <a class= "navbar-brand" href ="#"><strong>Enviar E-mail/Convite</strong></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- FIM cabeçãlho-->
+
+        <!--Menu-->
+        <div class="col-md-2 pull-left div-vermelha menu-style ">
+
+            <ul class="nav nav-pills nav-stacked">
+                <button type= "button" class= "btn btn-default btn-lg btn-block" > Voltar </button>
+            </ul>
+
+        </div>
+        <!--FIM menu-->
+
+        <!--container-->
+        <div class="col-md-10  container-style ">
+            <div id="page-content" class="margembranca pull-right"> 
+
+                <div class="col-md-12" >
+                    <div class="col-md-10"> 
+                        <p>Nesta tela, você pode configurar e enviar e-mails para os Funcionários participarem do Jogo ou das Ações também será incluído na </br>
+                            mensagem, o link para fazer o download das Apps para os dispositivos móveis de cada um.</br>
+                            O login de acesso será o pópio e-mail e a senha será gerada automaticamente (poderá ser alterada no primeiro acesso) </p>
+                    </div>
+                     <!--Caixa de texto aprimorada para edição-->
+                    <div class="col-md-12" >
+                        <div class="col-sm-6 col-lg-12" >
+                            <div id="Layer1">
+                                <div class="col-md-9">
+                                    <textarea>Easy (and free!) You should check out our premium features.</textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                      <!--FIM da Caixa de texto aprimorada para edição-->
+
+                        <!--primeiro radiobox-->
+                    <div class="col-sm-6 col-lg-7" >
+                        <div class="col-md-5 ">
+                            <label>
+                                <input type="radio" name="todos" value="equipes"> 
+                                Enviar para todos
+                            </label>
+                        </div>
+                    </div>
+                        <!--Fim doorimeiro radiobox-->
+                        
+                        <!--segundo radiobox-->
+                    <div class="col-sm-6 col-lg-6" >
+                        <div class="col-md-5 ">
+                            <label>
+                                 <input type="radio" checked name="todos" value="equipes"> 
+                                Todos das(s) Equipes(s)
+                            </label>
+                        </div>
+                    </div>
+                         <!--Fim dosegundo radiobox-->
+                         
+                    <div  class="col-md-12">															
+                        <div class="tabbable tabs-left">  
+
+                            <div class="col-md-9"> 
+                                <div class="tab-content">
+
+                                    <!--AQUI COMEÇA A parte de cima da tabela -->
+                                    <div class="table-responsive ">
+                                        <table class="table table-striped table-bordered table-hover table-condensed">
+                                            <thead>
+                                                <tr>
+                                                    <th class="col-md-9">Ativo</th>
+                                                    <td class="col-md-2 posicao"><center><input type="checkbox" name="opcoes" value="html"/></center></td>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+
+
+                                    <!--aqui começa o restante da tabela-->
+                                    <div id="Layer1" class="positiontab">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-bordered table-hover table-condensed">
+                                                <thead>
+                                                    <tr>
+                                                        <td class="col-md-8">Feedback</td>
+                                                        <td class="col-md-2"><center><input type="checkbox" name="opcoes" value="html"/> <br /></center></td>
+                                                </tr>
+                                                </thead>
+
+                                                <tbody ng-repeat="membro in membroSede">
+
+                                                    <tr class="listas">
+                                                        <td class="col-md-10">Quiz Master</td>  
+                                                        <td class="col-md-2"><center><input type="checkbox" name="opcoes" value="html"/> <br /></center></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="col-md-10">Feedback Expert</td>
+                                                    <td class="col-md-2"><center><input type="checkbox" name="opcoes" value="html"/> <br /></center></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="col-md-10">Treinamento de Desing Thinking</td>
+                                                    <td class="col-md-2"><center><input type="checkbox" name="opcoes" value="html"/> <br /></center></td>
+                                                </tr>
+
+                                                <tr class="listas">
+                                                    <td class="col-md-10">Quiz Master</td>  
+                                                    <td class="col-md-2"><center><input type="checkbox" name="opcoes" value="html"/> <br /></center></td>
+                                                </tr>
+
+                                                <tr class="listas">
+                                                    <td class="col-md-10">Quiz Master</td>  
+                                                    <td class="col-md-2"><center><input type="checkbox" name="opcoes" value="html"/> <br /></center></td>
+                                                </tr>
+
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div> <!--aqui termina a tabela-->
+
+                                    <!--ultimo radiobox-->
+                                    <div class="col-sm-6 col-lg-6" >
+                                        <div class="col-md-5 ">
+                                            <label>
+                                                  <input type="radio" name="manualmente" value="manu"> 
+                                                Defenir manualmente
+                                            </label>
+                                        </div>
+                                    </div>
+                                     <!-- Fim ultimo radiobox-->
+
+                                </div>
+                            </div>
+                        </div>							<!--Aqui termina a tab do lado esquerdo com tabela-->
+                    </div>
+                </div>
+
+            </div>
+            <!-- rodape -->
+            <div>
+                <button type="button" class="btn btn-primary pull-right btnazul">Salvar</button>
+                <button class="btn btn-deafult pull-right">Cancelar</button>
+            </div> 
+
+        </div>
+
+
+    </body>
+</html>
+
+<!--FIM container-->
