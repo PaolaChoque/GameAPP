@@ -1,220 +1,313 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/jogadores-usuarios.css" rel="stylesheet">
-<link href="css/cadastrar-premio.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/configuracoes4.css" rel="stylesheet" />   retirei por confiurar a nav-brand---> 
+        <link href="css/cadastrar-premio.css" rel="stylesheet"/>
+
+        <script src="js/jquery.min.js"></script> 
+        <script src="js/bootstrap.min.js"></script> 
+
+    </head>
+    <body>
+        <!--cabeçãlho-->
+
+        <div class="col-md-12 header-style">
+            <nav class="navbar navbar-default nab-branco">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header ">
+                        <a class="navbar-brand" href="#"><strong>Game APP |</strong>Company Console</a>
+                    </div>
+
+                    <div class= 'col-md-2 pull-right'>
+                        <a class= "navbar-brand" href ="#"><small><small>Nome da Empresa</small></small><br/><small><small>Nome do Administrador</small></small></a>
+                    </div>
+
+                    <div class= 'col-md-5 pull-right'>
+                        <a class= "navbar-brand" href ="#"><strong>Cadastrar Prêmio</strong></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- FIM cabeçãlho-->
+
+        <!--Menu-->
+        <div class="col-md-2 pull-left div-vermelha menu-style ">
+
+            <ul class="nav nav-pills nav-stacked">
+                <button type= "button" class= "btn btn-default btn-lg btn-block" > Voltar </button>
+            </ul>
+
+        </div>
+        <!--FIM menu-->
+
+        <!--container-->
+        <div class="col-md-10  container-style ">
+            <div id="page-content" class="margembranca "> 
+
+                <div class="col-md-12" >
+
+                    <div class="col-sm-6 col-lg-5" >
+                        <div class="form-group">
+                            <label for="inputEmail" class="col-md-2 control-label">Nome</label>
+                            <div class="col-md-8 pull-right">
+                                <input type="email" class="form-control " id="inputEmail" placeholder="">
+                                </br>
+                            </div>
+                        </div>
+                    </div>
+                    <!--ativo celular-->                  
+                      <div class="celular col-md-3 ">
+                        <div class="onoffswitch">
+                            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+                            <label class="onoffswitch-label" for="myonoffswitch">
+                                <span class="onoffswitch-inner"></span>
+                                <span class="onoffswitch-switch"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <!--FIM ativo celular-->
+
+                      <div class="col-sm-6 col-lg-5" >
+                        <div class="form-group">
+                            <label for="inputEmail" class="col-md-2 control-label">Tipo</label>
+                            <div class="col-md-8 pull-right">
+                                 <select class="span1">
+                                        <option>Experiência</option>
+                                        <option>Viagem</option>
+                                        <option>Eletrodomésticos</option>
+                                        <option>Eletroeletrónico</option>
+                                        <option>Celular/Smartphone</option>
+                                        <option>Computador/Tablet</option>
+                                        <option>Show/Entretenimento</option>
+                                        <option>Comida/Gastronomia</option>
+                                        <option>Bebida/Enogastronomia</option>
+                                    </select>
+                                <br/>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                </div>
+            </div> 
+        </div>
 
 
-<head>
+        <div class="col-md-10  container-style pull-left">
+            <div id="page-content" class="margembranca"> 
 
-		<div style="border: 1px  solid red;" class="col-md-12">
-		<nav class="navbar navbar-default">
-		  <div class="container-fluid">
-			<!-- Brand and toggle get grouped for better mobile display -->
-			<div class="navbar-header">
-			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span> 
-				<span class="icon-bar"></span>   
-				<span class="icon-bar"></span>
-			  </button>
-			  
-			  <a class="navbar-brand" href="#"><strong>Game APP |</strong>Company Console</a>
-			</div>
-			  
-			<div class= 'col-md-2 pull-right'>
-			<a class= "navbar-brand" href ="#"><small>Nome da Empresa</small><br/><small>Nome do Administrador</small></a>
-			</div>
-			
-			<div class= 'col-md-5 pull-right'>
-			<a class= "navbar-brand" href ="#"><strong>Cadastrar Prêmio</strong></a>
-			</div>
-			</div>
-			</div>
-		<!-- /.navbar-collapse -->
-			 <!-- /.container-fluid --> 
-		</nav>
-		</div>
-		</div>
-</head>
-<body>
+                <div class="col-md-12 pull-right" >
 
-
-<div style="border: 1px solid red; height: 100%;" class="col-md-2 pull-left div-vermelha">
-
-   <ul class="nav nav-pills nav-stacked">
-     <button type= "button" class= "btn btn-default btn-lg btn-block" > Voltar </button>
-   </ul>
- 
-</div>
-
-<div style="border: 1px  solid blue; height: 90%;" class="col-md-10"><!-- linha da tela três --> 
+                    <div class="col-md-12 ">
+                        <div class="col-sm-6 col-lg-5" >
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-md-2 control1-labe">Nome</label>
+                                <div class="col-md-8 pull-right ">
+                                    <input type="email" class="form-control tamanho " id="inputnome" placeholder="Jantar para você e um acompanhante no REst.Chez Michox">
+                                    </br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
 
-<div class="row-fluid">
-  <label class="unit2">Nome</label>
-  <input type= "text" name = "month" size="58" maxlength="8" id="month" value= " Jantar para você e um acompanhante no REst.Chez Michox" />
-  </div>
-  
-  <div class="celular">
-  <div class="onoffswitch">
-    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
-    <label class="onoffswitch-label" for="myonoffswitch">
-        <span class="onoffswitch-inner"></span>
-        <span class="onoffswitch-switch"></span>
-    </label>
-</div>
-</div>
-  
-    <div class="row-fluid">
-  <label class="unit2">Tipo</label>
-  </div>
-  <div class="col-md-3">
-<select class="span1">
-                <option>Experiência</option>
-                <option>Viagem</option>
-                <option>Eletrodomésticos</option>
-                <option>Eletroeletrónico</option>
-                <option>Celular/Smartphone</option>
-                <option>Computador/Tablet</option>
-                <option>Show/Entretenimento</option>
-                <option>Comida/Gastronomia</option>
-                <option>Bebida/Enogastronomia</option>
-              </select>
-			  
-			  
- </div>
- 
- 
- <div class="row-fluid">
-  <label class="unit2">Descrição</label>
-  </div>
-			 <div class="col-md-3">
-			 <form name=myform>
-<textarea name=mytextarea cols=90 rows=4>
+                    <div class="col-md-12" >
+                        <div class="col-sm-6 col-lg-5" >
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-md-2 control-label">Tipo</label>
+                                <div class="col-md-8 pull-right">
+                                    <select class="span1">
+                                        <option>Experiência</option>
+                                        <option>Viagem</option>
+                                        <option>Eletrodomésticos</option>
+                                        <option>Eletroeletrónico</option>
+                                        <option>Celular/Smartphone</option>
+                                        <option>Computador/Tablet</option>
+                                        <option>Show/Entretenimento</option>
+                                        <option>Comida/Gastronomia</option>
+                                        <option>Bebida/Enogastronomia</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12" >
+                        <div class="col-sm-6 col-lg-10 " > <!--o LG vai servir para a posição do textoarea, light-right-->
+                            <div class="form-group ">
+                                <label for="inputEmail" class="col-md-2 control-label">Descrição</label>
+                                <div class="col-md-9 pull-left">
+                                    <form name=myform>     <!-- cols: tamanho da caixa de texto na horizontal-->
+                                        <textarea class="form-control" >
 Isto é um exemplo de área de texto ...........
 Isto é um exemplo de área de texto ...........
 Isto é um exemplo de área de texto ...........
-Isto é um exemplo de área de texto ...........
-</textarea>
-</form>
-			</div>
-			
-	
-	 <tr>
-	 <div class="row-fluid">
-   <td>
-    <label for="imagem">Imagem de perfil:</label>
-   </td></div>
-    <div class="col-md-3">
-   <td>
-    <input type="file" name="imagem" >
-   </td>
-   </div>
-  </tr>			
-		
-		
+                                        </textarea>
+                                    </form>
+                                </div>  <!-- FIm caixa de texto-->
+                            </div>
+                        </div> 
+                    </div>
 
-<div class="row-fluid">
-  <label class="unit2">Site</label>
-  <input type= "text" name = "site" size="22" maxlength="8" id="site" value= "www.chezmichoux.com.br" />
-  </div>
 
-		
-<div class="row-fluid">
-  <label class="unit2">Link adicional</label>
-  <input type= "text" name = "link" size="89" maxlength="8" id="link" value= "https://www.google.com.br/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=google+maps+oscar+freire" />
-  </div>
-  
-  
- <div class="row-fluid">
-  <label class="unit3">Informações adicionais</label>
-  </div>
-			 <div class="col-md-4">
-			 <form name=myform>
-<textarea name=mytextarea cols=90 rows=3>
+
+                    <div class="col-sm-12">
+
+                        <div class="col-sm-5 col-lg-5" >
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-md-2 control-label" >Imagens</label>
+                                <div class="col-md-8 pull-right">
+                                    <a href="#" class="ico-search">Clique aqui para selecionar a imagem</a>
+                                </div> <br/>
+                            </div>
+                        </div> 
+
+                    </div>   
+
+                    <div class="col-sm-5 col-lg-4" >
+                        <div class="form-group">
+                            <label for="inputEmail" class="col-md-2 control-label" >Site</label>
+                            <div class="col-md-7 pull-right">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="www.chezmichoux.com.br">
+                                </br>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-sm-12">
+                        <div class="col-sm-6 col-lg-5">
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-md-3 control-label" >Link adicional</label>
+                                <div class="col-md-8 pull-right">
+                                    <input type="email" class="form-control tamanho2" id="inputEmail" placeholder="https://www.google.com.br/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=google+maps+oscar+freire">
+                                    </br>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+
+                    <div class="col-sm-6 col-lg-5">
+                        <div class="form-group">
+                            <label for="inputEmail" class="col-md-2 control-label">Informações adicionais</label>
+                            <div class="col-md-8 pull-right"> <!--  caixa de texto-->
+                                <form name=myform>     <!-- cols: tamanho da caixa de texto na horizontal-->
+                                    <textarea name=mytextarea cols=90 rows=3>
 R.Oscar Freire 123-Jardins-São Paulo-SP.
 Fone: 11-4321-5678
-RSVP: ligue antes para confirmar a disponibiidade.
+RSVP: ligue antes para confirmar a disponibilidade.
 Válido de 5º a Dom (exeto feriados) das 18h ás 24h.
-</textarea>
-</form>
-			</div>
-			
-			
+                                    </textarea>
+                                </form>
+                            </div>  <!-- FIm caixa de texto-->
+                        </div>
+                    </div> 
 
-	<div class="row-fluid">
-		<label class="unit3">Instruções para receber o prêmio</label>
-  </div>
-			<div class="col-md-6">
-		<form name=myform>
-	<textarea name=mytextarea cols=90 rows=2>
+
+
+
+                    <div class="col-md-12">
+                        <div class="col-sm-6 col-lg-5">
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-md-3 control-label">Instruções <br/> para receber<br/> o prêmio</label>
+                                <div class="col-md-8 pull-right">
+                                    <form name=myform>     <!-- cols: tamanho da caixa de texto na horizontal-->
+                                        <textarea name=mytextarea cols=90 rows=3>
 Procure a Tatiane Ferreira (Gerente RH-ramal 1234) para retirar seu voucher(p/ 2 pessoas).
-	</textarea>
-		</form>
-			</div>
-			
-			
-	<div class="row-fluid">
-		<label class="unit3">Quantidade</label>
-</div>
-				<div class = "parte3">
-				<INPUT TYPE="radio" NAME="OPCAO" VALUE="op1"checked>ilimitado/sem controle
-				</div>
-
-  <div class = "parte4">
-			<form>
-			<INPUT TYPE="radio" NAME="OPCAO" VALUE="op1">com controle de estoque
-			</form>
-		</div>
-			
-  <div class="parte5">				
-    <form action="demo_form.asp">Qtd.inicial 
-		<input type="text" name="qtd." size="5" maxlength="8" id="qtd." value="10">
-	</form>
-  </div>	
-		<div class="parte6">	
-		<form action="demo_form.asp">Qtd.ataul
-        <input type="text" name="qtd." size="5" maxlength="8" id="qtd." value="10">  <a href="#" class="ico-search1">redefinir</a></p>
-    </form>		
-</div>
-			
-			
-			
-			
-		<div class="row-fluid">
-		<label class="unit3">Disponibilidade</label>
-</div>
-				<div class = "parte3-3">
-				<INPUT TYPE="radio" NAME="OPCAO" VALUE="op1"checked>por conquista
-				</div>
-
-  <div class = "parte4">
-			<form>
-			<INPUT TYPE="radio" NAME="OPCAO" VALUE="op1">no Catálogo de Prêmios
-			</form>
-		</div>
-			
-  <div class="parte5">				
-    <form action="demo_form.asp">Qtd.Pontos 
-		<input type="text" name="qtd." size="4" maxlength="8" id="qtd." value="10">
-	</form>
-  </div>	
-		
-
-  </br>			
-  
-  <div>
-		 <button type="button" class="btn btn-info">Salvar</button> 
- </div> 
- <div>
-		 <button type="button" class="btn btn-info2">cancelar</button> 
- </div>
- </div>
-
-</div>	 
-</body>	
+                                        </textarea>
+                                    </form>
+                                </div>  <!-- FIm caixa de texto-->
+                            </div>
+                        </div> 
+                    </div>
 
 
- 
- 
+
+                    <div class="col-md-12" >
+                        <div class="col-sm-6 col-lg-5" >
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-md-2 control1-labe">Quantidade</label>
+                                <div class="col-md-8 pull-right ">
+                                    <div class = "checbox checboxcontainer" >
+                                        <input type="radio"  value="nome"> ilimitado/sem controle 
+                                    </div> 
+
+                                    <div class = "checbox checboxcontainer">
+                                        <input type="radio"  value="nome"> com controle de estoque
+                                    </div>                               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="col-sm-6 col-lg-10" >
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-md-2 control1-labe"> </label>
+                                <div class="col-md-2 ">
+                                    <form action="demo_form.asp">Qtd.inicial 
+                                        <input type="text" name="qtd." size="5" maxlength="8" id="qtd."  placeholder="10">
+                                    </form>
+                                </div>
+                                <div class="col-md-3 ">
+                                    <form action="demo_form.asp">Qtd.ataul
+                                        <input type="text" name="qtd." size="5" maxlength="8" id="qtd." placeholder="10">  <a href="#" class="ico-search1">redefinir</a>
+                                    </form>
+                                    <br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-12" >
+                        <div class="col-sm-6 col-lg-5" >
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-md-2 control1-labe">Disponibilidade</label>
+                                <div class="col-md-8 pull-right ">
+                                    <div class = "checbox checboxcontainer" >
+                                        <input type="radio"  value="nome"> por conquista
+                                    </div> 
+
+                                    <div class = "checbox checboxcontainer">
+                                        <input type="radio"  value="nome"> no Catálogo de Prêmios
+                                    </div>    
+
+                                    <form action="demo_form.asp">Qtd.Pontos 
+                                        <input type="text" name="qtd." size="4" maxlength="8" id="qtd." placeholder="">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- rodape -->
+                    <div>
+                        <button type="button" class="btn btn-primary pull-right btnazul">Salvar</button>
+                        <button class="btn btn-deafult pull-right">Cancelar</button>
+                    </div> 
+
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
+
+<!--FIM container-->

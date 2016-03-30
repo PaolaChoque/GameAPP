@@ -1,8 +1,18 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2016, 13:19:11
+    Author     : Raphael Pizzo
+*/
+
 .celular{  /*Aqui é o ativo do iphone ou celular */
 
-   margin-right:10px;
-   margin-top: -30px;
-   margin-left: 770px;
+
+    margin-top: -4em;
+    margin-left: 770px;
 }
 .onoffswitch {
     position: relative; width: 90px;
@@ -48,163 +58,58 @@
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px; 
+}				/*Aqui termina o ativo do iphone ou celular */
+
+
+.margembranca{
+    padding: 15px;
 }
 
 
-
-        .row-fluid {		
-			 width: 900px;   /* faz a separação da no "nome" e "campo" na VERTICAL*/
-			    margin-right:20px;				/*Aqui é o tamanho da margin do nome com caixa de texto*/
-				margin-top: 10px;  
-				margin-left: 30px;
-					}						    /*Aqui termina o tamanho da margin do nome com caixa de texto*/
-		
-        .unit2{                    /* faz a separação da no "nome" e "campo" na HORIZONTAL*/
-			width: 185px;
-		      }		
-
-			  
-			.unit3{                    /* faz a separação da no "nome" e "campo" na VERTICAL*/
-			width: 97px;
-	        margin-top: -7px;  
-		      }	 
-			  
-			  
-			  
-			  
-			  
-
-/*Esses são os botões do final da página cancelar-salvar*/
-.btn.btn-info2 {
-size: 5px;
-   margin-right:-900px;
-   margin-top: -70px;
-   margin-left: 900px
-}
-  
- .btn.btn-info {
-size: 5px;
-   margin-right:-900px;
-   margin-top: -70px;
-   margin-left: 990px
-}
-  
-
-.parte3 {											/*Aqui começa as posições dos checkbox do começo da página*/			
-   size: 5px;
-   margin-top: -35px;
-   margin-left: 220px
+.btnazul{
+    margin-right: 5px;
+   margin-left: 1em;
 }
 
-.parte3-3{
-	
-	size: 5px;
-   margin-top: -24px;
-   margin-left: 220px
-	
+/*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+.header-style{
+    border: 1px solid #DCDCDC;
 }
 
-.parte4 {								
-    margin-left: 220px;
-	margin-top: 0px;
+.menu-style{
+    border: 1px solid #DCDCDC;
+    height: 41em;
 }
 
-.parte5{									
- margin-left: 220px;
-	margin-top: -10px;		/*padding aumenta o tamonho da palavra caixa de texto*/
+.container-style{
+    height: 100%;
+}
+/*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+
+
+
+/* configurações da navbar*/
+.navbar.navbar-default.nab-branco{
+    background: #FFFFFF;
+}
+.container-fluid{
+    height: 4em;
+}   
+/* Fim configurações da navbar*/
+
+
+/*configurações do formulário*/
+.col-sm-9{
+    margin-left: 3em;    
+}
+/*FIM das configurações do formulário*/
+
+/*tamanho da caixa do fomulário*/
+.tamanho{
+    width: 30em;
 }
 
-.parte6{
-  margin-left: 370px;
-	margin-top: -41px;
-}									  /*Aqui termina as posições dos checkbox do começo da página*/
-
-
-
-
-
-
-
-.caixatexto{						/*Aqui é a penúltima linha do texto com o span*/
-   margin-right:40px;
-   margin-top: 30px;
-   margin-left: 30px
+.tamanho2{
+      width: 47em;
 }
-
-.col-md-3{                              /*Aqui começa as áreaas de texto*/
-   margin-right:850px;
-   margin-top: -25px;
-   margin-left: 218px
-}		
-
-.col-md-4{
-   margin-right:850px;
-   margin-top: -40px;
-   margin-left: 218px
-}	
-
-.col-md-6{
-   margin-right:850px;
-   margin-top: -70px;
-   margin-left: 218px
-}												
-
-.span1{
-	padding:2px;
-}										/*Aqui começa as áreaas de texto*/
-								/*Aqui termina a penúltima linha do texto com o span*/							
-
-								
-								
-
-legend.scheduler-border {
-border-bottom:none;
-}
-
-.glyphicon.glyphicon-info-sign{
-font-size:3.0em;
-    margin-right: 700px;
-    margin-left: -50px;
-	margin-top: -5px;
-	margin-bottom: 0px;
-}
-
-
-.text{
-	font-size:1.0em;
-    margin-right: 10px;
-    margin-left: 40px;
-	margin-top: -40px;
-	margin-bottom: 0px;
-	text-align:left;
-}
-
-.ico-search{
-	font-size:1.0em;
-    margin-right: -25px;
-    margin-left: 100px;
-	margin-top: 40px;
-	margin-bottom: 0px;
-}
-
-.col-md-4.pull-left{
-	font-size:1.0em;
-    margin-right: -25px;
-    margin-left: -330px;
-	margin-top: 30px;
-	margin-bottom: 0px;
-}
-
-.col-md-1.pull-left{
-	font-size:1.0em;
-    margin-right: -25px;
-    margin-left: -105px;
-	margin-top: 30px;
-	margin-bottom: 0px;
-}
-
-.navbar-brand{
-
-    margin-right: 25px;
-    margin-left: 105px;
-}
+/*FIM do tamanho da caixa do fomulário*/
