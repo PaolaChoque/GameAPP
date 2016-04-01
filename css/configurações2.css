@@ -1,10 +1,9 @@
-.col-md-1{     /*Aqui é o ativo do iphone ou celular */
+.celular{  /*Aqui é o ativo do iphone ou celular */
 
-   margin-right:300px;
-   margin-top: -390px;
-   margin-left: 480px;
-}            
 
+    margin-top: 0em;
+    margin-left: 5em;
+}
 .onoffswitch {
     position: relative; width: 90px;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
@@ -22,26 +21,26 @@
 }
 .onoffswitch-inner:before, .onoffswitch-inner:after {
     display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
-    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;/*alteração12->14*/
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
     box-sizing: border-box;
 }
 .onoffswitch-inner:before {
     content: "ON";
     padding-left: 10px;
-    background-color: 	#C0C0C0; color: #EEEEEE;
+    background-color: #34A7C1; color: #FFFFFF;
 }
 .onoffswitch-inner:after {
     content: "OFF";
     padding-right: 10px;
-	 background-color: #EEEEEE; color: #C0C0C0;/*esse aqui <-- muda a cor da letra de dentro da off*/
+    background-color: #EEEEEE; color: #999999;
     text-align: right;
 }
 .onoffswitch-switch {
     display: block; width: 18px; margin: 6px;
-    background: #FFFFFF;         /*esse aqui <-- muda a cor da bolinha de dentro*/
-    position: absolute; top: -6; bottom: 0;
-    right: 62px;/*esse comando faz com que ele vá do lado esquerdo para lado direito"tamanho(56->62)"*/
-    border: 2px solid #C0C0C0; border-radius: 20px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
     transition: all 0.3s ease-in 0s; 
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
@@ -49,7 +48,7 @@
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px; 
-}     /*Aqui termina o ativo iphone celular mais conhecido onoffswitch*/
+}				/*Aqui termina o ativo do iphone ou celular */
 
 
 
@@ -108,176 +107,80 @@
 
 
 
-		 /*Aqui começa as configurações do menu ☰ para o lado direito */
-	.nav.nav-list{
-				margin-top: 5px;
-			margin-bottom:0px ;
-			margin-left:200px ;
-			margin-right: 5px;
-	} /*Aqui termina as configurações do menu ☰ para o lado direito */
-	
-	
+	.margembranca{
+    padding: 15px;
+}
+   
+    /*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+    .header-style{
+        border: 1px solid #DCDCDC;
+    }
+    
+    .menu-style{
+        border: 1px solid #DCDCDC;
+        height: 100%;
+    }
+    
+    .container-style{
+        height: 100%;
+    }
+    /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+  
+    /* configurações da navbar*/
+    .navbar.navbar-default.nab-branco{
+        background: #FFFFFF;
+    }
+    .container-fluid{
+        height: 4em;
+    }
+    /* Fim configurações da navbar*/
 
-  .unit1{
-   margin-right: 9px;
-   margin-top: 0px;
-   margin-left: 9px
-  }
+    .breadcrumb{
+        background: #FFFFFF;
+    }
+    /* configurações da tabela */
+    .table-responsive{
+        padding-top: 0%;
+        padding-left: 1.1em;
+    }
+     
 
-  .unit2{
-   margin-right: 9px;
-   margin-top: 30px;
-   margin-left: 9px
-  }
-  
-  .unit3{
-   margin-right: 9px;
-   margin-top: 25px;
-   margin-left: 9px
-  } 
-  
-  .unit4{
-   margin-right: 9px;
-   margin-top: 10px;
-   margin-left: 9px
-  } 
-  
-  .unit5{
-   margin-right: 9px;
-   margin-top: -25px;
-   margin-left: 200px
-  }
+     
+
+.btnaltura{
+    padding-top: 1.8em;
+
+}
+
+.col-xs-3{
+    height: 5%;
+}
+
+
+    .btnazul{
+        margin-right: 3em;
+        margin-left: 1em;
+    }	
+    
+    .ligado{
+            margin-top: -2em;
+               margin-left: 7em;
+    }	
+/*	
+<div class="col-md-1">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch">
+        <span class="onoffswitch-inner"></span>
+        <span class="onoffswitch-switch"></span>
+    </label>
+</div>
+ 
 						 
-	.btn.btn-large{
-   margin-right: 130px;
-   margin-top: -30px;
-   margin-left: 200px
-	}		 
-
-.col-md-6{
-	margin-right: 10px;
-   margin-top: 5px;
-   margin-left: 199px;
-}
-.unit6{
-	margin-right: 10px;
-   margin-top: -40px;
-   margin-left: 480px;
-}
-
-.unit7{
-	margin-right: 10px;
-   margin-top: -25px;
-   margin-left: 480px;
-}
-
-.unit8{
-	margin-right: 10px;
-   margin-top: 20px;
-   margin-left: 0px;
-}
-
-.unit9{
-	margin-right: 10px;
-   margin-top: 0px;
-   margin-left: 0px;
-}
-
-.unit10{
-	margin-right: 10px;
-   margin-top: -27px;
-   margin-left: 310px;
-}
-
-.unit11{
-	margin-right: 10px;
-   margin-top: -30px;
-   margin-left: 460px;
-}
-
-
-
-/*Esses são os botões do final da página cancelar-salvar*/
-.btn.btn-info {
-size: 5px;
-   margin-right:-900px;
-   margin-top: 30px;
-   margin-left: 900px
-}
-   .btn.btn-info2 {
-size: 5px;
-   margin-right:-900px;
-   margin-top: 30px;
-   margin-left: 900px
-}/*Aqui termina os botões do final da página cancelar-salvar*/ 
-
-
-	
-
-	
-	
-    .navbar-brand{              /*Aqui começa as configurações da navbar */
-		
-		position: fixed center;
-			margin-top: 5px;
-			margin-bottom:0px ;
-			margin-left:0px ;
-			margin-right: 5px;
-			
-		padding-top: 5px; /*O padding tem um funcionamento muito similar ao do margin, porém ao invés de dar uma espaçamento
-		                    externo, faz a mesma coisa que a aclasse em baixo (sheduler-border) que a margin */
-		padding-right: 20px; 
-		padding-bottom: 0px;
-		padding-left: 5px;
-		                                /*Aqui termina as configurações da navbar */
-	}
-	
-	
-	
-	
-
-.container-fluid{ 
-	font-size:1.0em;
-	background-color:#fff;
-    margin-right: auto;
-    margin-left: auto;
-	padding-right: 150px;
-    padding-left: 15px;
-	position: relative;
-    min-height: 60px;
-    padding-right: 20px;
-    padding-left: 60px;
-}
-
-
-
-.divider { 
-	
-	background-color:#000;
-	margin-bottom:10px;
-}	
-.navbar {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 0px!important;
-    border: 1px solid transparent;
-}
-
-.breadcrumb {
-	background-color:#FFFFFF!important;
-}
-.btn-btn-large-btn-primary {
-		position:absolute;
-		top: 50px;
-		left: 50px;	
-	} 
-/* Posicionamento dos icones Checbox e stop*/
-
-
-.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-
-, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 0px!important;
-    padding-left: 0px!important;
-}
+	<div class="onoffswitch2-2">
+    <input type="checkbox" name="onoffswitch2" class="onoffswitch2-checkbox" id="myonoffswitch2" checked>
+    <label class="onoffswitch2-label" for="myonoffswitch2">
+        <span class="onoffswitch2-inner"></span>
+        <span class="onoffswitch2-switch"></span>
+    </label>
+</div>
+*/
