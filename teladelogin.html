@@ -1,92 +1,70 @@
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/enviar-email-convite.css" rel="stylesheet">
-<link href="css/teladelogin.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700' rel='stylesheet' type='text/css'>
-  <script src="js/enviar-email-convite.js"</script>
-
-
-<html lang="en">
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
-<head>
-<div style="border: 1px  solid red;" class="col-md-12">
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span> 
-        <span class="icon-bar"></span>   
-        <span class="icon-bar"></span>
-      </button>
-	  
-      <a class="navbar-brand" href="#"><strong>Game APP |</strong>Company Console</a>
-    </div>
-	</div>
-	</div>
-<!-- /.navbar-collapse -->
-     <!-- /.container-fluid --> 
-</nav>
-</div>
-</div>
-</head>
-<body>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/configuracoes4.css" rel="stylesheet" />   retirei por confiurar a nav-brand---> 
+        <link href="css/teladelogin.css" rel="stylesheet"/>
 
 
+        <script src="js/jquery.min.js"></script> 
+        <script src="js/bootstrap.min.js"></script> 
+
+    </head>
+    <body>
+        <!--cabeçãlho-->
+        <div class="col-md-12 header-style">
+            <nav class="navbar navbar-default nab-branco">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="col-md-1"></div>
+                    <div class=" col-md4 pull-left">
+                        <a class="navbar-brand" href="#"><strong>Game APP |</strong>Company Console</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--Fim cabeçãlho-->
+
+        <!--Menu-->
+        <!--FIM menu-->   
+
+        <!--container 1-->
+
+        <div class="col-md-8 pull-right position">
+           
+            <fieldset class="scheduler-border ">
+                <legend class="scheduler-border">Login</legend>
+                <div class="control-group">
+
+                    <div class="controls bootstrap-timepicker email">
+                        <input type="text" class="datetime" type="text" id="startTime" name="startTime" placeholder="E-mail" />
+                        <i class="icon-time"></i>
+                    </div>
+                    <br/>
+                    <div class="controls bootstrap-timepicker senhacx">
+                        <input type="text" class="datetime" type="text" id="startTime" name="startTime" placeholder="Senha" />
+                        <i class="icon-time"></i>
+                    </div>
+
+                        <a href="#" class="btn btn-link senha"> Esqueci a senha</a>
+                  
+                    <div class=" col-md-2 btnposition">
+                        <button type="button" class="btn btn-info pull-right" > Entrar</button>  
+                    </div>
+
+                        
+                </div>
+            </fieldset>
+        </div>
 
 
-<div style="border: 1px  solid blue; height: 90%;" class="col-md-12"><!-- linha da tela três --> 
-<div class = "caixa1">
-<form> 
-
-<fieldset class="scheduler-border">
-<legend class="scheduler-border">Login</legend>
-<form class="form-horizontal"> 
-
-  <div class="row-fluid">
-          <input type= "text" name = "month" size="30" maxlength="50" id="month" placeholder="E-mail"/><!--Maxlength define o número de caracteres dentro da caixa-->
-     </div>
-	 
-	  <div class="row-fluid">
-          <input type= "text" name = "month" size="30" maxlength="50" id="month" placeholder="Senha"/><!--Maxlength define o número de caracteres dentro da caixa-->
-     </div>
-
-		<div align="row-fluid1">
-		<a href="#" class="btn btn-link">Esqueci a senha</a>
-		</div>
-
-
-  
-			<div class="sidebar">
-			 <button type="button" class="btn btn-info">Entrar</button>
-			</div>
- 
-  </form>
-</div>  
-  </fieldset> 
-
-	
- </div>
- </form>
-
- </div>
-
-	 
-
-	 
-	 
-</div>	 
-</body>	
-<script src="js/jquery.min.js"></script> 
- <script src="js/bootstrap.min.js"></script> 
-
-
- 
+        <!--FIM container-->
