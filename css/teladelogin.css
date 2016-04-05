@@ -9,7 +9,6 @@ and open the template in the editor.
 */
 
                     /*cofiguracoes da caixa de login */
-                    
                     .position{
                         padding-left: 3em;
                         padding-top: 8em;
@@ -42,10 +41,7 @@ fieldset
 legend.scheduler-border {
 border-bottom:none;
 }
-                        /*cofigurações da caixa de login */
-
-
-
+                       /*cofigurações da caixa de login */
 
     /*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
     .header-style{
@@ -61,7 +57,6 @@ border-bottom:none;
     }
     /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
     
-     
     /* configurações da navbar*/
     .navbar.navbar-default.nab-branco{
         background: #FFFFFF;
@@ -85,7 +80,6 @@ border-bottom:none;
     }
       /*fim botão entrar*/
 
-      
     /*configurações de esqueci a senha*/
     .senha{
        margin-left: 2em;
