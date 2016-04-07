@@ -1,310 +1,20 @@
-.row-fluid {		
-			 width: 900px;   /* faz a separação do "nome" e "campo" na VERTICAL*/
-			    margin-right:20px;				/*Aqui é o tamanho da margin do nome com caixa de texto*/
-				margin-top: 0px;  
-				margin-left: 5px;				   /*Faz separação do do menu e a tabbable*/
-					}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2016, 13:19:11
+    Author     : Raphael Pizzo
+*/
 
-
-       .unit1{                   
-			width: 110px;
-			margin-top: 1px; 
-			margin-left: 20px;
-		      }						
-		
-		
-        .unit2{                    /* faz a separação da no "nome" e o "campo" na HORIZONTAL*/
-			width: 124px;
-			margin-top: 3px; 
-			margin-left: 20px;
-		      }		
-
-			  
-			  
-			.unit3{                    /* Começa aqui as configurações de Endereço e número!!!*/
-			width: 122px;             /* faz a separação da no "nome" e "campo" na VERTICAL*/
-	        margin-top: -3px;
-           margin-left: 22px;			
-		      }	 
-			.col-md-3{ 
-           margin-top: -22px;
-			margin-right: 100px;
-			margin-left: 150px;
-            }	
-
-		/* Termina aqui as configurações de Endereço e número!!!*/
-		
-		
-		.unit4{                    /* Começa aqui as configurações de Complemento e Bairro!!!*/
-	width: 450px;             /* faz a separação da no "nome" e "campo" na VERTICAL*/
-	margin-top: -5px;  
-	margin-right: 10px;
-	margin-left: 152px;
-    }	 
-     .unit5{                    
-	width: 150px;             /* faz a separação da no "nome" e "campo" na VERTICAL*/
-	margin-top: -6px;  
-	margin-right: -10px;
-			margin-left: 153px; 
-    }	 
-
-	 .unit6{                    
-	width: 150px;             /* faz a separação da no "nome" e "campo" na VERTICAL*/
-	margin-top: -36px;  
-	margin-right: -10px;
-			margin-left: 249px; 
-    }
-	 			
-.col-md-4{ 
-    margin-top: 5px;
-	margin-right: 140px;
-	margin-left: 150px;
-     }							  /* Termina aqui as configurações de Complemento e Bairro!!!*/
-
-					.row-fluid-3{        /* Começa aqui as configurações de Cidade - Estado- Pais*/
-
-					margin-top: 42px;
-						margin-right: 140px;
-						margin-left: 167px;
-					}	 	
-
-.unit7{                    
-	width: 550px;           
-	margin-top: 0px;  
-	margin-right: 10px;
-	margin-left: 169px;
-    }
-	
-	.unit7-1{                    
-	width: 550px;           
-	margin-top: -35px;  
-	margin-right: 10px;
-	margin-left: 290px;
-    }
-
-	
-     .unit8{                    
-	width: 550px;           
-	margin-top: 5px;  
-	margin-right: 10px;
-	margin-left: 169px;
-    }
-
-.unit8-1{                    
-	width: 550px;           
-	margin-top: -35px;  
-	margin-right: 10px;
-	margin-left: 290px;
-    }	
-	
-	.unit9{                    
-	width: 550px;           
-	margin-top: -7px;  
-	margin-right: 10px;
-	margin-left: 152px;
-    }	 
-
-.unit10{                    
-	width: 550px;           
-	margin-top: 5px;  
-	margin-right: 10px;
-	margin-left: 172px;
-    }
-	
-	.unit10-1{                    
-	width: 550px;           
-	margin-top: -35px;  
-	margin-right: 10px;
-	margin-left: 290px;
-    }
-
-.unit11{                    
-	width: 550px;           
-	margin-top: -20px;  
-	margin-right: 10px;
-	margin-left: 469px;
-    }
-	
-.unit11-1{                    
-	width: 550px;           
-	margin-top: -35px;  
-	margin-right: 10px;
-	margin-left: 545px;
-    }
-
-.unit12{                    
-	width: 550px;           
-	margin-top: -30px;  
-	margin-right: 10px;
-	margin-left: 710px;
-    }	
-    
-.unit12-1{                    
-	width: 550px;           
-	margin-top: -37px;  
-	margin-right: 10px;
-	margin-left: 715px;
-    }
-
-.unit12-2{                    
-	width: 550px;           
-	margin-top: -23px;  
-	margin-right: 10px;
-	margin-left: 775px;
-    }	
-	
-	
-					.unit41{        
-					margin-top: 10px;  
-					margin-left: 172px;
-					}
-					
-					.unit42{        
-					margin-top: -35px;  
-					margin-left: 774px;
-					}
-					
-					.textop   {    
-					margin-top: -15px;  
-					margin-left: 473px;
-					}
-					
-					
-					
-	 
-	 .unit13{                    
-	width: 550px;           
-	margin-top: -10px;  
-	margin-right: 10px;
-	margin-left: 169px;
-    }
-		
-				.unit13-1{                    
-				width: 550px;           
-				margin-top: -20px;  
-				margin-right: 10px;
-				margin-left: 425px;
-				}
-				.unit13-2{                    
-				width: 550px;           
-				margin-top: -34px;  
-				margin-right: 10px;
-				margin-left: 470px;
-				}
-				.unit13-3{                    
-				width: 550px;           
-				margin-top: -30px;  
-				margin-right: 10px;
-				margin-left: 530px;
-				}
-				.unit13-22{ 
-				font-size:21px;
-				width: 550px;           
-				margin-top: -30px;  
-				margin-right: 10px;
-				margin-left: 518px;
-				}
-				
-
-				.unit13-4{                    
-				width: 550px;           
-				margin-top: -22px;  
-				margin-right: 15px;
-				margin-left: 580px;
-				}
-				
-				.unit13-33{                    
-			         
-				margin-top: -2px;  
-				margin-right: 15px;
-				margin-left: 4px;
-				}
-				
-				
-				
-	.unit14{                    
-	width: 550px;           
-	margin-top: -15px;  
-	margin-right: 10px;
-	margin-left: 169px;
-    }
-	
-	.unit15{                    
-	width: 550px;           
-	margin-top: 0px;  
-	margin-right: 10px;
-	margin-left: 152px;
-    }	
-	
-	
-	.row-fluid4{ 
-           margin-top: 0px;
-			margin-right: 100px;
-			margin-left: 160px;
-            }
-
-.caixa2{
-				margin-top: -20px;
-				margin-right: 29px;
-				margin-left: 79px;
-			}			
-			
-			.row-fluid5{ 
-           margin-top: 2px;
-			margin-right: 100px;
-			margin-left: 2px;
-            }
-			
-			.caixa3{
-				margin-top: -160px;
-				margin-right: 29px;
-				margin-left: 230px;
-			}	
-			
-.btnclick{
-	margin-top: 54px;
-			margin-right: 100px;
-			margin-left: 970px;
-}			
-	
-.row-fluid01{
-				margin-top: 5px;
-				margin-right: 29px;
-				margin-left: -130px;
-			}
-			
-.unit001{
-				margin-top: -25px;
-				margin-right: 29px;
-				margin-left: -8px;
-			}
-			
-			
-.btn.btn-info{
-	margin-top: -34px;
-
-	margin-left: 800px;
-}
-.btn.btn-info1{
-	margin-top: -22px;
-
-	margin-left: 730px;
-}
-.btn.btn-info2{
-	margin-top: -34px;
-
-	margin-left: 645px;
-}
-	
-			
-			
-                     /*começa aqui configurações da tabela zebrada*/			
+/*começa aqui configurações da tabela zebrada*/			
 body {
-  font: 120%/1.6 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+  font: "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
 }
 table {
   border-collapse: collapse;
-  width: 50em;
+  width: 20em;
   border: 1px solid #666;
 }
 thead {
@@ -316,6 +26,7 @@ tr:hover {
   background-color:#3d80df;
   color: #fff;
 }
+
 thead tr:hover {
   background-color: transparent;
   color: inherit;
@@ -330,3 +41,81 @@ th {
 th, td {
   padding: 0.1em 1em;/*tamanho da linha da tabela*/
 }                      /*termina aqui configurações da tabela zebrada*/	
+
+/*Fim das configuraões da tabela zebrada*/
+
+
+.margembranca{
+    padding: 15px;
+}
+
+
+.btnazul{
+    margin-right: 5px;
+   margin-left: 1em;
+}
+
+/*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+.header-style{
+    border: 1px solid #DCDCDC;
+}
+
+.menu-style{
+    border: 1px solid #DCDCDC;
+    height: 41em;
+}
+
+.container-style{
+    height: 100%;
+}
+/*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+
+
+/* configurações da navbar*/
+.navbar.navbar-default.nab-branco{
+    background: #FFFFFF;
+}
+.container-fluid{
+    height: 4em;
+}   
+/* Fim configurações da navbar*/
+
+
+/*configurações do formulário*/
+.col-sm-9{
+    margin-left: 3em;    
+}
+/*FIM das configurações do formulário*/
+
+/*tamanho da caixa do fomulário*/
+.tamanho{
+    width: 30em;
+}
+
+.tamanho2{
+      width: 47em;
+}
+/*FIM do tamanho da caixa do fomulário*/
+
+/*Espaço entre a palavra  a caixa de texto*/
+.espaco{
+ margin-left: 7px;
+}
+
+.incremento{
+    padding-left: 1em;
+}
+/*FIM Espaço entre a palavra  a caixa de texto*/
+
+;
+.largura{
+    font-size: 5em;
+    width: 4em;
+    padding-right: 5em;
+    padding-left: 8em;
+}
+
+.adicional{
+    margin-right: 28em;
+    margin-top: 5em;
+}

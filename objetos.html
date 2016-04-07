@@ -1,269 +1,236 @@
-<link href="css/bootstrap.min.css" rel="stylesheet">
-
-<link href="css/objetos.css" rel="stylesheet">
-
-<script src="js/jquery.min.js"></script> 
- <script src="js/bootstrap.min.js"></script> 
-<html lang="en">
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-
-
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
-<head>
-<!-- COMEÇA AQUI  A TABELA NO HEAD-->
-	<meta charset="UTF-8">
-	<title>Tablesorter - Tutsup</title>
-	
-	<!-- Estilos necessários para o tema do tablesorter -->
-	<link rel="stylesheet" href="css/blue/style.css">
-	
-	<!-- jQuery e Tablesorter -->
-	<script src="js/jquery-latest.js"></script>
-	<script src="js/jquery.tablesorter.min.js"></script>
-	
-	<!-- Meu script -->
-	<script src="js/scripts.js"></script>
- <!-- TERMINA AQUI  A TABELA NO HEAD-->
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- COMEÇA AQUI o codigo do modal porém não é extamente necessário chamar esses links todos...
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
- Termina AQUI comentario do MOdal-->
-
-<div style="border: 1px  solid red;" class="col-md-12">
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span> 
-        <span class="icon-bar"></span>   
-        <span class="icon-bar"></span>
-      </button>
-	  
-      <a class="navbar-brand" href="#"><strong>Game APP |</strong>Company Console</a>
-    </div>
-      
-	<div class= 'col-md-2 pull-right'>
-    <a class= "navbar-brand" href ="#"><small>Nome da Empresa</small><br/><small>Nome do Administrador</small></a>
-	</div>
-	
-	<div class= 'col-md-5 pull-right'>
-    <a class= "navbar-brand" href ="#"><strong>Objetos</strong></a>
-	</div>
-	</div>
-	</div>
-<!-- /.navbar-collapse -->
-     <!-- /.container-fluid --> 
-</nav>
-</div>
-</div>
-</head>
-<body>
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/configuracoes4.css" rel="stylesheet" />   retirei por confiurar a nav-brand---> 
+        <link href="css/objetos.css" rel="stylesheet"/>
 
 
-<div style="border: 1px solid red; height: 100%;" class="col-md-2 pull-left div-vermelha">
-
-   <ul class="nav nav-list "> 
-	<a data-toggle="collapse" data-target=".nav-collapse" href="#about"><big>☰</big></a> 
-   </ul>
-<nav class="nav-collapse" data-toggle="collapse" data-target= ☰ ".nav-collapse"><!--adicionei  a ☰ (figura) para a nav só fechar quando apenas clicar nela-->
-
- <ul class="nav nav-pills nav-stacked">
-   
-     <li role="presentation"><a href="#">Inicial</a></li>
-	 <div class="tabbable tabs-left">
-  <ul class="nav nav-tabs"></ul>
-  <div class="tab-content">
-  </div>
-</div>
-     <li role="presentation"><a href="#">Objetos</a></li>
-     <li role="presentation"><a href="#">Ações</a></li>
-	 <li role="presentation"><a href="#">Reconhecimento</a></li> 
-	 <li role="presentation"><a href="#">Missões</a></li>
-	 <li role="presentation"><a href="#">Programas</a></li>
-	 <li role="presentation"><a href="#">Desafios</a></li>
-	 <div class="tabbable tabs-left">
-  <ul class="nav nav-tabs">
-  </ul>
-  <div class="tab-content">
-  </div>
-</div>
-	 <li role="presentation"><a href="#">MOD/Packs</a></li>
-	 <div class="tabbable tabs-left">
-  <ul class="nav nav-tabs">
-  </ul>
-  <div class="tab-content">
-  </div>
-</div>
-	 <li role="presentation"><a href="#">Cadastro</a></li>
-	 <li role="presentation"><a href="#">Joagadores</a></li>
-	 <li role="presentation"><a href="#">-Equipes</a></li>
-	 <li role="presentation"><a href="#">-Prêmios</a></li>
-	 <div class="tabbable tabs-left">
-  <ul class="nav nav-tabs">
-  </ul>
-  <div class="tab-content">
-  </div>
-</div>
-
-	 <li role="presentation"class ="active"><a href="#">Configurações</a></li>
-	 <li role="presentation"><a href="#">Sair</a></li>
-
- </ul>	
-</div>
-
-<div style="border: 1px  solid blue; height: 90%;" class="col-md-10"><!-- linha da tela três -->
+        <script src="js/jquery.min.js"></script> 
+        <script src="js/bootstrap.min.js"></script> 
 
 
 
+        <!-- COMEÇA AQUI  A TABELA NO HEAD-->
+        <meta charset="UTF-8">
+        <title>Tablesorter - Tutsup</title>
 
-<ol class="breadcrumb" style="margin-bottom: 5px;">
+        <!-- Estilos necessários para o tema do tablesorter -->
+        <link rel="stylesheet" href="css/blue/style.css">
 
-  <li><a href="#">Home</a> </li>
-  <li><a href="#">Products </a> </li>
-  <li><a href="#">Xyz </a> </li>
-  <li class="active">Features</li>
-</ol>
+        <!-- jQuery e Tablesorter -->
+        <script src="js/jquery-latest.js"></script>
+        <script src="js/jquery.tablesorter.min.js"></script>
 
-
-
-
-<div class="caixa">
-<select class="span1">
-                <option>Selecione o Período para filtrar</option>
-                <option>Viagem</option>
-                <option>Eletrodomésticos</option>
-                <option>Eletroeletrónico</option>
-                <option>Celular/Smartphone</option>
-                <option>Computador/Tablet</option>
-                <option>Show/Entretenimento</option>
-                <option>Comida/Gastronomia</option>
-                <option>Bebida/Enogastronomia</option>
-              </select>
+        <!-- Meu script -->
+        <script src="js/scripts.js"></script>
+        <!-- TERMINA AQUI  A TABELA NO HEAD-->
 
 
-	<div  class="col-md-12">															
-<div class="tabbable tabs-left">  
+    </head>
+    <body>
+        <!--cabeçãlho-->
+        <div class="col-md-12 header-style">
+            <nav class="navbar navbar-default nab-branco">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class=" col-md4 pull-left">
+                        <a class="navbar-brand" href="#"><strong>Game APP |</strong>Company Console</a>
+                    </div>
 
-  
-	 <div id="Layer1" style="position:absolute; left:14px; top:-9px; width:610; height:400;z-index:1;">
-<div class="table-responsive">
-       <table class="tablesorter">
-	<thead>
-		<tr>
-                    <!-- datatableCount -->
-                    <th style="border-width: thin; border-style: solid; border-color: black;">Perguntas</th> 
-                    <th style="border-width: thin; border-style: solid; border-color: black;">Categoria </th>
-					<th style="border-width: thin; border-style: solid; border-color: black;"><center>Ativo</center></th> 
-                    <th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/></center></th>
+                    <div class= 'col-md-2 pull-right'>
+                        <a class= "navbar-brand" href ="#"><small><small>Nome da Empresa</small></small><br/><small><small>Nome do Administrador</small></small></a>
+                    </div>
 
-                </tr>
-            </thead>
-            <tbody ng-repeat="membro in membroSede">
-                <!-- Data Show Row-->
-                    <tr class="listas">
-				
-                        <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 1</td>
-						<td style="border-width: thin; border-style: solid; border-color: black;">Quiz/Trivia</td>
-						
-                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
-                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
-						<tr>
-						
-                         <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 2</td>
-						 <td style="border-width: thin; border-style: solid; border-color: black;">Quiz/Trivia</td>
-					
-                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
-                       <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
-                        </tr> 
-						
-                       <tr>
-					   <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 3</td>
-					   <td style="border-width: thin; border-style: solid; border-color: black;">Quiz/Trivia</td>
-					
-                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
-                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
-					   </tr>
+                    <div class= 'col-md-5 pull-right'>
+                        <a class= "navbar-brand" href ="#"><strong>Objetos</strong></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--Fim cabeçãlho-->
 
-					    <tr>
-					   <td style="border-width: thin; border-style: solid; border-color: black;">Desafio A </td>
-					   <td style="border-width: thin; border-style: solid; border-color: black;">Campanha de natal</td>
+        <!--Menu-->
+        <div class="col-md-2 pull-left div-vermelha menu-style ">
 
-						 <!--Posicionamento dos icones Checbox e stop*/-->
-                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" checked /> </center></td>
-					    <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
-					   </tr> 
+            <ul class="nav nav-pills nav-stacked">
+                <li role="presentation"><a href="#">Inicial</a></li>
+                <li role="presentation" class="active"><a href="#">Objetos</a></li>
+                <li role="presentation"><a href="#">Ações</a></li>
+                <li role="presentation"><a href="#">Reconhecimento</a></li>
+                <li role="presentation"><a href="#">Missões</a></li>
+                <li role="presentation"><a href="#">Programas</a></li>
+                <li role="presentation"><a href="#">Desafios</a></li>
+                <li class="divider-style"></li>
+                <li role="presentation"><a href="#">MOD/Packs</a></li>
+                <li class="divider-style"></li>
+                <li role="presentation"><a href="#">Cadastro</a></li>
+                <li role="presentation"><a href="#">Joagadores</a></li>
+                <li role="presentation"><a href="#">-Equipes</a></li>
+                <li role="presentation"><a href="#">-Prêmios</a></li>
+                <li class="divider-style"></li>
+                <li role="presentation"><a href="#">Configurações</a></li>
+                <li role="presentation"><a href="#">Sair</a></li>
+            </ul>
 
-                       <tr>
-					   <td style="border-width: thin; border-style: solid; border-color: black;">Desafio B </td>
-					   <td style="border-width: thin; border-style: solid; border-color: black;">Campanha de Natal</td>
-						 <!--Posicionamento dos icones Checbox e stop*/-->
-                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" checked /> </center></td>
-					    <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
-					   </tr> 
-					   
-					    <tr>
-					   <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta X </td>
-					   <td style="border-width: thin; border-style: solid; border-color: black;">Programa Segurança</td>
-						 <!--Posicionamento dos icones Checbox e stop*/-->                               
-                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
-					    <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
-					   </tr> 
-					   
-					   
-					     <tr>
-					   <td style="border-width: thin; border-style: solid; border-color: black;"> L </td>
-					   <td style="border-width: thin; border-style: solid; border-color: black;">  </td>
-						 <!--Posicionamento dos icones Checbox e stop*/-->                               
-                        <td style="border-width: thin; border-style: solid; border-color: black;"><center>  </center></td>
-					    <td style="border-width: thin; border-style: solid; border-color: black;"><center>  </center></td>
-					   </tr> 
-                    </tr>
-	</tbody>
-</table>
-    </div>
-    </div>
-	
-	
-                   
+        </div>
+        <!--FIM menu-->   
 
-	
-	
-			<div class="container">
-		  <!-- Trigger the modal with a button -->
-		  <button type="button" class="btn btn-info1" data-toggle="modal" data-target="#myModal">Importar Planilha de Objetos</button>
-		  <button type="button" class="btn btn-info">Adicionar Objetos</button>
-		  <!-- Modal -->
-		  <div class="modal fade" id="myModal" role="dialog">     <!--.fade = desvanecer o modal de dentro pra fora-->
-			<div class="modal-dialog modal-sm"><!--diálogo-.modal=define a largura adequada e margem do modal"tamanho".modal-lg-->
-			  <div class="modal-content">
-				<div class="modal-header">
-				  <button type="button" class="close" data-dismiss="modal">&times;</button>
-				  <h4 class="modal-title"><center>ATENÇÃO!</center></h4>
-				</div>
-				<div class="modal-body">
-				  <p>Este Objeto está sendo usado em</br>Ações e Programas!</br>
-				  Confirme se deseja mesmo excluí-lo.</p>
-				</div>
-				<div class="modal-footer">
-				  <button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
-				  <button type="button" class="btn btn-default" data-dismiss="modal">Sim</button>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		</div>
+        <!--container-->
+        <div class="col-md-10  container-style">
+            <div id="page-content" class="margembranca"> 
 
-</div>				
-</div>				
-</div>				
- 
+                <div id="elemento1" class="col-md-12 pull-left">
+                    <div class="col-md-12">
+                        <ol class="breadcrumb">
+                            <li><a href="#">Home</a> </li>
+                            <li><a href="#">Products </a> </li>
+                            <li><a href="#">Xyz </a> </li>
+                            <li class="active">Features</li>
+                        </ol>
+                    </div>
+                </div>
 
-</body>	
+                <div class="col-md-12" >
+
+                    <div class="col-md-8 ">
+                    </div>
+                    <div class="col-md-3 ">
+                        <select class="span1 pull-right">
+                            <option>Selecione a categoria para filtrar</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="Layer1" class="col-md-11">
+                    <div class="table-responsive">
+                        <table class="tablesorter">
+                            <thead>
+                                <tr>
+                                    <!-- datatableCount -->
+                                    <th style="border-width: thin; border-style: solid; border-color: black;">Perguntas</th> 
+                                    <th style="border-width: thin; border-style: solid; border-color: black;">Categoria </th>
+                                    <th style="border-width: thin; border-style: solid; border-color: black;"><center>Ativo</center></th> 
+                            <th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/></center></th>
+
+                            </tr>
+                            </thead>
+                            <tbody ng-repeat="membro in membroSede">
+                                <!-- Data Show Row-->
+                                <tr class="listas">
+
+                                    <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 1</td>
+                                    <td style="border-width: thin; border-style: solid; border-color: black;">Quiz/Trivia</td>
+
+                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
+                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+                            <tr>
+
+                                <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 2</td>
+                                <td style="border-width: thin; border-style: solid; border-color: black;">Quiz/Trivia</td>
+
+                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
+                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+                            </tr> 
+
+                            <tr>
+                                <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 3</td>
+                                <td style="border-width: thin; border-style: solid; border-color: black;">Quiz/Trivia</td>
+
+                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
+                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+                            </tr>
+
+                            <tr>
+                                <td style="border-width: thin; border-style: solid; border-color: black;">Desafio A </td>
+                                <td style="border-width: thin; border-style: solid; border-color: black;">Campanha de natal</td>
+
+                                <!--Posicionamento dos icones Checbox e stop*/-->
+                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" checked /> </center></td>
+                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+                            </tr> 
+
+                            <tr>
+                                <td style="border-width: thin; border-style: solid; border-color: black;">Desafio B </td>
+                                <td style="border-width: thin; border-style: solid; border-color: black;">Campanha de Natal</td>
+                                <!--Posicionamento dos icones Checbox e stop*/-->
+                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" checked /> </center></td>
+                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+                            </tr> 
+
+                            <tr>
+                                <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta X </td>
+                                <td style="border-width: thin; border-style: solid; border-color: black;">Programa Segurança</td>
+                                <!--Posicionamento dos icones Checbox e stop*/-->                               
+                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
+                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+                            </tr> 
+
+
+                            <tr>
+                                <td style="border-width: thin; border-style: solid; border-color: black;"> . </td>
+                                <td style="border-width: thin; border-style: solid; border-color: black;">  </td>
+                                <!--Posicionamento dos icones Checbox e stop*/-->                               
+                                <td style="border-width: thin; border-style: solid; border-color: black;"><center>  </center></td>
+                            <td style="border-width: thin; border-style: solid; border-color: black;"><center>  </center></td>
+                            </tr> 
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+
+                <div class="container">
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">     <!--.fade = desvanecer o modal de dentro pra fora-->
+                        <div class="modal-dialog modal-sm"><!--diálogo-.modal=define a largura adequada e margem do modal"tamanho".modal-lg-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title"><center>ATENÇÃO!</center></h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Este Objeto está sendo usado em</br>Ações e Programas!</br>
+                                        Confirme se deseja mesmo excluí-lo.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Sim</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- rodape -->
+
+                <!-- Trigger the modal with a button -->
+                <div>
+                    <button type="button" class="btn btn-primary pull-right btnazul" data-toggle="modal" data-target="#myModal">Adicionar Objeto</button>
+                    <button type="button" class="btn btn-deafult pull-right">Importar Planilha de Objetos</button> 
+                </div> 
+
+
+            </div>
+        </div>
+
+    </body>
+</html>
+
+<!--FIM container-->
