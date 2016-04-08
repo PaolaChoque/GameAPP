@@ -1,8 +1,16 @@
- .celular{  /*Aqui é o ativo do iphone ou celular */
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2016, 13:19:11
+    Author     : Raphael Pizzo
+*/
 
-   margin-right:10px;
-   margin-top: -15px;
-   margin-left: 870px;
+.celular{  /*Aqui é o ativo do iphone ou celular */
+  margin-right: 6em;
+
 }
 .onoffswitch {
     position: relative; width: 90px;
@@ -49,264 +57,106 @@
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px; 
 }
- 
- 
- 
- .row-fluid {		
-					 width: 700px;   /* faz a separação da no "nome" e "campo" na VERTICAL*/
-					}
-		
-        .unit2{                    
-		width: 175px;					/* faz a separação da no "nome" e "campo" na HORIZONTAL*/
-		margin-left: 20px;
-		 margin-top: 0px;
-		}		
- 
- 
-  .caixa2-1{
-	 width: 175px;
-	  margin-top: -25px;
-	margin-left: 200px;
- }
- .unit2-2{
-	 width: 175px;
-	  margin-top: -20px;
-	margin-left: 20px;
- }
- 
- .row-fluid2{
-	  width: 175px;
-	  margin-top: -35px;
-	margin-left: 200px;
- }
- 
- 
- .unit3{
-	 width: 175px;
-	  margin-top: 10px;
-	margin-left: 20px;
- }
- 
-					 .unit3-1{
-						 width: 175px;
-						  margin-top: -25px;
-						margin-left: 199px;
-					 }
-				.unit3-2{
-						 width: 375px;
-						  margin-top: -5px;
-						margin-left: 199px;
-					 }
-					 
-					 .unit3-3{
-						 width: 375px;
-						  margin-top: -30px;
-						margin-left: 499px;
-					 }
- 
- 
- 
-  .unit4{
-	 width: 775px;
-	  margin-top: 155px;
-	margin-left: 200px;
- }
- 
-					 .caixa4-1{
-						
-						  margin-top: -23px;
-						margin-left: 505px;
-					 }
- 
- .unit5{
-	 width: 775px;
-	  margin-top: -5px;
-	margin-left: 200px;
- }
- 
- 					 .caixa5-1{
-						  margin-top: -20px;
-						margin-left: 505px;
-					 }
-					 
- .unit6{
-	 width: 775px;
-	  margin-top: -5px;
-	margin-left: 200px;
- }
- 
- 					 .caixa6-1{
-						  margin-top: -20px;
-						margin-left: 505px;
-					 }					 
+/*ermina aqui onoffswitch do celular*/
 
-.unit7{
-	width: 175px;
-		 margin-top: 0px;
-		margin-left: 20px;
-	 }
-	 
-	 .row-fluid3{
-	width: 175px;
-		 margin-top: -40px;
-		margin-left: 200px;
-	 }
-	 
-	 .unit8{
-	width: 175px;
-		 margin-top: 15px;
-		margin-left: 20px;
-	 }
-	 
-	 .unit8-1{
-		 margin-top: -25px;
-		margin-left: 255px;
-	 }
-	 .unit8-2{
-		 margin-top: -35px;
-		margin-left: 555px;
-	 }
-	 .unit8-3{
-		 margin-top: -37px;
-		margin-left: 768px;
-	 }
 
-	 
-	 
-	 .unit9{
-		width: 175px;
-		 margin-top: -8px;
-		margin-left: 20px;
-	 } 
-	 
-	 .row-fluid4{
-		width: 175px;
-		 margin-top: -40px;
-		margin-left: 200px;
-	 }
-	 .unit9-1{
-		 margin-top: -25px;
-		margin-left: 255px;
-	 }
-	 .unit9-2{
-		 margin-top: 15px;
-		margin-left: 20px;
-	 }
-	
-	.unit10{                    
-		width: 175px;					/* faz a separação da no "nome" e "campo" na HORIZONTAL*/
-		margin-left: 20px;
-		 margin-top: 0px;
-		}		
- 
- 
-  .caixa2-1{
-	 width: 175px;
-	  margin-top: -25px;
-	margin-left: 200px;
- } 
-	
-
-	.unit11{                    
-		width: 175px;					/* faz a separação da no "nome" e "campo" na HORIZONTAL*/
-		margin-left: 20px;
-		 margin-top: 7px;
-		}		
- 
- 
-  .unit11-1{
-	 width: 875px;
-	  margin-top: -25px;
-	margin-left: 200px;
- }
- .unit11-2{
-	 width: 875px;
-	  margin-top: -25px;
-	margin-left: 300px;
- } 
-	 
-
-	 .btn.btn-info1{
-		   margin-top: -35px;
-	margin-left: 860px;
-	 } 
-	 
-	 
-	 .btn.btn-info{
-		   margin-top: -34px;
-	margin-left: 950px;
-	 }
- 
- .navbar-brand{
-		
-		position: fixed center;
-			margin-top: 5px;
-			margin-bottom:0px ;
-			margin-left:0px ;
-			margin-right: 5px;
-			
-		padding-top: 5px; /*O padding tem um funcionamento muito similar ao do margin, porém ao invés de dar uma espaçamento
-		                    externo, faz a mesma coisa que a aclasse em baixo (sheduler-border) que a margin */
-		padding-right: 20px; 
-		padding-bottom: 0px;
-		padding-left: 5px;
-		
-	}
-	
-	
-	.navbar-header {
-		color:black;
-	
-		
-	}
-	
-	.container{
-		border: 1px solid pink;
-		
-	}
-	
-
-.container-fluid{ 
-	font-size:1.0em;
-	background-color:#fff;
-    margin-right: auto;
-    margin-left: auto;
-	padding-right: 150px;
-    padding-left: 15px;
-	position: relative;
-    min-height: 60px;
-    padding-right: 20px;
-    padding-left: 60px;
+.margembranca{
+    padding: 15px;
 }
 
 
-
-.divider { 
-	
-	background-color:#000;
-	margin-bottom:10px;
-}	
-.navbar {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 0px!important;
-    border: 1px solid transparent;
+.btnazul{
+    margin-right: 5px;
+   margin-left: 1em;
 }
 
-.breadcrumb {
-	background-color:#FFFFFF!important;
+/*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+.header-style{
+    border: 1px solid #DCDCDC;
 }
-.btn-btn-large-btn-primary {
-		position:absolute;
-		top: 50px;
-		left: 50px;	
-	} 
-/* Posicionamento dos icones Checbox e stop*/
+
+.menu-style{
+    border: 1px solid #DCDCDC;
+    height: 41em;
+}
+
+.container-style{
+    height: 100%;
+}
+/*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
 
 
-.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 0px!important;
-    padding-left: 0px!important;
+/* configurações da navbar*/
+.navbar.navbar-default.nab-branco{
+    background: #FFFFFF;
 }
+.container-fluid{
+    height: 4em;
+}   
+/* Fim configurações da navbar*/
+
+
+/*configurações do formulário*/
+.col-sm-9{
+    margin-left: 3em;    
+}
+/*FIM das configurações do formulário*/
+
+/*tamanho da caixa do fomulário*/
+.tamanho{
+    width: 30em;
+}
+
+.tamanho2{
+      width: 47em;
+}
+/*FIM do tamanho da caixa do fomulário*/
+
+/*Espaço entre a palavra  a caixa de texto*/
+.espaco{
+ margin-left: 7px;
+}
+
+.incremento{
+    padding-left: 1em;
+}
+/*FIM Espaço entre a palavra  a caixa de texto*/
+
+;
+.largura{
+    font-size: 5em;
+    width: 4em;
+    padding-right: 5em;
+    padding-left: 8em;
+}
+
+.adicional{
+    margin-right: 28em;
+    margin-top: 5em;
+}
+/*posição da letra (á) depois da caixa de data*/
+.textpos{
+  margin-top: -9%;
+   margin-left: 13em;
+}
+
+.textpos1{
+  margin-top: -2em;
+   margin-left: 6em;
+}
+
+.mudar{
+    padding-left: 3em;
+}
+/*termina a posição da letra a;das;ás */
+
+.tabelap{
+     margin-left: 6em;
+     padding-left: 1em;
+}
+
+.verbocx{
+    margin-left: -3em;
+}
+
+
