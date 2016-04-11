@@ -1,136 +1,15 @@
-.botaodosinfernos{
-	font-size:15px;
-	width: 10px;
-	margin-left: -25px;
-	margin-top: 80px; 
-}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/03/2016, 13:19:11
+    Author     : Raphael Pizzo
+*/
 
-.botaodosinfernos1{
-	font-size:15px;
-	width: 10px;
-	margin-left: 245px;
-	margin-top: -33px; 
-}
-	
-}
-.btnclick{								/*configuarações do botão (+)*/
-	font-size:15px;
-	 width: 120px;
-	margin-left: 245px;
-	 margin-top: 123px; 
-}		
-.btnclick1{								
-	font-size:15px;
-	width: 120px;
-	margin-left: 245px;
-	margin-top: 23px; 
-}		              	/* termine aqui as configuarações do botão (+)*/
-
-.btn.btn-info5{
-	font-size:15px;
-	width: 120px;
-	margin-left: 15px;
-	margin-top: 83px; 
-}
-
-.btn.btn-primary1{
-	font-size:15px;
-	width: 200px;
-	margin-left: 200px;
-	margin-top: -23px; 
-}
-
-.table{                                         
-	font-size:  15;
-	    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 100px;
-    padding-left: 80px;
-  }
-  
-  .unitmd{                /* classe da linha escrita dentro do modal"jogadores por time" */
-	  font-size:13px;
-	 width: 220px;
-	margin-left: 18px;
-	 margin-top: 130px; 
-  }						 /* termina aqui a classe do linha escrita dentro do modal "jogadores por time" */
- 
-  
-  .btn.btn-info1{                /*botões de dentro do modal a sua posição*/
-	margin-left: 185px;
-	 margin-top: -33px;   
-  }
-  
-  .btn.btn-info{
-	margin-left: 265px;
-	margin-top: -34px;  
-  }                              /* termina aqui os botões de dentro do modal a sua posição*/
-  
-  .modal-dialog.modal-sm{     /*diálogo-.modal=define a largura adequada e margem do modal"tamanho".modal-lg*/
-	    font-size:13px;
-	 width: 350px;
-	margin-left: 500px;      /*A margin-left faz com que o modal inteiro vá da direita para a esquerda*/
-	 margin-top: 10px;
-  }							 /*termina aqui o diálogo-.modal=define a largura adequada e margem do modal"tamanho".modal-lg*/
-  
-  
-  
-  .btn.btn-info9{
-	  margin-left: 455px;
-	 margin-top: -43px;   
-  }
-  
-  .btn.btn-primary.btn-md{
-	   margin-left: 555px;
-	 margin-top: -43px; 
-  }
-  
-  
-  body {					  /*começa aqui configurações da tabela zebrada*/		
-  font: 120%/1.6 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
-}
-table {
-  border-collapse: collapse;
-  width: 50em;
-  border: 1px solid #666;
-}
-thead {
-  background: #ccc url(http://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
-  border-top: 1px solid #a5a5a5;
-  border-bottom: 1px solid #a5a5a5;
-}
-tr:hover {
-  background-color:#3d80df;
-  color: #fff;
-}
-thead tr:hover {
-  background-color: transparent;
-  color: inherit;
-}
-tr:nth-child(even) {
-    background-color: #edf5ff;
-}
-th {
-  font-weight: normal;
-  text-align: left;
-}
-th, td {
-  padding: 0.1em 1em;/*tamanho da linha da tabela*/
-}				 
- 
- 
- 
- 
- 
- 
- 
-
- 
- .celular{  /*Aqui é o ativo do iphone ou celular */
-
-   margin-right:10px;
-   margin-top: -38px;
-   margin-left: 870px;
+.celular{  /*Aqui é o ativo do iphone ou celular */
+   margin-top: -4em;
 }
 .onoffswitch {
     position: relative; width: 90px;
@@ -177,541 +56,105 @@ th, td {
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px; 
 }
- 
-label {            /* configurações do label tamanho das letras ,em negrito*/
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 5px;
-	font-size: 14px;
-     font-weight: 400;/* deixa em negrito*/
-}         		  /* termina aqui as configurações do label tamanho das letras ,em negrito*/
-
-              /* faz a separação da no "nome" e "campo" na VERTICAL*/
- 
- .row-fluid {		
-  font-size: 13px;
-					 width: 680px;   /* faz a separação da no "nome" e "campo" na VERTICAL*/
-					}
-		
-        .unit2{                    
-		width: 122px;					/* faz a separação da no "nome" e "campo" na HORIZONTAL*/
-		margin-left: 20px;
-		 margin-top: 15px;
-		}		
- 
- 
-  .unit2-1{
-	 width: 175px;
-	  margin-top: -105px;
-	margin-left: 20px;
- }
- 
- .unit2-2{
-	 width: 130px;
-	  margin-top: -105px;
-	margin-left: 20px;
- }
- 
- .unit2-3{
-	 width: 130px;
-	  margin-top: -105px;
-	margin-left: 20px;
- }
- 
- .btn.btn-link{
-	  width: 130px;
-	  margin-top: -5px;
-	margin-left: 143px;
- }
- 
- .unit3{
-	 width: 175px;
-	  margin-top: 0px;
-	margin-left: -45px;
- }
- 
-					 .unit3-1{
-						 width: 175px;
-						  margin-top: -30px;
-						margin-left: 320px;
-					 }
-				
- 
- .unit4{
-	 width: 175px;
-	  margin-top: -20px;
-	margin-left: 337px;
- } 
- 
-					.unit4-1{
-						 width: 175px;
-						  margin-top: -30px;
-						margin-left: 502px;
-					 }
- 
- .unit5{
-	 width: 175px;
-	  margin-top: -20px;
-	margin-left: 530px;
- }
- 
-                      .unit5-1{
-						 width: 175px;
-						  margin-top: -24px;
-						margin-left: 600px;
-					 }
-
- .unit6{
-	 width: 175px;
-	  margin-top: -23px;
-	margin-left: 622px;
- }
-
- .unit7{
-	 width: 175px;
-	  margin-top: 3px;
-	margin-left: 20px;
- }
- 
- .unit7-2{
-	 width: 175px;
-	  margin-top: 173px;
-	margin-left: 20px;
- }
-				
- 
-  
-					 .unit15{ 
-				   margin-top: -15px;
-				   margin-left: 20px;
-					 }
-
-					 .unit15-1{
-				   margin-top: -25px;
-				   margin-left: 160px;
-					 }	 
-					 
-									.btn.btn-link1{
-							  margin-top: -32px;
-				            margin-left: 490px;
-									}
-									
-					 .unit15-2{
-				   margin-top: -7px;
-				   margin-left: 160px;
-					 }	 
-					 
-		.unit30{
-		 margin-top: 2px;
-  margin-left: 20px;								 
-	 }
-	 .unit31{
-		 margin-top: -25px;
-  margin-left: 160px;								 
-	 }
-	 .unit32{
-		 margin-top: -30px;
-  margin-left: 230px;								 
-	 }
-					 
-		.btn.btn-link2{
-			 margin-top: -33px;
-  margin-left: 290px;
-		}		 
-					 
-		.unit33{
-		 margin-top: -10px;
-  margin-left: 305px;								 
-	 }			 
-					 
-					 .unit15-3{
-				   margin-top: -7px;
-				   margin-left: 160px;
-					 }	
-					 
-					.unit20{ 
-				   margin-top: 5px;
-				   margin-left: 20px;
-					 }
-					 .unit20-1{ 
-				   margin-top: -25px;
-				   margin-left: 160px;
-					 }
-					 .unit20-2{ 
-				   margin-top: -5px;
-				   margin-left: 160px;
-					 }
-					 .unit20-3{ 
-				   margin-top: -5px;
-				   margin-left: 160px;
-					 }
-
-	 
-	 
-	 
-	 
-	
-	 .unit16-3{
-         margin-top: -95px;
-		margin-left: 440px;
-	 }	
-	 .unit16-4{
-         margin-top: -22px;
-		margin-left: 670px;
-	 }	
-	 .unit16-5{
-         margin-top: -38px;
-		margin-left: 815px;
-	 }	
-	 
-	 	
-	 
-	 
-
-	  .unit17{                    
-		width: 130px;			
-		margin-left: 20px;
-		 margin-top: 45px;
-		}		
- 
+/*ermina aqui onoffswitch do celular*/
 
 
- .unit40{
-	width: 130px;			
-		margin-left: 0px;
-		 margin-top: 15px; 
- } 
- 
- .unit40-1{
-	width: 930px;			
-		margin-left: 160px;
-		 margin-top: -30px; 
- } 
- 
- .unit40-2{
-	width: 930px;			
-		margin-left: 500px;
-		 margin-top: -25px; 
- }
- 
- .unit40-3{
-	width: 930px;			
-		margin-left: 160px;
-		 margin-top: -2px; 
- }
- 
- .unit40-4{
-	width: 930px;			
-		margin-left: 160px;
-		 margin-top: 0px; 
- }
- 
- .unit40-5{
-	width: 930px;			
-		margin-left: 160px;
-		 margin-top: 0px; 
- }
- 
-						 .unit40-6{
-							width: 930px;			
-								margin-left: 555px;
-								 margin-top: -90px; 
-						 }
-						 
-						 .unit40-7{
-							width: 930px;			
-								margin-left: 503px;
-								 margin-top: -20px; 
-						 }
-						 
-						 .caixa40-8{
-							width: 130px;			
-								margin-left: 503px;
-								 margin-top: -2px; 
-						 }
-						 
-						 .caixa40-9{
-							width: 130px;			
-								margin-left: 503px;
-								 margin-top: 10px; 
-						 }
-						 
-						 
-						 .unit41{
-							 width: 130px;			
-								margin-left: 20px;
-								 margin-top: -10px; 
-						 }
-						 .unit41-1{
-							 width: 430px;			
-								margin-left: 160px;
-								 margin-top: -28px; 
-						 }
-						 .unit41-2{
-							 width: 430px;			
-								margin-left: 160px;
-								 margin-top: -10px; 
-						 }
-						 .unit41-3{
-							 width: 530px;			
-								margin-left: 420px;
-								 margin-top: -48px; 
-						 }
-												
-													.unit44{   
-														 width: 120px;	/* faz a separação da no "nome" e "campo" na HORIZONTAL*/		
-															margin-left: 20px;
-															 margin-top: 0px; 
-															}
-													 .row-fluid1{
-														 width: 660px;			
-															margin-left:´10px;
-															 margin-top: 0px;
-													    }
-													  .unit44-1{   
-														 width: 120px;
-															margin-left: 20px;
-															 margin-top: 0px; 
-															} 
-															.unit44-2{   
-														 width: 120px;
-															margin-left: 20px;
-															 margin-top: 0px; 
-															}  
-															.btn.btn-link5{
-														    width: 120px;
-															 margin-left: 170px;
-															 margin-top: -30px; 
-															}
-															.unit44-3{   
-														 width: 120px;
-															margin-left: 20px;
-															 margin-top: 0px; 
-															}
-															
-															.unit44-4{   
-														 width: 520px;
-															margin-left: 145px;
-															 margin-top: -30px; 
-															}
-															.unit44-5{   
-														 width: 520px;
-															margin-left: 20px;
-															 margin-top: 0px; 
-															}
-															.unit44-6{   
-														  width: 520px;
-															margin-left: 20px;
-															 margin-top: 125px; 
-															}
-															.caixa44-8{   
-														  width: 520px;
-															margin-left: 200px;
-															 margin-top: -25px; 
-															}
-															.cax{   
-														  width: 520px;
-															margin-left: 200px;
-															 margin-top: -40px; 
-															}
-						 
-.unit50{
-	width: 130px;			
-	margin-left: 20px;
-	 margin-top: 15px;
-}
-.unit50-1{
-	width: 130px;			
-	margin-left: 160px;
-	 margin-top: -30px;
-}
-.unit50-2{
-	width: 130px;			
-	margin-left: 160px;
-	 margin-top: -10px;
-}
-.unit50-3{
-	width: 130px;			
-	margin-left: 160px;
-	 margin-top: -10px;
-}	
-
-.unit50-4{
-	width: 130px;			
-	margin-left: 310px;
-	 margin-top: -20px;
-}	
-
-.ultimocx{
-	width: 130px;			
-	margin-left: 160px;
-	 margin-top: -42px;
-}
-
-.unit50-5{
-width: 30px;					
-	margin-left: 20px;
- margin-top: -5px;
-}	
-.unit50-6{
-	width: 130px;				
-	margin-left: 10px;
- margin-top: 13px;
-}
-
-.ultimocxf{
-	width: 30px;					
-	margin-left: 160px;
- margin-top: -35px;
-}
-
-.unit50-7{
-	width: 530px;				
-	margin-left: 315px;
- margin-top: -20px;
-}					 
- 
- 
- .panel.panel-default{             /*aqui coemça as configurações do panel */
-	 width: 930px;				
-	 margin-left: 160px;
-     margin-top: 25px;
- }								/*aqui termina as configurações do panel */
- 
- 
- .btn.btn-info1{
-	
-	  margin-top: 0px;
-	margin-left: 740px;
- }
- .btn.btn-info2{
-
-	  margin-top: 0px;
-	margin-left: 0px;
- }
- 
- .btn.btn-link3{					/*aqui começa as configuração do texto linkado como botão*/
-	  margin-top: -72px;
-	margin-left: 300px;
- }								
- 
- 
- .btn.btn-link4{
-	  margin-top: -55px;
-	margin-left: 300px;
- }									/*aqui termina as configuração do texto linkado como botão*/
- 
- .btn.btn-info0{        /*aqui começa as configurações do primeiro botão que contém o modal e também dos botões de dentro do modal*/
-
-	  margin-top: -15px;
-	margin-left: 770px;
- }                                   /*aqui começa as configurações do primeiro botão que contém o modal*/
- 
-.btn.btn-info{
-	font-size: 14px;
-	margin-top: -2px;
-	margin-left: 5px;	
-	
-}
-
-.btn.btn-info1{
-	margin-top: 0px;
-	margin-left: 190px;	
-} 					/*termina aqui as configurações do primeiro botão que contém o modal e também os botões de dentro*/
-
-.btn.btn-info3{					/*cont. das cofigurações do botão do modal de fora e de dentro */
-	 margin-top: 15px;
-	margin-left: 620px;
-}
-							/* termina aqui a cont. das cofigurações do botão do modal de fora e de dentro */
-							
-							
-	.btn.btn-info9	{				/*botões do final da tela*/
-	font-size: 14px;
-	margin-top: -2px;
-	margin-left: 545px;	
-	}	
-	.btn.btn-info8	{
-	font-size: 14px;
-	margin-top: -2px;
-	margin-left: 5px;	
-	}					
-	.btn.btn-primary.btn-md{
-	font-size: 14px;
-	margin-top: -2px;
-	margin-left: 5px;
-	}					 	/* termina aqui os botões do final da tela*/
- 
- .navbar-brand{
-		
-		position: fixed center;
-			margin-top: 5px;
-			margin-bottom:0px ;
-			margin-left:0px ;
-			margin-right: 5px;
-			
-		padding-top: 5px; /*O padding tem um funcionamento muito similar ao do margin, porém ao invés de dar uma espaçamento
-		                    externo, faz a mesma coisa que a aclasse em baixo (sheduler-border) que a margin */
-		padding-right: 20px; 
-		padding-bottom: 0px;
-		padding-left: 5px;
-		
-	}
-	
-	
-	.navbar-header {
-		color:black;
-	
-		
-	}
-	
-	.container{
-		border: 1px solid pink;
-		
-	}
-	
-
-.container-fluid{ 
-	font-size:1.0em;
-	background-color:#fff;
-    margin-right: auto;
-    margin-left: auto;
-	padding-right: 150px;
-    padding-left: 15px;
-	position: relative;
-    min-height: 60px;
-    padding-right: 20px;
-    padding-left: 60px;
+.margembranca{
+    padding: 15px;
 }
 
 
-
-.divider { 
-	
-	background-color:#000;
-	margin-bottom:10px;
-}	
-.navbar {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 0px!important;
-    border: 1px solid transparent;
+.btnazul{
+    margin-right: 5px;
+   margin-left: 1em;
 }
 
-.breadcrumb {
-	background-color:#FFFFFF!important;
+/*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+.header-style{
+    border: 1px solid #DCDCDC;
 }
-.btn-btn-large-btn-primary {
-		position:absolute;
-		top: 50px;
-		left: 50px;	
-	} 
-/* Posicionamento dos icones Checbox e stop*/
+
+.menu-style{
+    border: 1px solid #DCDCDC;
+    height: 41em;
+}
+
+.container-style{
+    height: 100%;
+}
+/*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
 
 
-.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 0px!important;
-    padding-left: 0px!important;
+/* configurações da navbar*/
+.navbar.navbar-default.nab-branco{
+    background: #FFFFFF;
 }
+.container-fluid{
+    height: 4em;
+}   
+/* Fim configurações da navbar*/
+
+
+/*configurações do formulário*/
+.col-sm-9{
+    margin-left: 3em;    
+}
+/*FIM das configurações do formulário*/
+
+/*tamanho da caixa do fomulário*/
+.tamanho{
+    width: 30em;
+}
+
+.tamanho2{
+      width: 47em;
+}
+/*FIM do tamanho da caixa do fomulário*/
+
+/*Espaço entre a palavra  a caixa de texto*/
+.espaco{
+ margin-left: 7px;
+}
+
+.incremento{
+    padding-left: 1em;
+}
+/*FIM Espaço entre a palavra  a caixa de texto*/
+
+.largura{
+    font-size: 5em;
+    width: 4em;
+    padding-right: 5em;
+    padding-left: 8em;
+}
+
+.adicional{
+    margin-right: 28em;
+    margin-top: 5em;
+}
+/*posição da letra (á) depois da caixa de data*/
+.textpos{
+  margin-top: -9%;
+   margin-left: 13em;
+}
+
+.textpos1{
+  margin-top: -2em;
+   margin-left: 6em;
+}
+
+.mudar{
+    padding-left: 3em;
+}
+/*termina a posição da letra a;das;ás */
+
+.tabelap{
+     margin-left: 6em;
+     padding-left: 1em;
+}
+
+.verbocx{
+    margin-left: -3em;
+}
+
+
