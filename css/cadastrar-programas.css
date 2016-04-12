@@ -58,11 +58,9 @@ and open the template in the editor.
 }
 /*ermina aqui onoffswitch do celular*/
 
-
 .margembranca{
     padding: 15px;
 }
-
 
 .btnazul{
     margin-right: 5px;
@@ -84,7 +82,6 @@ and open the template in the editor.
 }
 /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
 
-
 /* configurações da navbar*/
 .navbar.navbar-default.nab-branco{
     background: #FFFFFF;
@@ -93,7 +90,6 @@ and open the template in the editor.
     height: 4em;
 }   
 /* Fim configurações da navbar*/
-
 
 /*configurações do formulário*/
 .col-sm-9{
@@ -116,22 +112,6 @@ and open the template in the editor.
  margin-left: 7px;
 }
 
-.incremento{
-    padding-left: 1em;
-}
-/*FIM Espaço entre a palavra  a caixa de texto*/
-
-.largura{
-    font-size: 5em;
-    width: 4em;
-    padding-right: 5em;
-    padding-left: 8em;
-}
-
-.adicional{
-    margin-right: 28em;
-    margin-top: 5em;
-}
 /*posição da letra (á) depois da caixa de data*/
 .textpos{
   margin-top: -9%;
@@ -148,13 +128,6 @@ and open the template in the editor.
 }
 /*termina a posição da letra a;das;ás */
 
-.tabelap{
-     margin-left: 6em;
-     padding-left: 1em;
+.score{
+    margin-left: 3em;
 }
-
-.verbocx{
-    margin-left: -3em;
-}
-
-

@@ -188,41 +188,41 @@ and open the template in the editor.
                             <div class = "checbox checboxcontainer col-md-5 pull-rightl">
                                 <input type="radio"  value="nome"> Sem Time (individual)
                             </div> 
-                             <div class = "checbox checboxcontainer col-md-10 pull-rightl">
+                            <div class = "checbox checboxcontainer col-md-10 pull-rightl">
                                 <input type="radio"  value="nome"> Times baseados nas Equipes existentes
                             </div> 
-                            
+
                             <div class = "checbox checboxcontainer col-md-10 pull-right">
                                 <input type="radio"  value="nome">  Jogadores escolhem os Times
                             </div> 
-                            
+
                             <div class = "checbox checboxcontainer col-md-10 pull-right ">
                                 <input type="radio"  value="nome">Sistemas escolhe os Times
-                              <div class="col-md-8 pull-right" >
+                                <div class="col-md-8 pull-right" >
                                     <input type="text" name="qtd." size="4" maxlength="8" id="Qtd." placeholder=""> Jogadores por Time
                                     <div class="col-md-6 pull-right" >
                                         <div class="col-md-8 pull-left">
-                                        <form action="demo_form.asp"> Nome Times (prefixo)
-                                    </form></div>
+                                            <form action="demo_form.asp"> Nome Times (prefixo)
+                                            </form></div>
                                         <div class="col-md-2 pull-eft">
-                                    <input type="text" name="qtd." size="7" maxlength="8" id="Qtd." placeholder=""> </div>
-                              </div>
-                              </div>
+                                            <input type="text" name="qtd." size="7" maxlength="8" id="Qtd." placeholder=""> </div>
+                                    </div>
+                                </div>
                             </div> 
                         </div>
                     </div>
-                 
-                      <div class="col-md-12"> <br/>
+
+                    <div class="col-md-12"> <br/>
                         <div class="col-sm-6 col-lg-10">
                             <label for="inputEmail" class="col-md-2 control-label">Personagens</label>
                             <div class = "checbox checboxcontainer col-md-2 pull-rightl">
                                 <input type="radio"  value="nome"> Não (único)
                             </div> 
-                            
+
                             <div class = "checbox checboxcontainer col-md-3 pull-rightl">
                                 <input type="radio"  value="nome"> Sim
                             </div> 
-                            
+
                             <div class="col-md-4 ">
                                 <a href="#" class="ico-search"> Participantes definidos.Clique para alterar</a>
                             </div>
@@ -237,173 +237,327 @@ and open the template in the editor.
                             </div>
                         </div>
                     </div>
-                     
-                    <!--Aqui temian a sgunda parte da tela ,a parte cinzaaaaa-->
-                    
-                    <div class="col-md-10 " >
-                        <div id="table-responsive" class="col-lg-10 pull-right tabelap">
 
-                            <table class="tablesorter">
-                                <thead>
-                                    <tr>
-                                        <th style="border-width: thin; border-style: solid; border-color: black;">Objeto</th>
-                                        <th style="border-width: thin; border-style: solid; border-color: black;">Categoria</th>
-                                        <th style="border-width: thin; border-style: solid; border-color: black;"><center>Obrig.</center></th>
-                                <th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 1</td>
-                                        <td style="border-width: thin; border-style: solid; border-color: black;">Quiz/Trivia</td>
-                                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
-                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
+                    <!--Aqui temina a segunda parte da tela ,a parte cinzaaaaa-->
 
-                                </tr>
-
-                                <tr>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 2</td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;">Quiz/Trivia</td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
-                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
-
-                                </tr>
-                                <tr>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 3</td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;">Quiz/Trivia</td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
-                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;">Desafio A</td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta de processo</td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
-                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
-                                </tr>
-                                </tbody>
-                            </table>
+                    <div class="col-md-5"> 
+                        <div class="col-sm-6 col-lg-12" ><br/>
+                            <label for="inputEmail" class="col-md-2 control-label">Rodadas</label>
+                            <div class="col-md-8 pull-right">
+                                <input type="text" name="qtd." size="2" maxlength="8" id="qtd." placeholder="  02">vezes (deixe em branco era indefinido)
+                            </div> 
                         </div>
                     </div>
 
-                    <div class="col-md-12">
-                        <div class="col-sm-6 col-lg-5">
-                            <div class="col-md-8 pull-right ">
-                                <div class = "checbox checboxcontainer" >
-                                    <input type="radio"  value="nome"> Objetos aleatórios pela Categoria
-                                </div> 
+                    <div class="col-md-5"> 
+                        <div class="col-sm-6 col-lg-12"><br/>
+                            <div class = "checbox checboxcontainer col-md-12">
+                                <input type="radio"  value="nome"> Rodadas diferentes (default são rodadas recorrentes/iguais)
                             </div>
-                        </div>
-                        <div class="col-md-6 ">
-                            <select class="col-md-5">
-                                <option>Selecione o Período para filtrar</option>
-                                <option>Viagem</option>
-                                <option>Eletrodomésticos</option>
-                                <option>Eletroeletrónico</option>
-                                <option>Celular/Smartphone</option>
-                                <option>Computador/Tablet</option>
-                                <option>Show/Entretenimento</option>
-                                <option>Comida/Gastronomia</option>
-                                <option>Bebida/Enogastronomia</option>
-                            </select>
                         </div>
                     </div>
 
-                    <!-- Linha do checkbox com opções-->
-                    <div class="col-md-12" > 
-                        <div class="col-sm-6 col-lg-5" >
-                            <div class="col-md-8 pull-right ">
-                                <div class = "checbox checboxcontainer"> 
-                                    <input type="radio"  value="nome"> MODs/Packs<br/>
-                                </div> 
-                            </div>
-                        </div>
-                        <div class="col-md-6 ">
-                            <select class="col-md-5">
-                                <option>Selecione o MOD/Packs</option>
-                                <option>Viagem</option>
-                                <option>Eletrodomésticos</option>
-                                <option>Eletroeletrónico</option>
-                                <option>Celular/Smartphone</option>
-                                <option>Computador/Tablet</option>
-                                <option>Show/Entretenimento</option>
-                                <option>Comida/Gastronomia</option>
-                                <option>Bebida/Enogastronomia</option><br/>
-                            </select> 
-                        </div> 
-                    </div>       
-                    <!--FIM da linha do checkbox com opções--> 
-                    <div class="col-md-12"> <br/>
+                    <div class="col-md-12" > <br/>
                         <div class="col-sm-6 col-lg-10">
-                            <div class="form-group">
-                                <label for="inputEmail" class="col-md-2 control-label">Frequencia</label>
-                                <div class="col-md-4">
-                                    <input type="text" name="qtd." size="4" maxlength="8" id="qtd." placeholder=""> vez a cada
+                            <div class="col-md-10 pull-right">
+                                <div class = "checbox checboxcontainer col-md-5" >
+                                    <input type="radio"  value="nome">  Rodada automática
+                                </div> 
+
+                                <div class="col-md-1 ">
+                                    <form action="demo_form.asp"> a cada
+                                    </form>
                                 </div>
                                 <div class="col-md-4">
-                                    <input type="text" name="qtd." size="4" maxlength="8" id="qtd." placeholder=""> hora
-                                </div>    
-                            </div>
-                        </div>
-                    </div>
+                                    <input type="text" name="qtd." size="7" maxlength="8" id="Qtd." placeholder=""> minutos (intervalo)
+                                </div>
+                                <div class = "checbox checboxcontainer col-md-5">
+                                    <input type="radio"  value="nome">  Rodada disparada pelo Gestor
+                                </div> 
 
-
-
-
-                    <div class="col-md-10 " >
-                        <div id="table-responsive" class="col-lg-10 pull-right tabelap">
-                            <table class="tablesorter">
-                                <thead>
-                                    <tr>
-                                        <th style="border-width: thin; border-style: solid; border-color: black;">Selecionar  a Equipe</th>
-                                        <th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td style="border-width: thin; border-style: solid; border-color: black;">Equipe A - Departamento Finaceiro</td>
-                                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/checked> </center></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;">Equipe B - Departamento de Marketing</td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" /> </center></td>
-
-                                </tr>
-                                <tr>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;">Equipe C - Coordenadas</td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" /> </center></td>
-
-                                </tr>
-
-                                <tr>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;">Equipe D - Diretores</td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" checked /> </center></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-
-                    
-
-
-                    <div class="col-md-12">
-                        <div class="col-sm-6 col-lg-5">
-                            <div class="col-md-8 pull-right ">
-                                <div class = "checbox checboxcontainer" >
-                                    <input type="radio"  value="nome">  Definir manualmente
+                                <div class = "checbox checboxcontainer col-md-5">
+                                    <select class="col-md-9">
+                                        <option>Selecione o Gestor</option>
+                                        <option>Viagem</option>
+                                        <option>Eletrodomésticos</option>
+                                        <option>Eletroeletrónico</option>
+                                        <option>Celular/Smartphone</option>
+                                        <option>Computador/Tablet</option>
+                                        <option>Show/Entretenimento</option>
+                                        <option>Comida/Gastronomia</option>
+                                        <option>Bebida/Enogastronomia</option>
+                                    </select>
                                 </div> 
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-12">
-                        <div class="col-sm-6 col-lg-6" >
+                    <div class="col-md-12"> 
+                        <div class="col-sm-6 col-lg-10" >
+                            <div class="col-md-10 pull-right" >
+
+                                <div class = "checbox checboxcontainer col-md-5" >
+                                    <input type="radio"  value="nome" checked>  Rodada disparada pelo Facilitador
+                                </div> 
+
+                                <div class = "checbox checboxcontainer col-md-5" >
+                                    <select class="col-md-9">
+                                        <option>Selecione o Facilitador</option>
+                                        <option>Viagem</option>
+                                        <option>Eletrodomésticos</option>
+                                        <option>Eletroeletrónico</option>
+                                        <option>Celular/Smartphone</option>
+                                        <option>Computador/Tablet</option>
+                                        <option>Show/Entretenimento</option>
+                                        <option>Comida/Gastronomia</option>
+                                        <option>Bebida/Enogastronomia</option>
+                                    </select>
+                                </div> 
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--Aqui ira começar a parte toda do paineeeeeel-->
+
+                    <div class="col-md-12" >
+                        <div class="col-sm-6 col-lg-10" >
                             <div class="form-group">
-                                <label for="inputEmail" class="col-md-2 control-label">Dica de tela</label>
+                                <label for="inputEmail" class="col-md-2 control1-labe"></label>
+                                <div class="col-md-9 pull- ">
+
+                                    <!--aqui começa o paineeeeeeeeeeeeeeeeeeeeeel -->
+                                    <div id="playlistTable" class="panel panel-default">
+                                        <div class="panel-heading">Rodada #1 (ou Rodada única/recorrente)</div>
+                                        <div class="panel-body">
+                                            <!--aqui termina a primeira parte do paineeeeel -->
+
+
+                                            <div class="col-md-12">
+                                                <div class="col-sm-6 col-lg-9" >
+                                                    <div class="form-group">
+                                                        <label for="inputEmail" class="col-md-3 control-label">Objetivo</label>
+                                                        <div class="col-md-9 pull-right">
+                                                            <input type="email" class="form-control " id="inputEmail" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <div class="col-sm-6 col-lg-9" >
+                                                    <div class="form-group">
+                                                        <label for="inputEmail" class="col-md-3 control-label">Pista/Dica</label>
+                                                        <div class="col-md-9 pull-right">
+                                                            <input type="email" class="form-control " id="inputEmail" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <div class="col-sm-6 col-lg-9" >
+                                                    <div class="form-group">
+                                                        <label for="inputEmail" class="col-md-3 control-label">Imagem</label>
+                                                        <div class="col-md-9 pull-right">
+                                                            <a href="#" class="ico-search">clique aqui para importar outra imagem</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <div class="col-sm-6 col-lg-9" >
+                                                    <div class="form-group">
+                                                        <label for="inputEmail" class="col-md-3 control-label">Tempo</label>
+                                                        <div class="col-md-9 pull-right">
+                                                            <input type="text" name="qtd." size="5" maxlength="8" id="Qtd." placeholder=""> segundos (deixe em branco para indefinido)
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-12">
+                                                <div class="col-sm-6 col-lg-9" >
+                                                    <div class = "checbox checboxcontainer col-md-5" >
+                                                        <input type="radio"  value="nome" checked> Objetos específicos
+                                                    </div> 
+                                                </div>
+                                            </div> 
+                                            <!--Aqui começa a tabela dentro da Panel-->
+                                            <div class="col-md-12">
+                                                <div class="col-sm-6 col-lg-12" >
+                                                    <div class="table-responsive">
+                                                        <table class="tablesorter">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th style="border-width: thin; border-style: solid; border-color: black;">Objetos</th>
+                                                                    <th style="border-width: thin; border-style: solid; border-color: black;">Categorias</th>
+                                                                    <th style="border-width: thin; border-style: solid; border-color: black;">Pontos</th>
+                                                                    <th style="border-width: thin; border-style: solid; border-color: black;">Personagem</th>
+                                                                    <th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></th>
+                                                            </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 1</td>
+                                                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center>Questinário Feedback</center></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center> 10 </center></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center> Emissor</center></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" /> </center></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 2</td>
+                                                                <td style="border-width: thin; border-style: solid; border-color: black;"><center>Questionário Feedback</center></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center> 10 </center></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center> Receptar</center></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" /> </center></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="border-width: thin; border-style: solid; border-color: black;">Pergunta 3</td>
+                                                                <td style="border-width: thin; border-style: solid; border-color: black;"><center>Questionário Feddback</center></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center> 5 </center></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center> Observador </center></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" /> </center></td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td style="border-width: thin; border-style: solid; border-color: black;">Prova de Rodada 1</td>
+                                                                <td style="border-width: thin; border-style: solid; border-color: black;"><center>Interação física/real</center></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center> 15 </center></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center>  <div class="col-md-10">
+                                                                    <select class="text-center">
+                                                                        <option>Todos da Equipe</option>
+                                                                        <option>Qualquer um da Equipe</option>
+                                                                        <option> < Personagem_1></option>
+                                                                    </select>
+                                                                </div> </center></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html" /> </center></td>
+                                                            </tr>
+
+                                                            </tbody>  
+                                                        </table>
+                                                    </div>
+                                                </div>				<!--Aqui termina a tabela dentro da Panel-->
+
+                                                <div class="col-md-12">
+                                                    <div class="col-sm-6 col-lg-9" >
+                                                        <div class = "checbox checboxcontainer col-md-5" >
+                                                            <input type="radio"  value="nome" checked> Objetos aleatórios
+                                                        </div> 
+                                                        <div class="col-md-5">
+                                                            <select class="col-md-12">
+                                                                <option>Selecione a Categoria</option>
+                                                                <option>Qualquer um da Equipe</option>
+                                                                <option> < Personagem_1></option>
+                                                            </select>
+                                                        </div> 
+                                                    </div>   
+                                                </div>
+
+                                                <div class="col-md-12">
+                                                    <div class="col-sm-6 col-lg-9" >
+                                                        <div class="form-group">
+                                                            <label for="inputEmail" class="col-md-3 control-label">Mensagem Parabéns</label>
+                                                            <div class="col-md-9 pull-right">
+                                                                <input type="email" class="form-control " id="inputEmail" placeholder="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <!-- começa a parte final do painel-->
+                                        <table id="playlistTable" class="panel-footer" >
+                                            <div class="panel-footer" >Etapa 2 (aparece se estiver selecionado "Rodadas diferentes")
+                                            </div>
+                                        </table>
+                                    </div>
+                                    <!--aqui termina o paineeeeeeeeeeeeeeeeeeeeeel -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Aqui termina apret toda do paineeeeeeeel-->
+
+                    <div class="col-md-10">
+                        <div class="col-sm-6 col-lg-12">
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-md-2"></label>
+                                <label for="inputEmail" class="col-md-1">Pontuação</label>
+                                <div class = "checbox checboxcontainer col-md-4">
+                                    <div class="col-md-10 pull-right"> <input type="radio"  value="nome"> Acumula a cada rodada</div>
+                                </div> 
+                                <div class = "checbox checboxcontainer col-md-5">
+                                    <div class="col-md-12 pull-right score"> <input type="checkbox" value="nome">Não somar pontos ao score geral da Empresa</div>
+                                </div> 
+                            </div> 
+                        </div>
+                    </div>
+
+                    <div class="col-md-10">
+                        <div class="col-sm-6 col-lg-12">
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-md-2"></label>
+                                <label for="inputEmail" class="col-md-1"></label>
+                                <div class = "checbox checboxcontainer col-md-4">
+                                    <div class="col-md-10 pull-right"> <input type="radio"  value="nome"> Zera a cada rodada</div>
+                                </div> 
+                            </div> 
+                        </div>
+                    </div>
+                <!-- COmeça aqui a Parte final do da parte cinza-->
+                    <div class="col-md-12"> <br/>
+                        <div class="col-sm-6 col-lg-10">
+                            <label for="inputEmail" class="col-md-2 control-label">Premiação</label>
+                            <div class = "checbox checboxcontainer col-md-2 pull-rightl">
+                                <input type="checkbox"  value="nome" checked> Individual
+                            </div> 
+
+                            <div class="col-md-4 ">
+                                <a href="#" class="ico-search"> Prêmios definidos.Clique aqui para alterar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12"> 
+                        <div class="col-sm-6 col-lg-10">
+                            <label for="inputEmail" class="col-md-2 control-label"></label>
+                            <div class = "checbox checboxcontainer col-md-2 pull-rightl">
+                                <input type="checkbox"  value="nome" checked> Equipe
+                            </div> 
+                            <div class="col-md-4 ">
+                                <a href="#" class="ico-search"> Defenir prêmios</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12"> 
+                        <div class="col-sm-6 col-lg-10">
+                            <label for="inputEmail" class="col-md-2 control-label"></label>
+                            <div class = "checbox checboxcontainer col-md-2 pull-rightl">
+                                <input type="checkbox"  value="nome" > Todos
+                            </div> 
+                            <div class="col-md-4">
+                                <select class="text-center">
+                                    <option>Selecione o prêmio</option>
+                                    <option>Qualquer um da Equipe</option>
+                                    <option> < Personagem_1></option>
+                                </select>
+                            </div> 
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-12"> <br/>
+                        <div class="col-sm-6 col-lg-5" >
+                            <div class="form-group">
+                                <label for="inputEmail" class="col-md-2 control-label">Mensagem Parabéns</label>
                                 <div class="col-md-8 pull-right">
                                     <input type="email" class="form-control " id="inputEmail" placeholder="">
                                     <br/>
@@ -411,39 +565,37 @@ and open the template in the editor.
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-md-12"> <br/>
+                    
+                     <div class="col-md-12"> <br/>
                         <div class="col-sm-6 col-lg-10">
                             <div class="form-group">
                                 <label for="inputEmail" class="col-md-2 control-label">Texto p/Log</label>
-                                <div class="col-md-3">
-                                    <form action="demo_form.asp">O usuário/jogador"Fulano"
-                                    </form>
-                                </div>
-                                <div class="col-md-4 verbocx">
-                                    <input type="text" name="qtd." size="15" maxlength="8" id="qtd." placeholder="entre com um verbo"> a "Ação"
+                                <div class="col-md-8 ">
+                                     <input type="text" name="qtd." size="10" maxlength="10" id="qtd." placeholder=" "> 
+                                      <div class = "checbox checboxcontainer col-md-9  pull-right">
+                                <input type="checkbox"  value="nome"> Premia as Equipes que o usuário/jogador faz parte
+                              </div> 
                                 </div>
                             </div>
                         </div>
                     </div>
-
+                    
+                    <>
                 </div>
             </div>
 
 
-
-
             <!-- rodape -->
             <div>
-                <button type="button" class="btn btn-primary pull-right btnazul">Salvar e criar Ação</button>
+                <button type="button" class="btn btn-primary pull-right btnazul">Salvar e criar Reconhecimentos</button>
+                <button type="button" class="btn btn-primary pull-right btnazul">Salvar e enviar convites</button>
                 <button class="btn btn-deafult pull-right btnazul">Salvar</button>
                 <button class="btn btn-deafult pull-right">Cancelar</button>
             </div> 
 
         </div>
-    </div>
 
-</body>
+    </body>
 </html>
 
 <!--FIM container-->
