@@ -1,122 +1,83 @@
-
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 24/03/2016, 11:14:58
-    Author     : Raphael Pizzo
-*/
-
 .margembranca{
     padding: 15px;
 }
+/*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+.header-style{
+    border: 1px solid #DCDCDC;
+}
 
-.btncinza1{
-        margin-right: 5px;
-    } 
-    .btncinza2{
-        margin-right: 5px;
-    }
-    /*Aqui começa as configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
-    .header-style{
-        border: 1px solid #DCDCDC;
-    }
-    
-    .menu-style{
-        border: 1px solid #DCDCDC;
-        height: 100%;
-    }
-    
-    .container-style{
-        height: 100%;
-    }
-    /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
-    
-    /*Agrega uma separador dentro do menu */
-    .divider-style{
-        width:100%;
-         height: 1px;
-        background: #DCDCDC; 
-        margin-left: 5px;
-        margin-right: 5px;
-    } 
-     /*Termina qui o separador  de dentro do menu */
-     
-    /* configurações da navbar*/
-    .navbar.navbar-default.nab-branco{
-        background: #FFFFFF;
-    }
-    .container-fluid{
-        height: 4em;
-    }
-    /* Fim configurações da navbar*/
+.menu-style{
+    border: 1px solid #DCDCDC;
+    height: 100%;
+}
 
-    .breadcrumb{
-        background: #FFFFFF;
-    }
-    /*Tamanho da tabela; obs: que a classe responsive junto com o height faz com que ela tenha altura*/
-    .table-responsive{
-        padding-top: 0%;
-        padding-left: 1.1em;
-        height: 30em;
-    }
-    
-    .alturacx{
-        height: 13em;
-    }
-    
-    /*Fim do tamanho da tabela*/
+.container-style{
+    height: 100%;
+}
+/*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
+
+/* configurações da navbar*/
+.navbar.navbar-default.nab-branco{
+    background: #FFFFFF;
+}
+.container-fluid{
+    height: 4em;
+}
+/* Fim configurações da navbar*/
+
+.breadcrumb{
+    background: #FFFFFF;
+}
+
+.col-xs-3{
+    height: 5%;
+}
+
+.btnazul{
+    margin-right: 3em;
+    margin-left: 1em;
+}
+
+/*configurações do botão +*/
+.btn-plus{
+    margin-top: 12em;
+    padding-right: 2em;
+} 
+/* FIm configurações do botão +*/
+
+
+/* começa aqui a caixa de login*/
+legend.scheduler-border {
+    font-size: 1.2em !important;    /*size login */
+    font-weight: bold !important;
+    text-align: left !important;
+    width:auto; 
+    padding:0 8px;			/*position Login right-left */
+    width: 57px;                   /* position do tamanho do espaço do login  */
+}
+
+fieldset
+{
+    background-color:#FFFFFF; 
+    width: 100px;                   /*comprimento e largura da caixa de login */
+    height:150px;                      /*comprimento e largura da caixa de login */
+
+}
+
+legend.scheduler-border {
+    border-bottom:none;
+}
 
 fieldset.scheduler-border {
     border: 1px groove #ddd !important;               /*  borda da caixa*/
-   padding: 0 15.9em 1.4em 1.4em !important;          /*  posição do texto cabeçalho esquerda-direita */
+    padding: 0 15.9em 1.4em 1.4em !important;          /*  posição do texto cabeçalho esquerda-direita */
     margin: 0 0 2.5em 0 !important;					 /*  posição da caixa de texto*/
     -webkit-box-shadow:  0px 0px y 0px #000;
-            box-shadow:  0px 0px 0px 0px #000;
+    box-shadow:  0px 0px 0px 0px #000;
 }
+/*Fim da caixa de login */
 
-/*Tamanho e altura da estrela */
-.rating {
-    float:left;
-	 background-color: #FFF;
-    width: 215px;
-    height: 100px;
-}
-/*Fim do tamanho e altura da estraela*)*/
-
-/*posição das palavras dentros da caixa e junto com o canvas*/
-.unit10{
-    padding-left: 9em;
-}
-
-.unit11{
-     padding-left: 9em;
-}
-
-.unit12{
-     padding-left: 9em;
-}
-
-.unit13{
-     padding-left: 9em;
-}
-/*FIM da posição das palavras dentros da caixa e junto com o canvas*/
-
-/*FIM da posição das palavras dentros da caixa e junto com a estrela*/
-.unitI{
-    margin-left: -5em;
-    margin-top: 5em;
-}
-.unitII{
-   margin-left: -5em;
-}
-
-.unitIII{
-   margin-left: -5em;
-}
-/*FIM da posição das palavras dentros da caixa e junto coma a estrela*/
+/*Aqui são as configurações dos componentes ,esstrela, trofeu...*/
 
 /* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
    follow these rules. Every browser that supports :checked also supports :not(), so
@@ -125,12 +86,11 @@ fieldset.scheduler-border {
     position:absolute;
     top:-9999px;
     clip:rect(0,0,0,0);
-
 }
 
 .rating:not(:checked) > label {
-   font-size:50px;
-   	padding:10px;
+   font-size:3em; /*tamanho da estrela*/
+   padding:0em; /*distancia enttre as estrelas*/
 }
 
 .rating:not(:checked) > label:before {
@@ -161,121 +121,32 @@ fieldset.scheduler-border {
     position:relative;
     top:2px;
 }
-                         /*aqui termina a estrela de Rating*/
-
-
-
-
-
-
-
-    legend.scheduler-border {
-        font-size: 1.2em !important;    /*size login */
-        font-weight: bold !important;
-        text-align: left !important;
-        width:auto; 
-        padding:0 8px;			/*position Login right-left */
-        width: 57px;                   /* position do tamanho do espaço do login  */
-    }
-	
-fieldset
-{
-    background-color:#FFFFFF; 
-    width: 100px;                   /*comprimento e largura da caixa de login */
-    height:150px;                      /*comprimento e largura da caixa de login */
-	
+                        /*aqui termina a estrela de Rating*/
+                         
+ /*Tamanho e altura da caixinha da estrela */
+.rating {
+    float:left;
+    background-color: #FFF;
+    width: 10em;
+    height: 1em;
+} 
+/*aqui começa posições dos niveis */
+.nivelps{
+  margin-top: -6em;
+   padding-left: 1em;
 }
-
-legend.scheduler-border {
-border-bottom:none;
+/*esse aqui é o nível 2 */
+.nivelps1{
+ 
 }
+/*esse aqui é o nível 1 */
+.nivelps2{
 
-
-
-/*Aqui são as configurações dos componentes ,esstrela, trofeu...*/
-.glyphicon.glyphicon-star{
-	font-size: 30px;
-	margin-right:10px;
-   margin-top: 10px!important;
-   margin-left: -20px;
+    padding-left: 7em;
 }
+/*Fim das posições dos niveis*/
 
-.glyphicon.glyphicon-star-empty{
-	font-size: 30px;
-	margin-right:80px;
-   margin-top: 10px!important;
-   margin-left: 30px;
+.canvasps{
+    margin-right: -2em;
 }
-
-
-
-	
-    .navbar-brand{
-		
-		position: fixed center;
-			margin-top: 5px;
-			margin-bottom:0px ;
-			margin-left:0px ;
-			margin-right: 5px;
-			
-		padding-top: 5px; /*O padding tem um funcionamento muito similar ao do margin, porém ao invés de dar uma espaçamento
-		                    externo, faz a mesma coisa que a aclasse em baixo (sheduler-border) que a margin */
-		padding-right: 20px; 
-		padding-bottom: 0px;
-		padding-left: 5px;
-		
-	}
-	
-	
-	.navbar-header {
-		color:black;
-	
-		
-	}
-	
-	.container{
-		border: 1px solid pink;
-		
-	}
-	
-
-.container-fluid{ 
-	font-size:1.0em;
-	background-color:#fff;
-    margin-right: auto;
-    margin-left: auto;
-	padding-right: 150px;
-    padding-left: 15px;
-	position: relative;
-    min-height: 60px;
-    padding-right: 20px;
-    padding-left: 60px;
-}
-
-
-
-.divider { 
-	
-	background-color:#000;
-	margin-bottom:10px;
-}	
-.navbar {
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 0px!important;
-    border: 1px solid transparent;
-}
-
-.breadcrumb {
-	background-color:#FFFFFF!important;
-}
-
-/* Posicionamento dos icones Checbox e stop*/
-
-
-.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 0px!important;
-    padding-left: 0px!important;
-}
+/*Fim do tamanho e altura da caixinha da estraela*)*/

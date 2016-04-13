@@ -30,9 +30,7 @@ and open the template in the editor.
         height: 100%;
     }
     /*FIM das configuraç~ões de cor tamanho do HEADER-MENU-CONTAINER*/
-    
 
-     
     /* configurações da navbar*/
     .navbar.navbar-default.nab-branco{
         background: #FFFFFF;
@@ -66,9 +64,6 @@ and open the template in the editor.
                   
    /*começa aqui o Gantt*/
    
- 
-
-
 .gantt, .gantt2 {
     width: 60%;									/*tamanho da largura do gantt*/
     margin: 20px auto;
@@ -99,9 +94,6 @@ and open the template in the editor.
     position: relative;
     width: 100%;						/*também é o tamanho da largura do gantt- parte de baixo do quadro*/
 }
-
-
-
 
 /* === LEFT PANEL === */
 
@@ -163,7 +155,6 @@ and open the template in the editor.
     border-bottom: none;
     background-color: #f6f6f6;
 }
-
 
 /* === Começa aqui as configurações do Gannt === */
 
