@@ -14,6 +14,7 @@
                     cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
                     cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
                     cols += '<td style="border-width: thin; border-style: solid; border-color: black;">&nbsp;</td>';
+                    
                     newRow.append(cols);
                     $("#imbatman").append(newRow);
                     return false;

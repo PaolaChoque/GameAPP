@@ -60,7 +60,7 @@ BootstrapDialog.show({
         });
 		
 	
-		BoostraprapDialogshow ({}
+		//BoostraprapDialogshow ({}
 		 BootstrapDialog.show({
             title: 'Sign In',
             message: 'Your sign-in form goes here.',

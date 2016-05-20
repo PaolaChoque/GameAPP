@@ -166,9 +166,9 @@ ul.nav.nav-list li.active ul {
     background-image: -webkit-linear-gradient(top,#3D83BF 0,#1F90E2 100%);
     background-image: -o-linear-gradient(top,#3D83BF 0,#1F90E2 100%);
     background-image: linear-gradient(to bottom,#3D83BF 0,#1F90E2 100%)
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3D83BF', endColorstr='#1F90E2', GradientType=0);
-    background-repeat: repeat-x;
-    color: white;
+ /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3D83BF', endColorstr='#1F90E2', GradientType=0);*/
+   /* background-repeat: repeat-x;*/
+    /*color: white;*/
 }
 .header p{
     color: #f8f8f8;

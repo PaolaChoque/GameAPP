@@ -1,4 +1,4 @@
-<style>/* O z-index do div#mask deve ser menor que do div#boxes e do div.window */
+/*<style> */   /* O z-index do div#mask deve ser menor que do div#boxes e do div.window */
 #mask {position:absolute;
 
 z-index:9000; 
@@ -35,7 +35,7 @@ padding:20px;
 width:375px;
 
 height:203px;
-</style>
+/*</style>*/
 
 }
 
@@ -49,4 +49,4 @@ text-align:right;
 
 } 
 
-</style>
+/*</style> */

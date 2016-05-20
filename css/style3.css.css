@@ -3,7 +3,7 @@
 .nav-pills li.active a, .nav-pills li.active a:focus, .nav-pills li.active a:hover{
 	
 	
-	color:Black;{
+	color:Black {
 	background-color:#000;
 	}
 	
@@ -15,16 +15,13 @@
 	background-color:#FFF; 
 
 	}
-		
-	
-	
+
 	.navbar-header {
 		color:black;
 		background-color: #000;
 		
 	}
 	
-
 .container-fluid{ 
 	font-size:1.0em;
 	background-color:#fff;

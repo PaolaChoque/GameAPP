@@ -1,4 +1,4 @@
-<script>
+/*<script>*/
 function takeValue() {
 var x = document.getElementById("form1");
 var texto = "";
@@ -15,7 +15,7 @@ else{
     alert("quero exibir alerta de ERRO feito com html e csss");
     }
 }
-</script>
+/*</script>*/
 
 
 
@@ -37,7 +37,7 @@ BootstrapDialog.show({
 		
 		
 		
-		BoostraprapDialogshow ({}
+		//BoostraprapDialogshow ({}
 		 BootstrapDialog.show({
             title: 'Sign In',
             message: 'Your sign-in form goes here.',

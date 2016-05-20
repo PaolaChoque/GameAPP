@@ -1,4 +1,4 @@
- $("[name='my-checkbox']").bootstrapSwitch();]
+// $("[name='my-checkbox']").bootstrapSwitch();]
  
  
  
