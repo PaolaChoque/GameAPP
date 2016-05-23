@@ -25,9 +25,7 @@
         <form  method="post" action="http://localhost:9090/gaming/index.php/funcionario/createFuncionario2" >
         <!--cabeçãlho-->
         
-        <?php 
-          print_r($equipes);
-        ?>
+     
         
         <!-- Na hora de fazer essa tela vou simplesmente pegar os dados do "DESTINATÁRIO e CORPO" deeesa tela -->
         
@@ -67,7 +65,7 @@
             <div id="page-content" class="margembranca pull-right"> 
 
                 <div class="col-md-12" >
-                    <div class="col-md-10"> 
+                    <div class="col-md-11"> 
                         <p>Nesta tela, você pode configurar e enviar e-mails para os Funcionários participarem do Jogo ou das Ações também será incluído na </br>
                             mensagem, o link para fazer o download das Apps para os dispositivos móveis de cada um.</br>
                             O login de acesso será o pópio e-mail e a senha será gerada automaticamente (poderá ser alterada no primeiro acesso) </p>
@@ -117,7 +115,7 @@
                                         <table class="table table-striped table-bordered table-hover table-condensed">
                                             <thead>
                                                 <tr>
-                                                    <th class="col-md-9">Ativo</th>
+                                                    <th class="col-md-9">Selecione a Equipe</th>
                                                     <td class="col-md-2 posicao"><center><input type="checkbox" name="opcoes" value="html"/></center></td>
                                                 </tr>
                                             </thead>
@@ -130,10 +128,10 @@
                                             <table class="table table-striped table-bordered table-hover table-condensed">
                                                 <tbody ng-repeat="membro in membroSede">                    
                                                     <!--aqui irei cadastrar a tabela equipe -->                         
-                                                <?php foreach ($equipes as $equipes) {     
+                                                <?php foreach ($equipestab as $equipestab) {     
                                                         ?> 
                                                     <tr class="listas">         
-                                                        <td class="col-md-10"> </td>  
+                                                        <td class="col-md-10"><?php echo $equipestab['equipes'];?> </td>  
                                                         <td class="col-md-2"><center><input type="checkbox" name="opcoes" value="html"/><br/> </center></td>
                                                     </tr>
                                                 <?php }?> 
@@ -165,7 +163,7 @@
             <!-- rodape -->
             
             <div>
-                <button type="button" class="btn btn-primary pull-right btnazul">Salvar</button>
+                <button type="submit" class="btn btn-primary pull-right btnazul">Salvar</button>
                 <button class="btn btn-deafult pull-right">Cancelar</button>
             </div> 
 

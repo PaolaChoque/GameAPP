@@ -7,13 +7,13 @@
  */
 
 /**
- * Description of RealizacoesEntity
+ * Description of UsuarioEntity
  *
  * @author Raphael Pizzo
  */
-class RealizacoesEntity {
+class UsuariotbEntity {
+    //put your code here
     private $id;
-    private $dataaquisicao;
     private $nome;
     private $cargo;
     private $departamento;
@@ -21,18 +21,10 @@ class RealizacoesEntity {
     private $cidade;
     private $estado;
     private $pais;
-    private $telefone;
-    private $ramal;
-    private $celular;
-    private $email;
-    private $sexo;
-
+    private $status;
+   
     function getId() {
         return $this->id;
-    }
-
-    function getDataaquisicao() {
-        return $this->dataaquisicao;
     }
 
     function getNome() {
@@ -63,32 +55,12 @@ class RealizacoesEntity {
         return $this->pais;
     }
 
-    function getTelefone() {
-        return $this->telefone;
-    }
-
-    function getRamal() {
-        return $this->ramal;
-    }
-
-    function getCelular() {
-        return $this->celular;
-    }
-
-    function getEmail() {
-        return $this->email;
-    }
-
-    function getSexo() {
-        return $this->sexo;
+    function getStatus() {
+        return $this->status;
     }
 
     function setId($id) {
         $this->id = $id;
-    }
-
-    function setDataaquisicao($dataaquisicao) {
-        $this->dataaquisicao = $dataaquisicao;
     }
 
     function setNome($nome) {
@@ -119,25 +91,8 @@ class RealizacoesEntity {
         $this->pais = $pais;
     }
 
-    function setTelefone($telefone) {
-        $this->telefone = $telefone;
+    function setStatus($status) {
+        $this->status = $status;
     }
 
-    function setRamal($ramal) {
-        $this->ramal = $ramal;
-    }
-
-    function setCelular($celular) {
-        $this->celular = $celular;
-    }
-
-    function setEmail($email) {
-        $this->email = $email;
-    }
-
-    function setSexo($sexo) {
-        $this->sexo = $sexo;
-    }
-
-              //put your code here
 }

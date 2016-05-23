@@ -36,7 +36,7 @@ and open the template in the editor.
     <body>
         <!--antepenultimo passo-->
         <?php 
-         print_r($equipes);
+         print_r($equipestab);
         ?>
          <!--antepenultimo passo para mostrar na tela se funciona-->
        
@@ -108,16 +108,16 @@ and open the template in the editor.
 	<thead>
             
 		<tr>
-			<th style="border-width: thin; border-style: solid; border-color: black;">Equipe A -Departamento Financeiro</th>
+			<th style="border-width: thin; border-style: solid; border-color: black;">Equipes</th>
 			<th style="border-width: thin; border-style: solid; border-color: black;"><center>Ativo</center></th>
 			<th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></th>
 		</tr>
 	</thead>
 	<tbody>
-                 <?php foreach ($equipes as $equipe) {     
+                 <?php foreach ($equipestab as $equipestab) {     
                  ?> <!--penultimo passo, para exexutar tudo com o Foreach-->
 		<tr>
-			<td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $equipe['descricao'];?></td> <!--ultimo passo , já conferindo no BD-->
+			<td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $equipestab['equipes'];?></td> <!--ultimo passo , já conferindo no BD-->
 			<td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" checked  name="opcoes" value="html"/> </center></td>
 			<td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
 		</tr>

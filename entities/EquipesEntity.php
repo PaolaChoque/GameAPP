@@ -20,12 +20,10 @@ class EquipesEntity {
     private $estado_id;
     private $pais_id;
     private $quantidade;
-    private $descricao;
     private $datacadastro;
     private $datainicio;
     private $datafim;
     private $tema_id;
-    private $status;
     
     function getId() {
         return $this->id;
@@ -59,10 +57,6 @@ class EquipesEntity {
         return $this->quantidade;
     }
 
-    function getDescricao() {
-        return $this->descricao;
-    }
-
     function getDatacadastro() {
         return $this->datacadastro;
     }
@@ -77,10 +71,6 @@ class EquipesEntity {
 
     function getTema_id() {
         return $this->tema_id;
-    }
-
-    function getStatus() {
-        return $this->status;
     }
 
     function setId($id) {
@@ -115,10 +105,6 @@ class EquipesEntity {
         $this->quantidade = $quantidade;
     }
 
-    function setDescricao($descricao) {
-        $this->descricao = $descricao;
-    }
-
     function setDatacadastro($datacadastro) {
         $this->datacadastro = $datacadastro;
     }
@@ -134,11 +120,5 @@ class EquipesEntity {
     function setTema_id($tema_id) {
         $this->tema_id = $tema_id;
     }
-
-    function setStatus($status) {
-        $this->status = $status;
-    }
-
-
     
 }

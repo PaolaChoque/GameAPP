@@ -14,7 +14,6 @@ and open the template in the editor.
         <!--<link href="css/configuracoes4.css" rel="stylesheet" />   retirei por confiurar a nav-brand---> 
         <link href="../../assets/css/teladelogin.css" rel="stylesheet"/>
         
-
         <script src="../../assets/js/jquery.min.js"></script> 
         <script src="../../assets/js/bootstrap.min.js"></script> 
         <script src="../../assets/js/views/login.js"></script> 

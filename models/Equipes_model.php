@@ -33,12 +33,10 @@ class Equipes_model extends CI_Model {
         $equipesEntity->setEstado_id($this->input->post('estado_id'));
         $equipesEntity->setPais_id($this->input->post('pais_id'));
         $equipesEntity->setQuantidade($this->input->post('quantidade'));
-        $equipesEntity->setDescricao($this->input->post('descricao'));
         $equipesEntity->setDatacadastro($this->input->post('datacadastro'));
         $equipesEntity->setDatainicio($this->input->post('datainicio'));
         $equipesEntity->setDatafim($this->input->post('datafim'));
         $equipesEntity->setTema_id($this->input->post('tema_id'));
-        $equipesEntity->setStatus($this->input->post('status'));
            
         $slug = url_title($this->input->post('title'), 'dash', TRUE);
 
@@ -50,12 +48,10 @@ class Equipes_model extends CI_Model {
             'estado_id' => $this->input->post('estado_id'),
             'pais_id' => $this->input->post('pais_id'),
             'quantidade' => $this->input->post('quantidade'),
-            'descricao' => $this->input->post('descricao'),
             'datacadastro' => $this->input->post('datacadastro'),
             'datainicio' => $this->input->post('datainicio'),
             'datafim' => $this->input->post('datafim'),
-            'tema_id' => $this->input->post('tema_id'),
-            'status' => $this->input->post('status')
+            'tema_id' => $this->input->post('tema_id')
                
         );
            

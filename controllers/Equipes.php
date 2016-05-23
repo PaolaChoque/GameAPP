@@ -16,22 +16,24 @@ class Equipes extends CI_Controller {
      public function __construct() {
         parent::__construct();
         $this->load->model('equipes_model');
+        $this->load->model('equipestab_model');
+         
         $this->load->helper('url_helper');
     }
     /*Fim do construct*/
     
     public function cadastrarEquipes(){
         
-        $data['equipes'] = $this->equipes_model->get_equipes();
-        
+        $data['equipes'] = $this->equipes_model->get_equipes();  //codigo dos dados da tela
+       
          $this->load->view('templates/header');
         $this->load->view('equipes/cadastrarEquipes',$data);
-
     } 
     
      public function listaEquipes(){
      $data['equipes'] = $this->equipes_model->get_equipes(); /*como segunda coisa a se fazer nessa tela se acrenta nessa linha mudando o nome *equipes**/
-     
+     $data['equipestab'] = $this->equipestab_model->get_equipestab(); 
+      
          $this->load->view('templates/header');
         $this->load->view('equipes/listaEquipes',$data); /*fazendo a parte final desta pagina acrescentamos o ,$data*/
     }  

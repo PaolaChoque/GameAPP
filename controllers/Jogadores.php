@@ -11,14 +11,18 @@ class Jogadores extends CI_Controller {
     
      public function __construct() {
         parent::__construct();
-        $this->load->model('usuario_model');
+        $this->load->model('usuariotb_model'); //codigo para mostrar os dados na tabela
         $this->load->helper('url_helper');
+        
     }
     
     public function index(){
-      $data['jogadores'] = $this->usuario_model->get_usuarios();
+       $data['usuariotb'] = $this->usuariotb_model->get_usuariotb(); //codigo para mostrar os dados na tabela
+      
          $this->load->view('templates/header');
         $this->load->view('jogadores/jogadores', $data);
     }
+    
+    
 }
 

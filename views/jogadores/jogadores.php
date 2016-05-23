@@ -84,22 +84,23 @@ and open the template in the editor.
         <!--FIM menu-->   
 
         <!--container-->
-        <div class="col-md-10  container-style">
-            <div id="page-content" class="margembranca"> 
+        <div class="col-md-10  container-style" > 
+            <br/>
 
-                <div id="elemento1" class="col-md-12 pull-left">
-                    <div class="col-md-12">
-                        <ol class="breadcrumb">
-                            <li><a href="#">Home</a> </li>
-                            <li><a href="#">Products </a> </li>
-                            <li><a href="#">Xyz </a> </li>
-                            <li class="active">Features</li>
-                        </ol>
-                    </div>
+            <div  class="col-md-12">
+
+                <div class="col-md-12" id="elemento1">
+                    <ol class="breadcrumb">
+                        <li><a href="#">Home</a> </li>
+                        <li><a href="#">Products </a> </li>
+                        <li><a href="#">Xyz </a> </li>
+                        <li class="active">Features</li>
+                    </ol>
                 </div>
 
 
-                <div id="Layer1" class="col-md-12">
+
+                <div id="Layer1" class="col-md-12 ">
                     <div class="table-responsive">
                         <table class="tablesorter">
                             <thead>
@@ -115,32 +116,33 @@ and open the template in the editor.
                                     <th style="border-width: thin; border-style: solid; border-color: black;">Ativo</th> 
                                     <th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/></center></th> 
 
-                                </tr>
+                            </tr>
                             </thead>
                             <tbody ng-repeat="membro in membroSede">
                                 <!-- Data Show Row-->
-                                
-                                <?php foreach ($usuario as $usuario) { 
-                                ?>
-                                <tr class="listas" style="border-width: thin; border-style: solid;">
 
-                                    <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $jogador['nome'];?></td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $jogador['cargo_id']; ?></td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $jogador['departamento_id'];?> </td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $jogador['unidade_id']?></td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $jogador['cidade']?></td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $jogador['estado']?></td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $jogador['pais']?></td>
-                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/></center></td>
-                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
-                            </tr>
-                                <?php }?>
-                            
+                                <?php foreach ($usuariotb as $usuariotb) {
+                                    ?>
+                                    <tr class="listas" style="border-width: thin; border-style: solid;">
+
+                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['nome']; ?></td>
+                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['cargo']; ?></td>
+                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['departamento']; ?> </td>
+                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['unidade'] ?></td>
+                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['cidade'] ?></td>
+                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['estado'] ?></td>
+                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['pais'] ?></td>
+                                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/></center></td>
+                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+                                </tr>
+                            <?php } ?>
+
                             </tbody>
                         </table>
                     </div>
 
                 </div>
+
 
                 <!--MODAL-->
                 <!-- Modal -->
@@ -170,9 +172,8 @@ and open the template in the editor.
                     <button type="button" class="btn btn-info pull-right" data-toggle="modal" data-target="#myModal">Adicionar Funcionário</button>
                     <button class="btn btn-deafult pull-right btncinza1">Importar planilha</button>
                     <button class="btn btn-deafult pull-right btncinza2">Enviar e-mail/convite</button>
-
                 </div> 
-
+                
             </div>
         </div>
 

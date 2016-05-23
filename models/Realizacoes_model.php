@@ -36,11 +36,9 @@ class Realizacoes_model extends CI_Model{
     public function insert_realizacoes() {
         $this->load->helper('url');
         
-        //dados que contem na tabela da tela.
+       
         $realizacoesEntity = new RealizacoesEntity();
-        $realizacoesEntity->setRealizacoes($this->input->post('realizacoes'));
         $realizacoesEntity->setDataaquisicao($this->input->post('dataaquisicao'));
-        //dados que contem na tabela da tela.
         $realizacoesEntity->setNome($this->input->post('nome'));
         $realizacoesEntity->setCargo($this->input->post('cargo'));
         $realizacoesEntity->setDepartamento($this->input->post('departamento'));
@@ -58,10 +56,8 @@ class Realizacoes_model extends CI_Model{
         $slug = url_title($this->input->post('title'), 'dash', TRUE);
 
         $data = array(
-            //dados que contem a tabela
-            'realizacoes' => $this->input->post('realizacoes'),
-            'realizacoes' => $this->input->post('dataaquisicao'),
-             //dados que contem a tabela
+            
+            'dataaquisicao' => $this->input->post('dataaquisicao'),
             'nome' => $this->input->post('nome'),
             'cargo' => $this->input->post('cargo'),
             'departamento' => $this->input->post('departamento'),

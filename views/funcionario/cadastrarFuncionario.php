@@ -284,11 +284,11 @@ and open the template in the editor.
 
                                                 <tbody ng-repeat="membro in membroSede">
                                                     
-                                                <?php foreach ($realizacoes as $realizacoes) {     
+                                                <?php foreach ($realizacoestab as $realizacoestab) {     
                                                             ?> <!--penultimo passo, para exexutar tudo com o Foreach-->
                                                     <tr class="listas">
-                                                        <td><?php echo $equipe['realizacoes'];?></td>  
-                                                        <td><?php echo $equipe['dataaquisicao'];?></td>
+                                                        <td><?php echo $realizacoestab['realizacoes'];?></td>  
+                                                        <td><?php echo $realizacoestab['dataaquisicao'];?></td>
                                                         <td><center><span  class ="glyphicon glyphicon-ban-circle" = oculto-ária "true" ></span></center></td>
                                                     </tr>
                                                 <?php }?> <!penultimo passo>

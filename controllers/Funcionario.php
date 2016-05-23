@@ -15,10 +15,12 @@ class Funcionario extends CI_Controller {
         //essas duas lishas são da model que contém as tabelas.
         //$this->load->model('realizacoes_model');
         
-        $this->load->model('equipes_model');
+        $this->load->model('equipestab_model');
         $this->load->model('email_model');
         
         $this->load->model('funcionario_model');
+        $this->load->model('realizacoestab_model');
+        
         $this->load->model('importarfuncionarios_model'); //código para mostrar a tela importar/funcionarios
         //essa linha seguinte faz parte do codigo.
         $this->load->helper('url_helper');
@@ -27,7 +29,8 @@ class Funcionario extends CI_Controller {
   
    public function cadastrarFuncionario() {
        
-        $data['funcionario'] = $this->funcionario_model->get_funcionario(); 
+        $data['funcionario'] = $this->funcionario_model->get_funcionario(); //codigo da tela
+        $data['realizacoestab'] = $this->realizacoestab_model->get_realizacoestab(); //codigo para a tabela
 
         $this->load->view('templates/header');
         $this->load->view('funcionario/cadastrarFuncionario',$data);
@@ -39,13 +42,13 @@ class Funcionario extends CI_Controller {
        
         $this->load->view('templates/header');
         $this->load->view('funcionario/importarFuncionario');
-   }
+   } 
    
    public function enviarEmailConvite() {
 //NA HORA DE FAZER ESSA TELA PUXAREI SOMENTE DOIS DADOS DA DA TELA DO HTML/PHP (DESTINATÁRIO E CORPO) O RESTO DOS DADOS CRIAREI AQUI!
        
-       $data['equipes'] = $this->equipes_model->get_equipes();
-       $data['email'] = $this->email_model->get_email();
+       $data['equipestab'] = $this->equipestab_model->get_equipestab();   //faz parte da tabela
+       $data['email'] = $this->email_model->get_email();         //faz parte da tela
        
        $this->load->view('templates/header');
        $this->load->view('funcionario/enviarEmailConvite',$data);   

@@ -193,5 +193,4 @@ class CadastraobjetosEntity {
     function setHabilitaqr($habilitaqr) {
         $this->habilitaqr = $habilitaqr;
     }
-
 }
