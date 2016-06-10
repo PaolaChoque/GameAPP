@@ -30,17 +30,14 @@ and open the template in the editor.
 
         <!-- Meu script -->
         <script src="../../assets/js/scripts.js"></script>
+        <script src="../../assets/js/views/ajax/programasAjax.js"></script>
         <!-- TERMINA AQUI  A TABELA NO HEAD-->
 
     </head>
     <body>
-        
-        <!--antepenultimo passo-->
-        <?php 
-         print_r($programas);
-        ?>
-         <!--antepenultimo passo para mostrar na tela se funciona-->
-         
+
+        <!--antepenultimo passo para mostrar na tela se funciona-->
+
         <!--cabeçãlho-->
         <div class="col-md-12 header-style">
             <nav class="navbar navbar-default nab-branco">
@@ -107,32 +104,41 @@ and open the template in the editor.
                             <table class="tablesorter" id="Layer1">
                                 <thead>
                                     <tr>
-                                        
+
                                         <!-- datatableCount -->
-                                <th style="border-width: thin; border-style: solid; border-color: black;">Programas</th> 
-                                <th style="border-width: thin; border-style: solid; border-color: black;"><center>Ativo</center></th> 
-                                <th style="border-width: thin; border-style: solid; border-color: black;"><center>Dt.Início</center></th> 
+                                        <th style="border-width: thin; border-style: solid; border-color: black;">Programas</th> 
+
+                                        <th style="border-width: thin; border-style: solid; border-color: black;"><center>Dt.Início</center></th> 
                                 <th style="border-width: thin; border-style: solid; border-color: black;"><center>Dt.Final</center></th> 
+                                <th style="border-width: thin; border-style: solid; border-color: black;"><center>Ativo</center></th> 
                                 <th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/></center></th>
 
                                 </tr>
                                 </thead>
-                           <tbody ng-repeat="membro in membroSede">
+                                <tbody ng-repeat="membro in membroSede">
                                     <!-- Data Show Row-->
-                                    
-                          <?php foreach ($programas as $programas) {     
-                           ?> <!--penultimo passo, para exexutar tudo com o Foreach-->
-                                    
-                                    <tr class="listas">
-                                <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $equipe['programa'];?></td>
-                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
-                                <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $equipe['datainicio'];?></td>
-                                <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $equipe['datafinal'];?> </td>
-                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
-                                </tr>
-                          
-                              <?php }?> <!penultimo passo>
-                              
+
+                                    <?php
+                                    foreach ($programas as $programa) {
+                                        $dtInicio = explode(' ', $programa['datainicio']);
+                                        $dtTermino = explode(' ', $programa['datatermino']);
+                                        ?> <!--penultimo passo, para exexutar tudo com o Foreach-->
+
+                                        <tr class="listas">
+                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $programa['nome']; ?></td>
+
+                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo date('d/m/Y', strtotime($dtInicio[0])); ?></td>
+                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo date('d/m/Y', strtotime($dtTermino[0])); ?></td>
+                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes"  class="statusCheckbox" id="<?php echo $programa['id']; ?>" value="<?php echo $programa['status']; ?>" <?php
+                                        if ($programa['status'] == 1) {
+                                            echo "checked";
+                                        }
+                                        ?>  /> </center></td>
+                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle excluirPrograma" id="<?php echo $programa['id']; ?>" ></span></center> </td>
+                                    </tr>
+
+<?php } ?> <!penultimo passo>
+
                                 </tbody>
                             </table>
                         </div>
@@ -141,8 +147,8 @@ and open the template in the editor.
                 <!-- rodape -->
                 <div>
                     <button type="button" class="btn btn-primary pull-right">Adicionar programa</button>
-                     <button class="btn btn-deafult pull-right btnazul">Clonar Programa</button>
-                     <button class="btn btn-deafult pull-right btnazul">Enviar e-mail/convite</button>
+                    <button class="btn btn-deafult pull-right btnazul">Clonar Programa</button>
+                    <button class="btn btn-deafult pull-right btnazul">Enviar e-mail/convite</button>
                 </div> 
 
             </div>

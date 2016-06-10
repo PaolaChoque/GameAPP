@@ -35,4 +35,49 @@ class Premio extends CI_Controller {
         $this->ganharpremio_model->insert_ganharpremio();
         echo"sucesso"; 
       }
+      
+        /**
+     * Status:
+     * 0 - INATIVO
+     * 1 - ATIVO
+     * 2 - EXCLUIDO
+     */
+    public function mudaStatusPremios() {
+
+        $statusAtual = $this->input->post('statusAtual');
+
+        $data = '';
+        if ($statusAtual == 0) {
+            $data['status'] = 1;
+        } else {
+            $data['status'] = 0;
+        }
+
+        $this->db->where('id', $this->input->post('id'));
+
+        if ($this->db->update('premio', $data)) {
+            echo "sucesso";
+        } else {
+            echo "error";
+        }
+    }
+
+    /**
+     * Status:
+     * 0 - INATIVO
+     * 1 - ATIVO
+     * 2 - EXCLUIDO
+     */
+    public function deletePremios() {
+
+        $data['status'] = 2;
+
+        $this->db->where('id', $this->input->post('id'));
+
+        if ($this->db->update('premio', $data)) {
+            echo "sucesso";
+        } else {
+            echo "error";
+        }
+    }
 }

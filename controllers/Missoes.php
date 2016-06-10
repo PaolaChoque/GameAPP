@@ -37,4 +37,49 @@ class Missoes extends CI_Controller {
         $this->missoes_model->insert_missoes();
         echo "sucesso";
     }
+    
+       /**
+     * Status:
+     * 0 - INATIVO
+     * 1 - ATIVO
+     * 2 - EXCLUIDO
+     */
+    public function mudaStatusMissoes() {
+
+        $statusAtual = $this->input->post('statusAtual');
+
+        $data = '';
+        if ($statusAtual == 0) {
+            $data['status'] = 1;
+        } else {
+            $data['status'] = 0;
+        }
+
+        $this->db->where('id', $this->input->post('id'));
+
+        if ($this->db->update('missoes', $data)) {
+            echo "sucesso";
+        } else {
+            echo "error";
+        }
+    }
+
+    /**
+     * Status:
+     * 0 - INATIVO
+     * 1 - ATIVO
+     * 2 - EXCLUIDO
+     */
+    public function deleteMissoes() {
+
+        $data['status'] = 2;
+
+        $this->db->where('id', $this->input->post('id'));
+
+        if ($this->db->update('missoes', $data)) {
+            echo "sucesso";
+        } else {
+            echo "error";
+        }
+    }
 }

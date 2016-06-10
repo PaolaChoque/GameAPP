@@ -30,17 +30,16 @@ and open the template in the editor.
 
         <!-- Meu script -->
         <script src="../../assets/js/scripts.js"></script>
+           <script src="../../assets/js/views/ajax/missoesAjax.js"></script>
         <!-- TERMINA AQUI  A TABELA NO HEAD-->
 
     </head>
     <body>
-        
-         <!--antepenultimo passo-->
-        <?php 
-         print_r($missoes);
-        ?>
-         <!--antepenultimo passo para mostrar na tela se funciona-->
-        
+
+        <!--antepenultimo passo-->
+
+        <!--antepenultimo passo para mostrar na tela se funciona-->
+
         <!--cabeçãlho-->
         <div class="col-md-12 header-style">
             <nav class="navbar navbar-default nab-branco">
@@ -104,29 +103,33 @@ and open the template in the editor.
                 <div id="Layer1" class="col-md-11">
                     <div class="col-sm-6 col-lg-9" >
                         <div class="table-responsive">
-                            <table class="tablesorter" id="Layer1">
+                            <table class="tablesorter col-md-12" id="Layer1">
                                 <thead>
-                                <tr>
+                                    <tr>
                                         <!-- datatableCount -->
                                         <th style="border-width: thin; border-style: solid; border-color: black;">Missões</th> 
                                         <th style="border-width: thin; border-style: solid; border-color: black;"><center>Ativo</center></th> 
-                                        <th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/></center></th>
+                                <th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/></center></th>
 
                                 </tr>
                                 </thead>
                                 <tbody ng-repeat="membro in membroSede"> 
                                     <!-- Data Show Row-->
-                                    
-                                    <?php foreach ($missoes as $missoes) {     
-                                    ?> <!--penultimo passo, para exexutar tudo com o Foreach--> 
-                                    
-                                    <tr class="listas">
-                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $equipe['missoes'];?></td>
-                                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
-                                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
-                                    </tr>
-                                     <?php }?> <!penultimo passo>
-                                
+
+                                    <?php
+                                    foreach ($missoes as $missao) {
+                                        if ($missao['status'] != 2) {
+                                            ?> <!--penultimo passo, para exexutar tudo com o Foreach--> 
+
+                                            <tr class="listas">
+                                                <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $missao['missao']; ?></td>
+                                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" class="statusCheckbox" id="<?php echo  $missao['id']?>" value="<?php echo $missao['status']; ?>" <?php if($missao['status'] == 1){echo "checked"; }?>/> </center></td>
+                                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle excluirMissao" id="<?php echo  $missao['id']?>"></span></center> </td>
+                                        </tr>
+                                    <?php }
+                                }
+                                ?> <!penultimo passo>
+
                                 </tbody>
                             </table>
                         </div>

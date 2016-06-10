@@ -39,4 +39,49 @@ class Objetos extends CI_Controller {
         $this->cadastraobjetos_model->insert_cadastraobjetos();
         echo "sucesso";
     }
+    
+       /**
+     * Status:
+     * 0 - INATIVO
+     * 1 - ATIVO
+     * 2 - EXCLUIDO
+     */
+    public function mudaStatusObjetos() {
+
+        $statusAtual = $this->input->post('statusAtual');
+
+        $data = '';
+        if ($statusAtual == 0) {
+            $data['status'] = 1;
+        } else {
+            $data['status'] = 0;
+        }
+
+        $this->db->where('id', $this->input->post('id'));
+
+        if ($this->db->update('objetos', $data)) {
+            echo "sucesso";
+        } else {
+            echo "error";
+        }
+    }
+
+    /**
+     * Status:
+     * 0 - INATIVO
+     * 1 - ATIVO
+     * 2 - EXCLUIDO
+     */
+    public function deleteObjetos() {
+
+        $data['status'] = 2;
+
+        $this->db->where('id', $this->input->post('id'));
+
+        if ($this->db->update('objetos', $data)) {
+            echo "sucesso";
+        } else {
+            echo "error";
+        }
+    }
 }

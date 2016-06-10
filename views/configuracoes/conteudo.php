@@ -12,7 +12,7 @@ and open the template in the editor.
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <!-- FIM link da rede social-->
 
-        <title> TODO supply a title</title>
+        <title>Conteudo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -22,7 +22,7 @@ and open the template in the editor.
 
         <script src="../../assets/js/jquery.min.js"></script> 
         <script src="../../assets/js/bootstrap.min.js"></script> 
-
+ <script src="../../assets/js/views/ajax/configsConteudo.js"></script>
 
         <!-- COMEÇA AQUI  A TABELA NO HEAD-->
         <meta charset="UTF-8">
@@ -37,14 +37,12 @@ and open the template in the editor.
 
         <!-- Meu script -->
         <script src="../../assets/js/scripts.js"></script>
+        
         <!-- TERMINA AQUI  A TABELA NO HEAD-->
 
     </head>
     <body>
-        
-        <?php  
-          print_r($conteudo);
-       ?> 
+
         <!--cabeçãlho-->
         <div class="col-md-12 header-style">
             <nav class="navbar navbar-default nab-branco">
@@ -150,14 +148,14 @@ and open the template in the editor.
                                                     </thead>
                                                     <tbody>
                                                         
-                                                        <?php foreach ($conteudo as $conteudo) {     
+                                                        <?php foreach ($conteudos as $conteudo) {     
                                                                 ?>
                                                         
                                                         <tr>
-                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $premio['nome'];?></td>
-                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $premio['objeto']; ?></td>
-                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $premio['status'];?></td>
-                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle" = oculto-ária "true" ></center></span> </td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $conteudo['nome'];?></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $conteudo['objeto']; ?></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $conteudo['tipo'];?></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle excluirConteudo" id="<?php echo $conteudo['id'];?>"></span></center></td>
                                                          </tr>
                                                          
                                                          <?php }?>

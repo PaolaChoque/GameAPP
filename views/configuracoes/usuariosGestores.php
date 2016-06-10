@@ -37,11 +37,11 @@ and open the template in the editor.
 
         <!-- Meu script -->
         <script src="../../assets/js/scripts.js"></script>
+        <script src="../../assets/js/views/ajax/usuariosGestores.js"></script>
         <!-- TERMINA AQUI  A TABELA NO HEAD-->
 
     </head>
     <body>
-    
         <!--cabeçãlho-->
         <div class="col-md-12 header-style">
             <nav class="navbar navbar-default nab-branco">
@@ -156,17 +156,17 @@ and open the template in the editor.
                                                     </thead>
                                                     <tbody>
                                                            
-                                            <?php foreach ($usuario as $usuario) {     
+                                            <?php foreach ($usuarios as $usuario) {     
                                                ?> 
                                                 <tr>
-                                                    <td style="border-width: thin; border-style: solid; border-color: black;">Marcos Pereira</td>
-                                                    <td style="border-width: thin; border-style: solid; border-color: black;">Analista Financeiro</td>
-                                                    <td style="border-width: thin; border-style: solid; border-color: black;">Finaceiro</td>
-                                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center> SP1</center></td>
-                                                    <td style="border-width: thin; border-style: solid; border-color: black;">São Paulo</td>
-                                                    <td style="border-width: thin; border-style: solid; border-color: black;">SP</td>
-                                                    <td style="border-width: thin; border-style: solid; border-color: black;">Brail</td>
-                                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
+                                                    <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuario['nome']; ?></td>
+                                                    <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuario['cargo']; ?></td>
+                                                    <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuario['departamento']; ?></td>
+                                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center> <?php echo $usuario['unidade']; ?></center></td>
+                                                    <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuario['cidade']; ?></td>
+                                                    <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuario['estado']; ?></td>
+                                                    <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuario['pais']; ?></td>
+                                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="<?php echo $usuario['id'];?>" class="usuario_gestor_active"/> </center></td>
                                                 </tr>
                                                     
                                             <?php }?>

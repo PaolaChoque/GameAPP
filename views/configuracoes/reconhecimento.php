@@ -22,8 +22,8 @@ and open the template in the editor.
 
         <link href="../../assets/css/bootstrap.min.css" rel="stylesheet"/>
         <!--<link href="css/configuracoes4.css" rel="stylesheet" />   retirei por confiurar a nav-brand---> 
-        <link href="../../assets/css/configuracoes8.css" rel="stylesheet"/>
-        <script src="../../assets/js/configuracoes8.js"></script> 
+        <link href="../../assets/css/configuracoes6.css" rel="stylesheet"/>
+        <script src="../../assets/js/configuracoes6.js"></script> 
 
         <script src="../../assets/js/jquery.min.js"></script> 
         <script src="../../assets/js/bootstrap.min.js"></script> 
@@ -42,12 +42,11 @@ and open the template in the editor.
 
         <!-- Meu script -->
         <script src="../../assets/js/scripts.js"></script>
-        <script src="../../assets/js/views/ajax/configsUsuariosFacilitadoresAjax.js"></script>
+        <script src="../../assets/js/views/ajax/configsReconhecimentoAjax.js"></script>
         <!-- TERMINA AQUI  A TABELA NO HEAD-->
 
     </head>
-    <body>
-
+    <body>       
         <!--cabeçãlho-->
         <div class="col-md-12 header-style">
             <nav class="navbar navbar-default nab-branco">
@@ -64,13 +63,13 @@ and open the template in the editor.
                     <div class= 'col-md-5 pull-right'>
                         <a class= "navbar-brand" href ="#"><strong>Configurações</strong></a>
                     </div>
-                </div>
+                </div> 
             </nav>
         </div>
         <!--Fim cabeçãlho-->
 
-      
-        <div class="col-md-2 pull-left div-vermelha menu-style ">
+        <!--Menu-->
+        <div class="col-md-2 pull-left div-vermelha menu-style">
 
             <ul class="nav nav-pills nav-stacked">
                 <li role="presentation"><a href="#">Inicial</a></li>
@@ -91,12 +90,14 @@ and open the template in the editor.
                 <li role="presentation" class="active"><a href="#">Configurações</a></li>
                 <li role="presentation"><a href="#">Sair</a></li>
             </ul>
+
         </div>
         <!--FIM menu-->   
 
         <!--container-->
         <div class="col-md-10  container-style">
             <div id="page-content" class="margembranca"> 
+
 
                 <div id="elemento1" class="col-md-12 pull-left">
                     <div class="col-md-12">
@@ -120,14 +121,14 @@ and open the template in the editor.
                                 <li><a href="#tab4" data-toggle="tab">Usuário Gestores</a></li>
                                 <li><a href="#tab5" data-toggle="tab">Conteúdo</a></li>
                                 <li><a href="#tab6" data-toggle="tab">Categorias de Objetos</a></li>
-                                <li><a href="#tab7" data-toggle="tab">Tipo de Reconhecimento</a></li>
+                                <li class="active"><a href="#tab7" data-toggle="tab">Tipo de Reconhecimento</a></li>
                                 <li><a href="#tab8" data-toggle="tab">Tipo de Prêmios</a></li>
-                                <li class="active"><a href="#tab9" data-toggle="tab">Usuário Facilitadores</a></li>
+                                <li><a href="#tab9" data-toggle="tab">Usuário Facilitadores</a></li>
                             </ul>    														 <!--Aqui Termina o cabeçalho da tab-->
                         </div>
                         <div class="tab-content">
 
-                            <div class="tab-pane active" id="tab9">
+                            <div class="tab-pane active" id="tab7">
 
                                 <!maregem a esquerda>
                                 <div class="col-md-9  container-style" >
@@ -141,33 +142,26 @@ and open the template in the editor.
                                             <div id="table-responsive"  class="col-md-12">
                                                 <table id="imbatman" class="tablesorter">  
                                                     <thead>
-                                                        
                                                         <tr>
-                                                            <th style="border-width: thin; border-style: solid; border-color: black;">Nome</th>
-                                                            <th style="border-width: thin; border-style: solid; border-color: black;">E-Mail</th>
-                                                            <th style="border-width: thin; border-style: solid; border-color: black;"><center>Telefone</center></th>
+                                                            <th style="border-width: thin; border-style: solid; border-color: black;">Tipos de Reconhecimento</th>
                                                             <th style="border-width: thin; border-style: solid; border-color: black;"><center>Ativo</center></th>
                                                             <th style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></th>
-                                                    </tr>
-                                                    
+                                                        </tr>
                                                     </thead>
                                                     <tbody>
                                                         
-                                                    <?php foreach ($facilitadores as $facilitador) {     
-                                                      ?> 
+                                                       <?php foreach ($reconhecimento as $reconhecimentotb) {     
+                                                          ?>
+                                                        
                                                         <tr>
-                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $facilitador['nome'];?></td>
-                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $facilitador['email'];?></td>
-                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $facilitador['telefone'];?></td>
-                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" class="statusCheckbox" id="<?php echo $facilitador['id']; ?>" value="<?php echo $facilitador['status']; ?>" <?php if($facilitador['status'] == 1){echo "checked";} ?>/> </center></td>
-                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle excluirUsuarioFacilitador" id="<?php echo $facilitador['id']; ?>" ></span></center> </td>
-                                                    </tr>
-                                                    
-                                                    <?php }?>
-                               
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $reconhecimentotb['descricao'];?></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" class="statusCheckbox" id="<?php echo $reconhecimentotb['id']; ?>" value="<?php echo $reconhecimentotb['status']; ?>" <?php if($reconhecimentotb['status'] == 1){echo "checked";} ?>/> </center></td>
+                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle excluirReconhecimentotb" id="<?php echo $reconhecimentotb['id']; ?>"></span> </center></td>
+                                                        </tr>
+
+                                                       <?php }?>
                                                     </tbody>
                                                 </table>
-                                                
                                             </div>
                                         </div>
 
@@ -176,6 +170,26 @@ and open the template in the editor.
                                             <button onclick="AddTableRow()" type="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
                                         </div>
                                         <!-- Fim é o FIM do botão + que adiciona linha na tabela -->
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="myModal" role="dialog">
+                                            <div class="modal-dialog modal-sm">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                        <h4 class="modal-title"> <center>ATENÇÃO!</center></h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <p>Este tipo de Reconhecimento está </br>sendo usado em Ações e Programas!</br>
+                                                            Confirme se deseja mesmo excluí-lo.</p>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Sim</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
 
                                     </div>
                                 </div>
@@ -190,25 +204,6 @@ and open the template in the editor.
                                 <p>Estou na seção 1</p>
                             </div>	
 
-                            <div class="tab-pane" id="tab4">
-                                <p>Estou na seção 4</p>
-                            </div>
-
-
-                            <div class="tab-pane" id="tab5">
-                                <p>Estou na seção 5</p>
-                            </div>
-
-                            <div class="tab-pane" id="tab6">
-                                <p>Estou na seção 6</p>
-                            </div>
-                            <div class="tab-pane" id="tab7">
-                                <p>Estou na seção 7</p>
-                            </div>
-                            <div class="tab-pane" id="tab8">
-                                <p>Estou na seção 8</p>
-                            </div>
-
                             <div class="tab-pane" id="tab3">
                                 <p>Estou na seção 3</p>
                             </div>							<!--Termina aqui o teste 1 para ver se funciona a caixa de lado-->
@@ -222,7 +217,7 @@ and open the template in the editor.
                 <!--colocando os botóes do final da página dentro da ta´-pane-->
                 <div>
                     <!-- Trigger the modal with a button -->
-                    <button type="button" class="btn btn-primary pull-right btnazul">Salvar</button>
+                    <button type="button" class="btn btn-primary pull-right btnazul" data-toggle="modal" data-target="#myModal">Salvar</button>
                     <button type="button" class="btn btn-deafult pull-right">Cancelar</button> 
                 </div> 
                 <!--Tremina aqui os botóes do final da página dentro da ta´-pane-->

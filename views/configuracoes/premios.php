@@ -42,15 +42,12 @@ and open the template in the editor.
 
         <!-- Meu script -->
         <script src="../../assets/js/scripts.js"></script>
+        <script src="../../assets/js/views/ajax/configsPremiosAjax.js"></script>
         <!-- TERMINA AQUI  A TABELA NO HEAD-->
- 
+
     </head>
     <body>
-        
-      <?php  
-        print_r($premio);
-      ?> 
-        
+
         <!--cabeçãlho-->
         <div class="col-md-12 header-style">
             <nav class="navbar navbar-default nab-branco">
@@ -153,16 +150,16 @@ and open the template in the editor.
                                                     </tr>
                                                     </thead>
                                                     <tbody>
-                                                        
-                                                         <?php foreach ($premio as $premio) {     
-                                                                ?> 
-                                                        <tr>
-                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $premio['tipopremio_id'];?></td>
-                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/> </center></td>
-                                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"= oculto-ária "true" ></center></span> </td>
+
+                                                        <?php foreach ($premios as $premio) {
+                                                            ?> 
+                                                            <tr>
+                                                                <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $premio['descricao']; ?></td>
+                                                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" class="statusCheckbox" id="<?php echo $premio['id']; ?>" value="<?php echo $premio['status']; ?>" <?php if($premio['status'] == 1){echo "checked";} ?>/> </center></td>
+                                                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle excluirTipoPremio" id="<?php echo $premio['id']; ?>"  ></span> </center></td>
                                                         </tr>
-                                                        <?php }?>
-                                                   
+                                                    <?php } ?>
+
                                                     </tbody>
                                                 </table>
                                             </div>
@@ -173,7 +170,6 @@ and open the template in the editor.
                                             <button onclick="AddTableRow()" type="button"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
                                         </div>
                                         <!-- Fim é o FIM do botão + que adiciona linha na tabela -->
-
 
                                         <!-- Modal -->
                                         <div class="modal fade" id="myModal" role="dialog">
@@ -190,7 +186,7 @@ and open the template in the editor.
                                                     <div class="modal-footer">
                                                         <button type="button" class="btn btn-default" data-dismiss="modal">Não</button>
                                                         <button type="button" class="btn btn-default" data-dismiss="modal">Sim</button>
-                                                    </div>
+                                                    </div>  
                                                 </div>
                                             </div>
                                         </div>

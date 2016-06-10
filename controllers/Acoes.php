@@ -25,8 +25,9 @@ class Acoes extends CI_Controller {
     
     public function listaAcoes(){
     
-         $data['acoestable'] = $this->acoestable_model->get_acoestable(); //essaaaaa tela aqui!!!
-         $data['periodofiltra'] = $this->periodofiltra_model->get_periodofiltra();
+        $data['acoes'] = $this->acoes_model->get_acoes();
+         //$data['acoestable'] = $this->acoestable_model->get_acoestable(); //essaaaaa tela aqui!!!
+         //$data['periodofiltra'] = $this->periodofiltra_model->get_periodofiltra();
                                   
         $this->load->view('templates/header');
         $this->load->view('acoes/listaAcoes',$data); 
@@ -47,4 +48,50 @@ class Acoes extends CI_Controller {
         $this->periodofiltra_model->insert_periodofiltra();
       echo "sucesso";
     }  
+    
+     /**
+     * Status:
+     * 0 - INATIVO
+     * 1 - ATIVO
+     * 2 - EXCLUIDO
+     */
+    public function mudaStatusAcao() {
+
+        $statusAtual = $this->input->post('statusAtual');
+
+        $data = '';
+        if ($statusAtual == 0) {
+            $data['status'] = 1;
+        } else {
+            $data['status'] = 0;
+        }
+
+        $this->db->where('id', $this->input->post('id'));
+
+        if ($this->db->update('acoes', $data)) {
+            echo "sucesso";
+        } else {
+            echo "error";
+        }
+    }
+
+    /**
+     * Status:
+     * 0 - INATIVO
+     * 1 - ATIVO
+     * 2 - EXCLUIDO
+     */
+    public function deleteAcao() {
+
+        $data['status'] = 2;
+
+        $this->db->where('id', $this->input->post('id'));
+
+        if ($this->db->update('acoes', $data)) {
+            echo "sucesso";
+        } else {
+            echo "error";
+        }
+    }
+
 } 

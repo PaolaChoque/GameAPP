@@ -9,7 +9,7 @@
 /**
  * Description of ReconhecimentoEntity
  *
- * @author Raphael Pizzo
+ * @author Raphael Pizzo 
  */
 class ReconhecimentoEntity {
     //put your code here

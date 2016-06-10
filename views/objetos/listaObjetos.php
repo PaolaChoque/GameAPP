@@ -34,16 +34,13 @@ and open the template in the editor.
 
         <!-- Meu script -->
         <script src="../../assets/js/scripts.js"></script>
+         <script src="../../assets/js/views/ajax/objetosAjax.js"></script>
         <!-- TERMINA AQUI  A TABELA NO HEAD-->
     </head>
     <body>
 
         <form  method="post" action="http://localhost:9090/gaming/index.php/objetos/createObjetos">
      
-        <!--antepenultimo passo-->
-        <?php
-        print_r($objetos);
-        ?>
         <!--antepenultimo passo para mostrar na tela se funciona-->
 
         <!--cabeçãlho-->
@@ -144,10 +141,14 @@ and open the template in the editor.
                           ?>
                                 
                          <tr class="listas">
-                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $objetos['perguntas'];?></td>
+                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $objetos['objeto'];?></td>
                             <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $objetos['categoria'];?></td>
-                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
-                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" class="statusCheckbox" id="<?php echo $objetos['id']; ?>" value="<?php echo $objetos['status']; ?>" <?php
+                                                                                                                                     if ($objetos['status'] == 1) {
+                                                                                                                                         echo "checked";
+                                                                                                                                     }
+                                                                                                                                     ?>/> </center></td>
+                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle excluirObjeto" id="<?php echo $objetos['id']; ?>"></span></center> </td>
                          </tr>
 
                           <?php }?>

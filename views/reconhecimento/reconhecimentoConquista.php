@@ -34,6 +34,7 @@ and open the template in the editor.
 
         <!-- Meu script -->
         <script src="../../assets/js/scripts.js"></script>
+        <script src="../../assets/js/views/ajax/reconhecimentoConquistaAjax.js"></script>
         <!-- TERMINA AQUI  A TABELA NO HEAD-->
 
     </head> 
@@ -41,11 +42,7 @@ and open the template in the editor.
         
             <!--estou criando essa linha de comandos agora para somente a parte da opção de filtragem-->
             <form  method="post" action="http://localhost:9090/gaming/index.php/reconhecimento/createFiltrareconhecimmento">
-        
-        <!--antepenultimo passo-->
-        <?php
-        print_r($reconhecimento);
-        ?>
+       
         <!--antepenultimo passo para mostrar na tela se funciona--> 
         <!--cabeçãlho--> 
         <div class="col-md-12 header-style">
@@ -139,18 +136,22 @@ and open the template in the editor.
                                 <!-- Data Show Row-->
 
                          <?php foreach ($reconhecimento as $reconhecimento) {
-                             ?> <!--penultimo passo, para exexutar tudo com o Foreach-->
+                             if($reconhecimento['status'] != 2){?> <!--penultimo passo, para exexutar tudo com o Foreach-->
 
                             <tr class="listas">
 
                             <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $reconhecimento['selecioneacoes'];?></td>
                             <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $reconhecimento['tipo'];?></td>
                             <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $reconhecimento['modoafericao'];?></td>
-                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"checked /> </center></td>
-                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
+                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" class="statusCheckbox" name="opcoes" id="<?php echo $reconhecimento['id'];?>" value="<?php echo $reconhecimento['status'];?>" <?php
+                                                                                                                                     if ($reconhecimento['status'] == 1) {
+                                                                                                                                         echo "checked";
+                                                                                                                                     }
+                                                                                                                                     ?>/> </center></td>
+                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle excluirReconhecimento" id="<?php echo $reconhecimento['id'];?>" ></span></center> </td>
                             </tr>
                             
-                         <?php }?> <!penultimo passo>
+                             <?php }}?> <!penultimo passo>
 
                             </tbody>
                         </table>

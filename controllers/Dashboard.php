@@ -24,7 +24,7 @@ class Dashboard extends CI_Controller {
     
     public function index(){
     
-        $data['cidades'] = $this->cidade_model->get_cidades(FALSE);
+        //$data['cidades'] = $this->cidade_model->get_cidades(FALSE);
         print_r($data);
          $this->load->view('templates/header');
         $this->load->view('dashboard/index');

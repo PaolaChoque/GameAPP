@@ -30,6 +30,10 @@ class Telalogin extends CI_Controller {
             $retorno['requisition_status'] = "erro";
         }else{
             $retorno['requisition_status'] = "sucesso";
+            
+            $this->load->library('session');
+            $this->session->set_userdata(array(
+                            'empresaLogada' => $retorno));
         }
         
         $js_array = json_encode($retorno);

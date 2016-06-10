@@ -32,6 +32,7 @@ and open the template in the editor.
         <!-- Meu script -->
         <script src="../../assets/js/scripts.js"></script>
         <!-- TERMINA AQUI  A TABELA NO HEAD-->
+        <script src="../../assets/js/views/ajax/jogadoresAjax.js"></script> 
 
     </head>
     <body>
@@ -84,23 +85,22 @@ and open the template in the editor.
         <!--FIM menu-->   
 
         <!--container-->
-        <div class="col-md-10  container-style" > 
-            <br/>
+        <div id="elemento1" class="col-md-10  container-style">
+            <div id="page-content" class="margembranca"> 
 
-            <div  class="col-md-12">
-
-                <div class="col-md-12" id="elemento1">
-                    <ol class="breadcrumb">
-                        <li><a href="#">Home</a> </li>
-                        <li><a href="#">Products </a> </li>
-                        <li><a href="#">Xyz </a> </li>
-                        <li class="active">Features</li>
-                    </ol>
+                <div id="elemento1" class="col-md-12 pull-left">
+                    <div class="col-md-12">
+                        <ol class="breadcrumb">
+                            <li><a href="#">Home</a> </li>
+                            <li><a href="#">Products </a> </li>
+                            <li><a href="#">Xyz </a> </li>
+                            <li class="active">Features</li>
+                        </ol>
+                    </div>
                 </div>
 
 
-
-                <div id="Layer1" class="col-md-12 ">
+                <div id="Layer1" class="col-md-12">
                     <div class="table-responsive">
                         <table class="tablesorter">
                             <thead>
@@ -122,27 +122,33 @@ and open the template in the editor.
                                 <!-- Data Show Row-->
 
                                 <?php foreach ($usuariotb as $usuariotb) {
-                                    ?>
-                                    <tr class="listas" style="border-width: thin; border-style: solid;">
+                                    if ($usuariotb['status'] != 2) {
+                                        ?>
+                                        <tr class="listas" style="border-width: thin; border-style: solid;">
 
-                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['nome']; ?></td>
-                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['cargo']; ?></td>
-                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['departamento']; ?> </td>
-                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['unidade'] ?></td>
-                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['cidade'] ?></td>
-                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['estado'] ?></td>
-                                        <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['pais'] ?></td>
-                                        <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" value="html"/></center></td>
-                                <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class = "glyphicon glyphicon-ban-circle"  = oculto-ária "true" ></center></span> </td>
-                                </tr>
-                            <?php } ?>
+
+                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['nome']; ?></td>
+                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['cargo']; ?></td>
+                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['departamento']; ?> </td>
+                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['unidade'] ?></td>
+                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['cidade'] ?></td>
+                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['estado'] ?></td>
+                                            <td style="border-width: thin; border-style: solid; border-color: black;"><?php echo $usuariotb['pais'] ?></td>
+                                            <td style="border-width: thin; border-style: solid; border-color: black;"><center><input type="checkbox" name="opcoes" class="statusCheckbox" id="<?php echo $usuariotb['id']; ?>" value="<?php echo $usuariotb['status']; ?>" <?php
+                                                                                                                                     if ($usuariotb['status'] == 1) {
+                                                                                                                                         echo "checked";
+                                                                                                                                     }
+                                                                                                                                     ?>/></center></td>
+                                    <td style="border-width: thin; border-style: solid; border-color: black;"><center><span  class="glyphicon glyphicon-ban-circle excluirUsuario" id="<?php echo $usuariotb['id']; ?>"></span></center> </td>
+                                    </tr>
+    <?php }
+} ?>
 
                             </tbody>
                         </table>
                     </div>
 
                 </div>
-
 
                 <!--MODAL-->
                 <!-- Modal -->
@@ -172,8 +178,9 @@ and open the template in the editor.
                     <button type="button" class="btn btn-info pull-right" data-toggle="modal" data-target="#myModal">Adicionar Funcionário</button>
                     <button class="btn btn-deafult pull-right btncinza1">Importar planilha</button>
                     <button class="btn btn-deafult pull-right btncinza2">Enviar e-mail/convite</button>
+
                 </div> 
-                
+
             </div>
         </div>
 

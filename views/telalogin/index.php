@@ -13,7 +13,7 @@ and open the template in the editor.
         <link href="../../assets/css/bootstrap.min.css" rel="stylesheet"/>
         <!--<link href="css/configuracoes4.css" rel="stylesheet" />   retirei por confiurar a nav-brand---> 
         <link href="../../assets/css/teladelogin.css" rel="stylesheet"/>
-        
+
         <script src="../../assets/js/jquery.min.js"></script> 
         <script src="../../assets/js/bootstrap.min.js"></script> 
         <script src="../../assets/js/views/login.js"></script> 
@@ -38,31 +38,45 @@ and open the template in the editor.
 
         <!--container 1-->
 
-        <div class="col-md-8 pull-right position">
-           
-            <fieldset class="scheduler-border ">
-                <legend class="scheduler-border">Login</legend>
-                <div class="control-group">
+        <div>
+            <div class="row login-box">
+                <fieldset class="col-md-12">
+                    <legend>Login</legend>
+
+                    <input type="text" class="form-control" placeholder="Email" id="email" name="email"/><br />
+                    <input type="password" class="form-control" placeholder="Senha" id="password" name="password"/><br/>
+                    <a hef="#">esqueci minha senha</a><br/>
                     
-                    <div class="controls email ">
-                        <input type="text" class="datetime" type="text" id="email" name="email" placeholder="E-mail" />
-                        <i class="icon-time"></i>
-                    </div>
-                    <br/>
-                    <div class="controls  senhacx">
-                        <input type="password" class="datetime" id="password" name="password" placeholder="Senha" />
-                        <i class="icon-time"></i>
-                    </div>
+                        <button class="btn btn-default pull-right"  id="btnlogin">Entrar</button>
+                    <br/><br/>
+                </fieldset>
+            </div>
 
-                        <a href="#" class="btn btn-link senha" > Esqueci a senha</a>
-                  
-                    <div class=" col-md-2 btnposition">
-                        <button type="button" class="btn btn-info pull-right" id="btnlogin" > Entrar</button>  
-                    </div>
+            <!--            <fieldset class="scheduler-border ">
+                            <legend class="scheduler-border">Login</legend>
+                            <div class="control-group">
+                                
+                                <div class="controls email">
+                                    <input type="text" class="form-control" type="text" id="email" name="email" placeholder="E-mail" />
+                                    <i class="icon-time"></i>
+                                </div>
+                                <br/>
+                                <div class="controls  senhacx">
+                                    <input type="password" class="form-control" id="password" name="password" placeholder="Senha" />
+                                    <i class="icon-time"></i>
+                                </div>
+            
+                                    <a href="#" class="btn btn-link senha" > Esqueci a senha</a>
+                              
+                                <div class=" col-md-2 btnposition">
+                                    <button type="button" class="btn btn-info pull-right" id="btnlogin" > Entrar</button>  
+                                </div>
+            
+                                    
+                            </div>
+                        </fieldset>-->
 
-                        
-                </div>
-            </fieldset>
+
         </div>
 
 
